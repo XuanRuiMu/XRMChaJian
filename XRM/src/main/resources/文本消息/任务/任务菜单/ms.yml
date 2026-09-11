@@ -1,0 +1,44 @@
+任务菜单:
+  标题: "[计分板标题]Panel Misi"
+  分类:
+    主线任务: "[计分板标题]Misi Utama"
+    主线任务描述: "[物理]Klik untuk melihat kemajuan misi utama"
+    支线任务: "[成功]§lMisi Sampingan"
+    支线任务描述: "[物理]Klik untuk melihat kemajuan misi sampingan"
+    日常任务: "[信息]§lMisi Harian"
+    日常任务描述: "[物理]Klik untuk melihat kemajuan misi harian"
+  详情:
+    标题: "[计分板标题]Butiran Misi"
+    描述: "[警告]§lPenerangan Misi"
+    目标: "[警告]§lObjektif Misi"
+    状态: "[警告]§lStatus Misi"
+    NPC信息: "[警告]§lInfo NPC"
+  标签:
+    类型: "[空槽位]Jenis: [自定义技能]{0}"
+    目标击杀: "[空槽位]Sasaran: [自定义技能]Bunuh {0}"
+    目标收集: "[空槽位]Sasaran: [自定义技能]Kumpulkan {0}"
+    数量: "[空槽位]Kuantiti: [自定义技能]{0}/{1}"
+    检测器: "[空槽位]Pengesan: [自定义技能]{0}"
+    重置: "[空槽位]Reset: [自定义技能]{0}"
+    冷却: "[空槽位]Cooldown: [自定义技能]{0} jam"
+    刷新: "[空槽位]Segar semula: [自定义技能]Harian {0}"
+    接取: "[空槽位]Terima: [自定义技能]{0}"
+    交付: "[空槽位]Serahkan: [自定义技能]{0}"
+    前置: "[空槽位]Prasyarat: [自定义技能]{0}"
+  描述:
+    行: "[物理]{0}"
+  按钮:
+    返回: "[错误]§lKembali"
+    返回分类描述: "[物理]Kembali ke kategori misi"
+    返回列表描述: "[物理]Kembali ke senarai misi"
+    点击查看详情: "[警告]Klik untuk butiran"
+  任务图标:
+    名称: "[自定义技能]{0}"
+    类型行: "[空槽位]Jenis: [自定义技能]{0}"
+    前置行: "[空槽位]Prasyarat: [自定义技能]{0}"
+  状态:
+    未解锁: "[空槽位]Terkunci"
+    可接取: "[成功]Tersedia"
+    进行中: "[警告]Sedang Berjalan"
+    可交付: "[元素世界]Boleh Diserahkan"
+    已完成: "[治疗数值]Selesai"

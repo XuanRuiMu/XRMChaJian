@@ -1,0 +1,5 @@
+活力显示管理器.标题: "☆ Vigor {0}/{1}"
+活力显示管理器.冲刺就绪: "<green>[Dash]</green>"
+活力显示管理器.冲刺冷却中: "<yellow>[Dash {0}s]</yellow>"
+活力显示管理器.爆发就绪: "<green>[Burst]</green>"
+活力显示管理器.爆发冷却中: "<yellow>[Burst {0}s]</yellow>"

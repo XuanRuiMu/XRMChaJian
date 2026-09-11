@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Bạn đã bước vào chiến đấu"
+    离开: "[脱战]Bạn đã rời khỏi chiến đấu"
+    战斗中禁止命令: "[警告]Không thể sử dụng lệnh này khi đang chiến đấu"
+    战斗中禁止更换装备: "[警告]Không thể thay đổi trang bị khi đang chiến đấu"
+  调试:
+    开启: "[信息]Chế độ gỡ lỗi chiến đấu đã bật"
+    关闭: "[信息]Chế độ gỡ lỗi chiến đấu đã tắt"

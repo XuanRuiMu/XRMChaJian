@@ -1,0 +1,13 @@
+玩家指令:
+
+  日志:
+    用法: "<white>Penggunaan: /skilllog <on|off> atau /combatlog <on|off>"
+    技能日志用法: "<white>Penggunaan: /skilllog <on|off>"
+    战斗日志用法: "<white>Penggunaan: /combatlog <on|off>"
+    无效值: "[错误]<white>Nilai tidak valid, gunakan on atau off."
+    设置成功: "<white>{0} telah {1}."
+    状态: "<white>{0} status saat ini: {1}"
+    开启: "[成功]Aktif"
+    关闭: "[错误]Nonaktif"
+    技能日志名称: "[技能日志前缀:Skill Log]"
+    战斗日志名称: "[战斗日志前缀:Combat Log]"

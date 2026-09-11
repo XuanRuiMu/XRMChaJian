@@ -1,0 +1,28 @@
+伤害服务:
+  实体类型:
+    怪物: "Monster"
+  护盾:
+    默认名: "Shield"
+  攻击者:
+    未知: "Unknown"
+  技能:
+    普攻: "Auto Attack"
+  动作:
+    攻击: "Attack"
+  伤害提示: "Dealt [伤害数值:{1}] damage to {0}"
+  伤害暴击提示: "Dealt [伤害数值:{1}] ([暴击]!) damage to {0}"
+  治疗提示: "Restored [治疗数值:{1}] [生命值] to {0}"
+  治疗暴击提示: "Restored [治疗数值:{1}] ([暴击]!) [生命值] to {0}"
+  躲闪提示: "{0} dodged the attack"
+  战斗日志:
+    吸血回复: " [吸血]restored [治疗数值:{0}] [生命值]"
+    造成伤害: "You used {0} to deal [伤害数值:{2}] damage to {1}"
+    受到伤害:
+      默认: "Received [伤害数值:{1}] damage from {0}"
+      有减免: "Received [伤害数值:{1}] damage from {0} ({2} mitigated [伤害数值:{3}])"
+      有多个减免: "Received [伤害数值:{1}] damage from {0} (total mitigated [伤害数值:{2}])"
+    脱战回血: "Left combat, restored [治疗数值:{0}] [生命值]"
+    治疗他人: "Restored [治疗数值:{1}] [生命值] to {0}"
+    普通攻击:
+      单目标: "Dealt [伤害数值:{1}] damage to {0}"
+      多目标: "Dealt [伤害数值:{1}] damage to [目标数量:{0}] targets"

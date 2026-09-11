@@ -1,0 +1,40 @@
+# ============================================
+# 暮澜纪元插件 - 队伍命令 消息
+# 占位符规范：
+#   {0}, {1}... = 运行时参数
+#   [关键词名] = 静态关键词（自动着色）
+#   [关键词名:值] = 带参数关键词（先替换参数再着色）
+# ============================================
+
+队伍命令:
+  队伍:
+    请指定玩家名: "<red>请指定玩家名"
+    玩家不在线: "<red>该玩家不在线"
+    不能邀请自己: "<red>不能邀请自己"
+    不在队伍中: "<red>你不在任何队伍中"
+  信息:
+    标题: "<gold><bold>===== 队伍信息 =====</bold></gold>"
+    角色分布: "<yellow>角色分布: <white>{0}"
+    队伍人数: "<yellow>队伍人数: <white>{0}/5"
+    队长标记: "<gold>★队长"
+    离线标记: "<gray>[离线]"
+    成员行坦克: "  <blue>{0} <white>{1}{2}{3}"
+    成员行治疗: "  <green>{0} <white>{1}{2}{3}"
+    成员行输出: "  <red>{0} <white>{1}{2}{3}"
+  列表:
+    标题: "<gold><bold>===== 当前服务器队伍 =====</bold></gold>"
+    开发中: "<yellow>功能开发中，暂不可用"
+  帮助:
+    标题: "<gold><bold>===== 队伍命令帮助 =====</bold></gold>"
+    创建: "<yellow>/party create <gray>- 创建队伍"
+    邀请: "<yellow>/party invite <玩家> <gray>- 邀请玩家"
+    接受: "<yellow>/party accept <gray>- 接受邀请"
+    拒绝: "<yellow>/party decline <gray>- 拒绝邀请"
+    离开: "<yellow>/party leave <gray>- 离开队伍"
+    踢出: "<yellow>/party kick <玩家> <gray>- 踢出成员"
+    解散: "<yellow>/party disband <gray>- 解散队伍"
+    转让: "<yellow>/party leader <玩家> <gray>- 转让队长"
+    就位: "<yellow>/party ready <gray>- 确认就位"
+    就位检查: "<yellow>/party readycheck <gray>- 发起就位检查"
+    信息: "<yellow>/party info <gray>- 查看队伍信息"
+    队伍聊天: "<gray>队伍聊天: /p <消息>"

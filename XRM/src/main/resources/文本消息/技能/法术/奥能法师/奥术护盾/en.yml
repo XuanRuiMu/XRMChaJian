@@ -1,0 +1,11 @@
+# ============================================
+# MulangEpoch Plugin - 奥术护盾 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+奥术护盾:
+  施放: "Cast [第三技能]Arcane Shield, gained [增益]{0} shield, gained [秘能]{1}."
+  护盾破碎: "[第三技能]Arcane Shield broke, absorbed [伤害数值:{0}] damage."

@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Cooldown global [秒数:{0}]s'
+    冷却中: '[冷却中]{0} sedang cooldown [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Mengisi [秒数:{0}]s kemudian cast {1}'
+    引导后释放: '[引导]Channeling [秒数:{0}]s kemudian cast {1}'
+    执行错误: '[错误]Ralat pelaksanaan kemahiran: {0}'
+    蓄力被打断: '[打断]Charge terganggu'
+    引导被打断: '[打断]Channel terganggu'

@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Trình quản lý tin nhắn đã khởi tạo"
+  重载:
+    完成: "[成功]Tệp tin nhắn đã tải lại"
+  日志:
+    文件创建失败: "[错误]Không thể tạo tệp nhật ký: {0}"
+    写入失败: "[错误]Không thể ghi tệp nhật ký: {0}"
+    找不到语言文件: "[警告]Không tìm thấy tệp ngôn ngữ: {0}"

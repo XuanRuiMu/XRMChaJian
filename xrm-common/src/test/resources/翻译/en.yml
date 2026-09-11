@@ -1,0 +1,9 @@
+通用:
+  欢迎: "Welcome to Mulan Era"
+  告别: "See you next time"
+错误:
+  权限不足: "You don't have permission"
+  参数错误: "Invalid parameter format"
+战斗:
+  伤害: "Dealt {0} damage"
+  治疗: "Restored {0} health"

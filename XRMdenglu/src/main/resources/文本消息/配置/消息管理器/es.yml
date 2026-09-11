@@ -1,0 +1,5 @@
+初始化.完成: "<green>Administrador de mensajes inicializado</green>"
+重载.完成: "<green>Archivos de mensajes recargados</green>"
+日志.文件创建失败: "<red>No se pudo crear el archivo de registro: {0}</red>"
+日志.写入失败: "<red>Error al escribir el archivo de registro: {0}</red>"
+日志.找不到语言文件: "<yellow>Archivo de idioma no encontrado: {0}</yellow>"

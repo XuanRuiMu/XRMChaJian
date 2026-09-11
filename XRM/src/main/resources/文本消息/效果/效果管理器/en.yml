@@ -1,0 +1,26 @@
+# ============================================
+# MulangEpoch Plugin - 效果管理器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+效果管理器:
+  效果获得:
+    增益: "[增益]{0} gained [信息]{1}"
+    减益: "[减益]{0} gained [警告]{1}"
+  效果移除:
+    过期: "{0}'s [信息]{1} has expired"
+    覆盖: "{0}'s [信息]{1} was overwritten"
+    手动: "{0}'s [信息]{1} was removed"
+    护盾破碎: "{0}'s [护盾]{1} [错误]shattered"
+    切换移除: "{0}'s [信息]{1} was removed by toggle"
+    触发消耗: "{0}'s [信息]{1} was consumed by trigger"
+  效果叠加:
+    叠加: "[信息]{0} stacked to [点数]{1} layers"
+  效果刷新:
+    延长: "[信息]{0} extended to [秒数:{1}]s"
+  护盾:
+    吸收: "[护盾]{0} absorbed [点数:{1}] damage"
+    破碎: "[护盾]{0} [错误]shattered"

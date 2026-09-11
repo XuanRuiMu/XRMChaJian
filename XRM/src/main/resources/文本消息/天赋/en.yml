@@ -1,0 +1,67 @@
+# ============================================
+# MulangEpoch Plugin - Talent Node Names & Descriptions
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+# Talent manager additional message keys
+天赋管理器:
+  通用:
+    未找到会话: "[错误]<white>Player session not found, please re-login."
+  学习:
+    成功: "[成功]Talent learned: {0}"
+  取消:
+    成功: "[暴击几率]Unlearned talent: {0}"
+  重置:
+    成功: "[成功]Talents have been reset!"
+
+# Talent node names and descriptions
+talent:
+  奥能法师:
+    奥术亲和:
+      name: "Arcane Affinity"
+      description: "Arcane Blast damage coefficient 0.05→0.08; out-of-combat charge decay speed doubled"
+    奥术涌动:
+      name: "Arcane Surge"
+      description: "Arcane Blast hits have 30% chance to grant +1 charge"
+    充能过载:
+      name: "Charge Overload"
+      description: "Charge cap 4→5"
+    预兆冲击:
+      name: "Omen·Blast"
+      description: "Omen only consumed by Blast, coefficient 0.6→1.2"
+    预兆范围:
+      name: "Omen·AoE"
+      description: "Omen only consumed by AoE skills, coefficient 0.003→0.006"
+    智慧永恒:
+      name: "Eternal Wisdom"
+      description: "During Wisdom, Blast produces no charges, extends Wisdom by 2s instead"
+    混沌共鸣:
+      name: "Chaos Resonance"
+      description: "Chain range 1→2, coefficient 0.2→0.3, type→Arcane"
+    箭雨散射:
+      name: "Arrow Scatter"
+      description: "Arrow rain 12→18 arrows, coefficient 0.15→0.11"
+    护盾强化:
+      name: "Shield Reinforcement"
+      description: "Shield absorption 0.4→0.6, charge 1→2"
+    动能过载:
+      name: "Kinetic Overload"
+      description: "Kinetic healing 0.6→0.9, charge 1→2"
+    爆发增幅:
+      name: "Burst Amplification"
+      description: "Burst coefficient 0.35→0.5, no longer split"
+    风暴聚集:
+      name: "Storm Convergence"
+      description: "Storm adds 5th wave: 0.5×Intellect×Charge"
+    奥术回响:
+      name: "Arcane Echo"
+      description: "Blast hits have 25% chance to refire (50% damage)"
+    法力涌流:
+      name: "Mana Flow"
+      description: "Wisdom healing 0.8→1.0"
+    奥术大师:
+      name: "Arcane Master"
+      description: "At full charge, Arcane damage +15%, Omen trigger 50%→75%"

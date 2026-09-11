@@ -1,0 +1,13 @@
+# ============================================
+# MulangEpoch Plugin - 队伍聊天监听器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+队伍聊天监听器:
+  队伍:
+    不在队伍中无法聊天: "[错误]You are not in a party, cannot use party chat"
+  聊天:
+    格式: "[成功:[Party]]{0}[玩家名:[{1}]] [警告:{2}][玩家名:]: ][玩家名:{3}]"

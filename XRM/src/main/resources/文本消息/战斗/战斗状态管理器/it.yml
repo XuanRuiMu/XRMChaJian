@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Sei entrato in combattimento"
+    离开: "[脱战]Sei uscito dal combattimento"
+    战斗中禁止命令: "[警告]Impossibile usare questo comando durante il combattimento"
+    战斗中禁止更换装备: "[警告]Impossibile cambiare l'equipaggiamento durante il combattimento"
+  调试:
+    开启: "[信息]Modalità debug combattimento attivata"
+    关闭: "[信息]Modalità debug combattimento disattivata"

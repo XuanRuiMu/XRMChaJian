@@ -1,0 +1,27 @@
+任务命令:
+  错误:
+    未知子命令: "[错误]Onbekend subcommando: {0}"
+    无权限: "[错误]Je hebt geen toestemming om dit commando uit te voeren"
+    目标不在线: "[错误]Doelspeler is niet online"
+    任务不存在: "[错误]Opdracht bestaat niet: {0}"
+    无进度: "[错误]Deze speler heeft geen voortgang voor deze opdracht"
+    未知操作: "[错误]Onbekende bewerking: {0}"
+  用法:
+    主命令: "[警告]Gebruik: /quest [menu|progress|manage|reload]"
+    管理: "[警告]Gebruik: /quest manage <accept|complete|reset> <questID> [player]"
+  进度:
+    标题: "[计分板标题:========== Opdrachtvoortgang ==========]"
+    分类标签: "[警告:{0}:]"
+    任务行: "[物理:  {0} ]{1}"
+  状态:
+    未解锁: "[空槽位:Vergrendeld]"
+    可接取: "[成功:Beschikbaar]"
+    进行中: "[警告:Bezig]"
+    可交付: "[元素世界:Inleverbaar]"
+    已完成: "[治疗数值:Voltooid]"
+  管理:
+    接取成功: "[成功]Opdracht geaccepteerd voor [玩家名:{0}]: [信息:{1}]"
+    完成成功: "[成功]Opdracht voltooid voor [玩家名:{0}]: [信息:{1}]"
+    重置成功: "[成功]Opdracht gereset voor [玩家名:{0}]: [信息:{1}]"
+  重载:
+    成功: "[成功]Opdrachtconfiguratie herladen"

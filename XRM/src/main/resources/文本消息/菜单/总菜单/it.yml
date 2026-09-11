@@ -1,0 +1,23 @@
+# ============================================
+# Plugin MulangEpoch - Messaggi del Menu Principale
+# ============================================
+
+总菜单:
+  标题: "<gold>Menu Funzioni</gold>"
+  任务系统:
+    名称: "<yellow>Sistema Missioni</yellow>"
+    描述: "<gray>Clicca per aprire il menu missioni</gray>"
+    描述2: "<aqua>Visualizza e accetta varie missioni</aqua>"
+  属性系统:
+    名称: "<green>Sistema Attributi</green>"
+    描述: "<gray>Clicca per aprire gli attributi</gray>"
+  技能日志设置:
+    名称: "<blue>Impostazioni Registro Abilità</blue>"
+    描述: "<gray>Clicca per attivare/disattivare il registro abilità</gray>"
+  战斗日志设置:
+    名称: "<dark_purple>Impostazioni Registro Combattimento</dark_purple>"
+    描述: "<gray>Clicca per attivare/disattivare il registro combattimento</gray>"
+  状态行: "<aqua>Stato attuale: {0}</aqua>"
+  状态:
+    开启: "<green>Attivo</green>"
+    关闭: "<red>Disattivato</red>"

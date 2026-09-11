@@ -1,0 +1,27 @@
+﻿生命条缩放指令:
+
+  模式:
+    总体个数: "Totaal"
+    单体个数: "Per Hart"
+
+  当前设置: "<white>Huidige [生命条] instelling: {0}<white>, waarde: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Gezondheidsbalk Schaalcommando ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Totaal aantal harten instellen (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- HP per hart instellen (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Standaardwaarde herstellen ({0} harten)"
+  错误: "[错误]<white>Onbekend subcommando, gebruik /healthbarscale voor gebruik"
+
+  设置成功:
+    总体个数: "<white>[生命条] weergave ingesteld op [其他数值:{0}]<white> harten"
+    单体个数: "<white>Elk hart vertegenwoordigt [其他数值:{0}]<white> [生命条]"
+
+  重置成功: "<white>[生命条] instellingen hersteld naar standaard ([其他数值:{0}]<white> harten)"
+
+  通用:
+    无效数字: "[Fout]Ongeldig nummer: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Waarde moet tussen 1-100 liggen"
+      单体: "[错误]<white>Waarde moet tussen 1-1000 liggen"

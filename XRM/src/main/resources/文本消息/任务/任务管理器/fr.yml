@@ -1,0 +1,12 @@
+任务管理器:
+  对话:
+    格式: "[元素世界]{0}"
+  任务:
+    接取成功: "[成功]Quête acceptée : [信息:{0}]"
+    目标完成: "[成功]Objectif de quête accompli : [信息:{0}]"
+    进度更新: "[警告]Progression de la quête : [信息:{0}] [点数:{1}/{2}]"
+    进度回退: "[错误]Progression de la quête rétrogradée : [信息:{0}]"
+    条件达成: "[成功]Condition de quête remplie : [信息:{0}]"
+    完成: "[成功]Quête terminée : [元素世界:{0}]"
+    奖励经验: "[治疗数值]Niveaux d'expérience gagnés : [点数:{0}]"
+    新任务解锁: "[成功]Nouvelle quête débloquée !"

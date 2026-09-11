@@ -1,0 +1,20 @@
+name: ${name}
+main: mljy.XRMdengluPlugin
+version: ${version}
+api-version: '26.2'
+author: ${author}
+description: ${description}
+prefix: 暮澜纪元登录服
+
+commands:
+  传送管理:
+    description: 传送门区域管理命令
+    usage: /传送管理 <服务器> <选点一|选点二|确认|查看|重置|重载>
+    aliases: [tpmanage]
+    permission: xrmdenglu.admin
+    permission-message: 你没有权限执行此命令！
+
+permissions:
+  xrmdenglu.admin:
+    description: 允许使用传送管理命令
+    default: op

@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Monstre"
+  护盾:
+    默认名: "Bouclier"
+  攻击者:
+    未知: "Inconnu"
+  技能:
+    普攻: "Attaque automatique"
+  动作:
+    攻击: "Attaque"
+  伤害提示: "Infligé [伤害数值:{1}] dégâts à {0}"
+  伤害暴击提示: "Infligé [伤害数值:{1}] ([暴击]!) dégâts à {0}"
+  治疗提示: "Restauré [治疗数值:{1}] points de vie à {0}"
+  治疗暴击提示: "Restauré [治疗数值:{1}] ([暴击]!) points de vie à {0}"
+  躲闪提示: "{0} a esquivé l''attaque"
+  战斗日志:
+    吸血回复: " [生命]Vol de vie restauré [治疗数值:{0}]"
+    造成伤害: "Infligé [伤害数值:{1}] dégâts à {0}"
+    受到伤害:
+      默认: "Reçu [伤害数值:{0}] dégâts"
+      有减免: "Reçu [伤害数值:{0}] dégâts ({2} atténué [伤害数值:{3}])"
+    脱战回血: "Sorti de combat, [治疗数值:{0}] points de vie restaurés"
+    治疗他人: "Restauré [治疗数值:{1}] points de vie à {0}"

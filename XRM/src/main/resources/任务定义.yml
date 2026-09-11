@@ -1,0 +1,301 @@
+# 任务定义配置
+# 定义所有任务的静态属性，由任务注册服务加载
+#
+# 字段说明：
+#   分类: 主线|支线|日常
+#   名称翻译键: 任务名称的翻译键（用于客户端显示）
+#   描述翻译键: 任务描述的翻译键（用于客户端显示）
+#   所需等级: 接取任务所需的最低等级（0表示无限制）
+#   可重复: 是否可重复完成（日常任务为true）
+#   前置任务: 前置任务ID列表（必须全部完成才能接取）
+#   接取NPC: 接取任务的NPC名称
+#   交付NPC: 交付任务的NPC名称
+#   目标:
+#     类型: 击杀实体|收集物品|到达位置|对话NPC|使用技能|条件检查|护送
+#     目标ID: 实体类型/物品材质/NPC名称/技能标识/条件标识
+#     数量: 目标数量
+#   奖励:
+#     经验等级: 奖励的经验等级数
+#     金币: 奖励的金币数（预留，需经济系统）
+#     物品: 物品ID:数量 映射
+#   接取对话键/进行中对话键/可交付对话键/完成后对话键: NPC对话翻译键
+
+tasks:
+  # ========== 主线任务链 ==========
+  # 主线1 — 选择职业与专精（条件检查：职业已选择）
+  "主线1":
+    分类: "主线"
+    名称翻译键: "quest.主线1.name"
+    描述翻译键: "quest.主线1.description"
+    所需等级: 0
+    可重复: false
+    前置任务: []
+    接取NPC: "加尔雷安·烬痕"
+    交付NPC: "妮伊尔·共轴"
+    目标:
+      类型: "条件检查"
+      目标ID: "class_selected"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线1.dialog.accept"
+    进行中对话键: "quest.主线1.dialog.progress"
+    可交付对话键: "quest.主线1.dialog.deliver"
+    完成后对话键: "quest.主线1.dialog.complete"
+
+  # 主线2 — 趁热打铁（击杀训练假人×1）
+  "主线2":
+    分类: "主线"
+    名称翻译键: "quest.主线2.name"
+    描述翻译键: "quest.主线2.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线1"]
+    接取NPC: "妮伊尔·共轴"
+    交付NPC: "妮伊尔·共轴"
+    目标:
+      类型: "击杀实体"
+      目标ID: "TRAINING_DUMMY"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线2.dialog.accept"
+    进行中对话键: "quest.主线2.dialog.progress"
+    可交付对话键: "quest.主线2.dialog.deliver"
+    完成后对话键: "quest.主线2.dialog.complete"
+
+  # 主线3 — 冒险者，出发（对话：与莱雅·苦叶对话）
+  "主线3":
+    分类: "主线"
+    名称翻译键: "quest.主线3.name"
+    描述翻译键: "quest.主线3.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线2"]
+    接取NPC: "妮伊尔·共轴"
+    交付NPC: "莱雅·苦叶"
+    目标:
+      类型: "对话NPC"
+      目标ID: "莱雅·苦叶"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线3.dialog.accept"
+    进行中对话键: "quest.主线3.dialog.progress"
+    可交付对话键: "quest.主线3.dialog.deliver"
+    完成后对话键: "quest.主线3.dialog.complete"
+
+  # 主线4 — 清理通道（击杀腐化僵尸×4）
+  "主线4":
+    分类: "主线"
+    名称翻译键: "quest.主线4.name"
+    描述翻译键: "quest.主线4.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线3"]
+    接取NPC: "莱雅·苦叶"
+    交付NPC: "奥格林·博学者"
+    目标:
+      类型: "击杀实体"
+      目标ID: "CORRUPTED_ZOMBIE"
+      数量: 4
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线4.dialog.accept"
+    进行中对话键: "quest.主线4.dialog.progress"
+    可交付对话键: "quest.主线4.dialog.deliver"
+    完成后对话键: "quest.主线4.dialog.complete"
+
+  # 主线5 — 腐化之源（击杀腐化僵尸首领×1）
+  "主线5":
+    分类: "主线"
+    名称翻译键: "quest.主线5.name"
+    描述翻译键: "quest.主线5.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线4"]
+    接取NPC: "奥格林·博学者"
+    交付NPC: "奥格林·博学者"
+    目标:
+      类型: "击杀实体"
+      目标ID: "CORRUPTED_ZOMBIE_BOSS"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线5.dialog.accept"
+    进行中对话键: "quest.主线5.dialog.progress"
+    可交付对话键: "quest.主线5.dialog.deliver"
+    完成后对话键: "quest.主线5.dialog.complete"
+
+  # 主线6 — 支援前线（对话：与塞缪·狮心对话）
+  "主线6":
+    分类: "主线"
+    名称翻译键: "quest.主线6.name"
+    描述翻译键: "quest.主线6.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线5"]
+    接取NPC: "奥格林·博学者"
+    交付NPC: "塞缪·狮心"
+    目标:
+      类型: "对话NPC"
+      目标ID: "塞缪·狮心"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线6.dialog.accept"
+    进行中对话键: "quest.主线6.dialog.progress"
+    可交付对话键: "quest.主线6.dialog.deliver"
+    完成后对话键: "quest.主线6.dialog.complete"
+
+  # 主线7 — 补充食物（条件检查：饥饿值≥18）
+  "主线7":
+    分类: "主线"
+    名称翻译键: "quest.主线7.name"
+    描述翻译键: "quest.主线7.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线6"]
+    接取NPC: "塞缪·狮心"
+    交付NPC: "塞缪·狮心"
+    目标:
+      类型: "条件检查"
+      目标ID: "hunger_level"
+      数量: 18
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线7.dialog.accept"
+    进行中对话键: "quest.主线7.dialog.progress"
+    可交付对话键: "quest.主线7.dialog.deliver"
+    完成后对话键: "quest.主线7.dialog.complete"
+
+  # 主线8 — 熟悉基本操作（条件检查：使用/cd命令）
+  "主线8":
+    分类: "主线"
+    名称翻译键: "quest.主线8.name"
+    描述翻译键: "quest.主线8.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线7"]
+    接取NPC: "塞缪·狮心"
+    交付NPC: "塞缪·狮心"
+    目标:
+      类型: "条件检查"
+      目标ID: "command_used"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线8.dialog.accept"
+    进行中对话键: "quest.主线8.dialog.progress"
+    可交付对话键: "quest.主线8.dialog.deliver"
+    完成后对话键: "quest.主线8.dialog.complete"
+
+  # 主线9 — 推进中继塔（击杀掠行者哨兵×5）
+  "主线9":
+    分类: "主线"
+    名称翻译键: "quest.主线9.name"
+    描述翻译键: "quest.主线9.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线8"]
+    接取NPC: "塞缪·狮心"
+    交付NPC: "塞缪·狮心"
+    目标:
+      类型: "击杀实体"
+      目标ID: "RAIDER_SENTINEL"
+      数量: 5
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.主线9.dialog.accept"
+    进行中对话键: "quest.主线9.dialog.progress"
+    可交付对话键: "quest.主线9.dialog.deliver"
+    完成后对话键: "quest.主线9.dialog.complete"
+
+  # ========== 支线任务 ==========
+  # 支线1 — 遗失的日记（收集：writable_book×1，前置主线3）
+  "支线1":
+    分类: "支线"
+    名称翻译键: "quest.支线1.name"
+    描述翻译键: "quest.支线1.description"
+    所需等级: 0
+    可重复: false
+    前置任务: ["主线3"]
+    接取NPC: "旅行者艾拉"
+    交付NPC: "旅行者艾拉"
+    目标:
+      类型: "收集物品"
+      目标ID: "WRITABLE_BOOK"
+      数量: 1
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.支线1.dialog.accept"
+    进行中对话键: "quest.支线1.dialog.progress"
+    可交付对话键: "quest.支线1.dialog.deliver"
+    完成后对话键: "quest.支线1.dialog.complete"
+
+  # ========== 日常任务 ==========
+  # 日常1 — 每日巡逻（击杀腐化生物×3，可重复）
+  "日常1":
+    分类: "日常"
+    名称翻译键: "quest.日常1.name"
+    描述翻译键: "quest.日常1.description"
+    所需等级: 0
+    可重复: true
+    前置任务: []
+    接取NPC: "巡逻队长马克"
+    交付NPC: "巡逻队长马克"
+    目标:
+      类型: "击杀实体"
+      目标ID: "CORRUPTED_CREATURE"
+      数量: 3
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.日常1.dialog.accept"
+    进行中对话键: "quest.日常1.dialog.progress"
+    可交付对话键: "quest.日常1.dialog.deliver"
+    完成后对话键: "quest.日常1.dialog.complete"
+
+  # 日常2 — 资源收集（收集铁锭×10，可重复）
+  "日常2":
+    分类: "日常"
+    名称翻译键: "quest.日常2.name"
+    描述翻译键: "quest.日常2.description"
+    所需等级: 0
+    可重复: true
+    前置任务: []
+    接取NPC: "铁匠格里克"
+    交付NPC: "铁匠格里克"
+    目标:
+      类型: "收集物品"
+      目标ID: "IRON_INGOT"
+      数量: 10
+    奖励:
+      经验等级: 1
+      金币: 0
+      物品: {}
+    接取对话键: "quest.日常2.dialog.accept"
+    进行中对话键: "quest.日常2.dialog.progress"
+    可交付对话键: "quest.日常2.dialog.deliver"
+    完成后对话键: "quest.日常2.dialog.complete"

@@ -1,0 +1,16 @@
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Uzmanlık yetenek ağacı bulunamadı: <white>{0}"
+    未找到天赋: "[错误]<white>Yetenek bulunamadı: <white>{0}"
+    已经学习: "[错误]<white>Bu yeteneği zaten öğrendiniz."
+    点数用完: "[错误]<white>Yetenek puanları tükendi."
+    点数不足: "[错误]<white>Kilidi açmak için bu ağaçta daha fazla yetenek puanı gerekiyor (gereken [点数:{0}], mevcut [点数:{1}])"
+    前置未满足: "[错误]<white>Ön koşul yetenekleri karşılanmadı."
+    选择组冲突: "[错误]<white>Öğrenilen yetenek「{0}」ile çakışıyor, seçim grubu başına yalnızca bir tane."
+    保存失败: "[错误]<white>Veritabanı kaydı başarısız."
+
+  取消:
+    未学习: "[错误]<white>Yetenek öğrenilmemiş."
+    依赖冲突: "[错误]<white>Yetenek「{0}」buna bağımlı, lütfen önce onu kaldırın."
+    删除失败: "[错误]<white>Veritabanı silme başarısız."

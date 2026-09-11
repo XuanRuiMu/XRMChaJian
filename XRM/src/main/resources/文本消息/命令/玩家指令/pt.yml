@@ -1,0 +1,13 @@
+玩家指令:
+
+  日志:
+    用法: "<white>Uso: /skilllog <on|off> ou /combatlog <on|off>"
+    技能日志用法: "<white>Uso: /skilllog <on|off>"
+    战斗日志用法: "<white>Uso: /combatlog <on|off>"
+    无效值: "[错误]<white>Valor inválido, use on ou off."
+    设置成功: "<white>{0} foi {1}."
+    状态: "<white>{0} estado atual: {1}"
+    开启: "[成功]Ativado"
+    关闭: "[错误]Desativado"
+    技能日志名称: "[技能日志前缀:Skill Log]"
+    战斗日志名称: "[战斗日志前缀:Combat Log]"

@@ -1,0 +1,8 @@
+秘法崩裂:
+  施放: '[延迟]Cast dalam [秒数:0.4]s, melepaskan [第二技能]Arcane Eruption.'
+  无充能: '[第二技能]Arcane Eruption gagal cast, [秘能] tidak mencukupi.'
+  无目标: '[第二技能]Arcane Eruption menggunakan [秘能], tiada sasaran dalam julat.'
+  单目标命中: '[第二技能]Arcane Eruption mengena {0}, menyebabkan [伤害数值:{1}] [奥术] kerosakan, menggunakan [秘能]{2}.'
+  单目标暴击: '[第二技能]Arcane Eruption mengena {0}, menyebabkan [伤害数值:{1}] ([暴击]!) [奥术] kerosakan, menggunakan [秘能]{2}.'
+  命中: '[第二技能]Arcane Eruption mengena {0} sasaran, purata [伤害数值:{1}] [奥术] kerosakan, menggunakan [秘能]{2}.'
+  暴击: '[第二技能]Arcane Eruption mengena {0} sasaran, purata [伤害数值:{1}] ([暴击]!) [奥术] kerosakan, menggunakan [秘能]{2}.'

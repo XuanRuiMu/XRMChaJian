@@ -1,0 +1,27 @@
+﻿生命条缩放指令:
+
+  模式:
+    总体个数: "Jumlah Keseluruhan"
+    单体个数: "Per Hati"
+
+  当前设置: "<white>Tetapan [生命条] semasa: {0}<white>, nilai: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Perintah Skala Bar Kesihatan ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Tetapkan jumlah hati dipaparkan (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- Tetapkan HP per hati (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Tetapkan semula ke lalai ({0} hati)"
+  错误: "[错误]<white>Sub-perintah tidak diketahui, gunakan /healthbarscale untuk penggunaan"
+
+  设置成功:
+    总体个数: "<white>Tetapkan paparan [生命条] kepada [其他数值:{0}]<white> hati"
+    单体个数: "<white>Tetapkan setiap hati mewakili [其他数值:{0}]<white> [生命条]"
+
+  重置成功: "<white>Tetapkan semula tetapan [生命条] ke lalai ([其他数值:{0}]<white> hati)"
+
+  通用:
+    无效数字: "[Ralat]Nombor tidak sah: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Nilai mesti antara 1-100"
+      单体: "[错误]<white>Nilai mesti antara 1-1000"

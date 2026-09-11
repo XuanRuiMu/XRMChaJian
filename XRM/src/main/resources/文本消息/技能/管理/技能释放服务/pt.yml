@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Recarga global [秒数:{0}]s'
+    冷却中: '[冷却中]{0} em recarga [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Carregando [秒数:{0}]s depois conjurar {1}'
+    引导后释放: '[引导]Canalizando [秒数:{0}]s depois conjurar {1}'
+    执行错误: '[错误]Erro de execução de habilidade: {0}'
+    蓄力被打断: '[打断]Carga interrompida'
+    引导被打断: '[打断]Canalização interrompida'

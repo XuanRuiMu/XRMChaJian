@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Raksasa"
+  护盾:
+    默认名: "Perisai"
+  攻击者:
+    未知: "Tidak diketahui"
+  技能:
+    普攻: "Serangan Automatik"
+  动作:
+    攻击: "Serangan"
+  伤害提示: "Memberikan [伤害数值:{1}] kerosakan ke {0}"
+  伤害暴击提示: "Memberikan [伤害数值:{1}] ([暴击]!) kerosakan ke {0}"
+  治疗提示: "Memulihkan [治疗数值:{1}] kesihatan ke {0}"
+  治疗暴击提示: "Memulihkan [治疗数值:{1}] ([暴击]!) kesihatan ke {0}"
+  躲闪提示: "{0} mengelak serangan"
+  战斗日志:
+    吸血回复: " [生命]Curian nyawa memulihkan [治疗数值:{0}]"
+    造成伤害: "Memberikan [伤害数值:{1}] kerosakan ke {0}"
+    受到伤害:
+      默认: "Menerima [伤害数值:{0}] kerosakan"
+      有减免: "Menerima [伤害数值:{0}] kerosakan ({2} dikurangkan [伤害数值:{3}])"
+    脱战回血: "Keluar dari pertempuran, memulihkan [治疗数值:{0}] kesihatan"
+    治疗他人: "Memulihkan [治疗数值:{1}] kesihatan ke {0}"

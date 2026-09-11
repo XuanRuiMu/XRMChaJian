@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Buku Quest]"
+    描述: "[暗影]Buku kuno yang bersinar cahaya ungu"
+    右键提示: "[物理]Klik kanan untuk membuka panel quest"
+    命令提示: "[物理]Atau gunakan perintah [自定义技能]/quest"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Skill 1·Pedang]"
+      提示: "[物理]Klik kiri untuk melempar Skill 1"
+    第二技能:
+      名称: "[第二技能:Skill 2·Kapak]"
+      提示: "[物理]Klik kiri untuk melempar Skill 2"
+    第三技能:
+      名称: "[第三技能:Skill 3·Beliung]"
+      提示: "[物理]Klik kiri untuk melempar Skill 3"
+    第四技能:
+      名称: "[第四技能:Skill 4·Sekop]"
+      提示: "[物理]Klik kiri untuk melempar Skill 4"
+    第五技能:
+      名称: "[第五技能:Skill 5·Cangkul]"
+      提示: "[物理]Klik kiri untuk melempar Skill 5"
+    第六技能:
+      名称: "[第六技能:Skill 6·Tombak]"
+      提示: "[物理]Klik kiri untuk melempar Skill 6"
+    第七技能:
+      名称: "[第七技能:Skill 7·Palu]"
+      提示: "[物理]Klik kiri untuk melempar Skill 7"
+    第八技能:
+      名称: "[第八技能:Skill 8·{0}]"
+      提示: "[物理]Klik kiri untuk melempar Skill 8"
+      物品名:
+        书: "Buku"
+        蒲公英: "Dandelion"
+    不可破坏: "[空槽位]Tak Hancur"

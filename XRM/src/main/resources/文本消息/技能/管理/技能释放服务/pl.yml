@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Globalne odnowienie [秒数:{0}]s'
+    冷却中: '[冷却中]{0} na odnowieniu [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Ładowanie [秒数:{0}]s potem rzuć {1}'
+    引导后释放: '[引导]Kanalizowanie [秒数:{0}]s potem rzuć {1}'
+    执行错误: '[错误]Błąd wykonania umiejętności: {0}'
+    蓄力被打断: '[打断]Ładowanie przerwane'
+    引导被打断: '[打断]Kanalizowanie przerwane'

@@ -1,0 +1,7 @@
+仇恨管理器:
+  仇恨:
+    已清除: "[成功]Bedrohung in der Nähe wurde entfernt"
+    调试开启: "[信息]Bedrohungs-Debug-Modus aktiviert"
+    调试关闭: "[信息]Bedrohungs-Debug-Modus deaktiviert"
+    调试前缀: "[仇恨]"
+    调试消息: "{0} → {1} [仇恨:{2}]"

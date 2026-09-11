@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Questboek]"
+    描述: "[暗影]Een oeroud boek dat paars licht uitstraalt"
+    右键提示: "[物理]Rechtsklik om het quest-paneel te openen"
+    命令提示: "[物理]Of gebruik het [自定义技能]/quest [物理]commando"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Vaardigheid 1·Zwaard]"
+      提示: "[物理]Linksklik om Vaardigheid 1 te gebruiken"
+    第二技能:
+      名称: "[第二技能:Vaardigheid 2·Bijl]"
+      提示: "[物理]Linksklik om Vaardigheid 2 te gebruiken"
+    第三技能:
+      名称: "[第三技能:Vaardigheid 3·Houweel]"
+      提示: "[物理]Linksklik om Vaardigheid 3 te gebruiken"
+    第四技能:
+      名称: "[第四技能:Vaardigheid 4·Schop]"
+      提示: "[物理]Linksklik om Vaardigheid 4 te gebruiken"
+    第五技能:
+      名称: "[第五技能:Vaardigheid 5·Schoffel]"
+      提示: "[物理]Linksklik om Vaardigheid 5 te gebruiken"
+    第六技能:
+      名称: "[第六技能:Vaardigheid 6·Speer]"
+      提示: "[物理]Linksklik om Vaardigheid 6 te gebruiken"
+    第七技能:
+      名称: "[第七技能:Vaardigheid 7·Hammer]"
+      提示: "[物理]Linksklik om Vaardigheid 7 te gebruiken"
+    第八技能:
+      名称: "[第八技能:Vaardigheid 8·{0}]"
+      提示: "[物理]Linksklik om Vaardigheid 8 te gebruiken"
+      物品名:
+        书: "Boek"
+        蒲公英: "Paardenbloem"
+    不可破坏: "[空槽位]Onbreekbaar"

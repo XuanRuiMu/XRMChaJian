@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Hồi chiêu toàn cục [秒数:{0}]s'
+    冷却中: '[冷却中]{0} đang hồi chiêu [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Đang tích tụ [秒数:{0}]s rồi thi triển {1}'
+    引导后释放: '[引导]Đang dẫn đạo [秒数:{0}]s rồi thi triển {1}'
+    执行错误: '[错误]Lỗi thực thi kỹ năng: {0}'
+    蓄力被打断: '[打断]Tích tụ bị gián đoạn'
+    引导被打断: '[打断]Dẫn đạo bị gián đoạn'

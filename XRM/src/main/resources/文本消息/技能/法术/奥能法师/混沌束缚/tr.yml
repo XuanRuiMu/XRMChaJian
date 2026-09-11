@@ -1,0 +1,6 @@
+混沌束缚:
+  施放: Kullan [第五技能]Chaos Bind.
+  命中: '[第五技能]Chaos Bind vurdu {0}, verdi [伤害数值:{1}] [混乱] hasar, uygulandı [减益]Slow, kazanıldı [秘能]{2}.'
+  暴击: '[第五技能]Chaos Bind vurdu {0}, verdi [伤害数值:{1}] ([暴击]!) [混乱] hasar, uygulandı [减益]Slow, kazanıldı [秘能]{2}.'
+  命中含范围: '[第五技能]Chaos Bind vurdu {0}, verdi [伤害数值:{1}] [混乱] hasar, uygulandı [减益]Slow, kazanıldı [秘能]{2}, Alan vurdu {3} hedef için [伤害数值:{4}] hasar.'
+  暴击含范围: '[第五技能]Chaos Bind vurdu {0}, verdi [伤害数值:{1}] ([暴击]!) [混乱] hasar, uygulandı [减益]Slow, kazanıldı [秘能]{2}, Alan vurdu {3} hedef için [伤害数值:{4}] hasar.'

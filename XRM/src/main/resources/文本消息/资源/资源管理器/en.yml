@@ -1,0 +1,14 @@
+# ============================================
+# MulangEpoch Plugin - 资源管理器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+资源管理器:
+  资源变化:
+    增加: "[资源]{0} [成功]+{1}"
+    消耗: "[资源]{0} [警告]-{1}"
+    不足: "[错误]{0} insufficient, need [点数:{1}]"
+    衰减: "[资源]{0} [警告]decayed [点数:{1}]"

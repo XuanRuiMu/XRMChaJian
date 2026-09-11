@@ -1,0 +1,18 @@
+效果管理器:
+  效果获得:
+    增益: "[增益]{0} mendapat [信息]{1}"
+    减益: "[减益]{0} mendapat [警告]{1}"
+  效果移除:
+    过期: "[信息]{1} milik {0} telah tamat"
+    覆盖: "[信息]{1} milik {0} telah ditindih"
+    手动: "[信息]{1} milik {0} telah dikeluarkan"
+    护盾破碎: "[护盾]{1} milik {0} [错误]pecah"
+    切换移除: "[信息]{1} milik {0} dikeluarkan oleh togel"
+    触发消耗: "[信息]{1} milik {0} digunakan oleh pencetus"
+  效果叠加:
+    叠加: "[信息]{0} bertindih ke [点数]{1} lapisan"
+  效果刷新:
+    延长: "[信息]{0} dilanjutkan ke [秒数:{1}]s"
+  护盾:
+    吸收: "[护盾]{0} menyerap [点数:{1}] kerosakan"
+    破碎: "[护盾]{0} [错误]pecah"

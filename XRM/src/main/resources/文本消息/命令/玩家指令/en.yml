@@ -1,0 +1,21 @@
+# ============================================
+# MulangEpoch Plugin - 玩家指令 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+玩家指令:
+
+  日志:
+    用法: "<white>Usage: /skilllog <on|off> or /combatlog <on|off>"
+    技能日志用法: "<white>Usage: /skilllog <on|off>"
+    战斗日志用法: "<white>Usage: /combatlog <on|off>"
+    无效值: "[错误]<white>Invalid value, please use on or off."
+    设置成功: "<white>{0} has been {1}."
+    状态: "<white>{0} current status: {1}"
+    开启: "[成功]On"
+    关闭: "[错误]Off"
+    技能日志名称: "[技能日志前缀:Skill Log]"
+    战斗日志名称: "[战斗日志前缀:Combat Log]"

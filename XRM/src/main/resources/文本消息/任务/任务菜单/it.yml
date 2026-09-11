@@ -1,0 +1,44 @@
+任务菜单:
+  标题: "[计分板标题]Pannello Missioni"
+  分类:
+    主线任务: "[计分板标题]Missione Principale"
+    主线任务描述: "[物理]Clicca per vedere il progresso della missione principale"
+    支线任务: "[成功]§lMissione Secondaria"
+    支线任务描述: "[物理]Clicca per vedere il progresso delle missioni secondarie"
+    日常任务: "[信息]§lMissione Giornaliera"
+    日常任务描述: "[物理]Clicca per vedere il progresso delle missioni giornaliere"
+  详情:
+    标题: "[计分板标题]Dettagli Missione"
+    描述: "[警告]§lDescrizione Missione"
+    目标: "[警告]§lObiettivi Missione"
+    状态: "[警告]§lStato Missione"
+    NPC信息: "[警告]§lInfo NPC"
+  标签:
+    类型: "[空槽位]Tipo: [自定义技能]{0}"
+    目标击杀: "[空槽位]Obiettivo: [自定义技能]Uccidi {0}"
+    目标收集: "[空槽位]Obiettivo: [自定义技能]Raccogli {0}"
+    数量: "[空槽位]Quantità: [自定义技能]{0}/{1}"
+    检测器: "[空槽位]Rilevatore: [自定义技能]{0}"
+    重置: "[空槽位]Ripristina: [自定义技能]{0}"
+    冷却: "[空槽位]Ricarica: [自定义技能]{0} ore"
+    刷新: "[空槽位]Aggiornamento: [自定义技能]Giornaliero {0}"
+    接取: "[空槽位]Accetta: [自定义技能]{0}"
+    交付: "[空槽位]Consegna: [自定义技能]{0}"
+    前置: "[空槽位]Prerequisito: [自定义技能]{0}"
+  描述:
+    行: "[物理]{0}"
+  按钮:
+    返回: "[错误]§lIndietro"
+    返回分类描述: "[物理]Torna alle categorie missione"
+    返回列表描述: "[物理]Torna alla lista missioni"
+    点击查看详情: "[警告]Clicca per dettagli"
+  任务图标:
+    名称: "[自定义技能]{0}"
+    类型行: "[空槽位]Tipo: [自定义技能]{0}"
+    前置行: "[空槽位]Prerequisito: [自定义技能]{0}"
+  状态:
+    未解锁: "[空槽位]Bloccato"
+    可接取: "[成功]Disponibile"
+    进行中: "[警告]In Corso"
+    可交付: "[元素世界]Consegnabile"
+    已完成: "[治疗数值]Completato"

@@ -1,0 +1,44 @@
+任务菜单:
+  标题: "[计分板标题]Quest Panel"
+  分类:
+    主线任务: "[计分板标题]Main Quest"
+    主线任务描述: "[物理]Click to view main quest progress"
+    支线任务: "[成功]§lSide Quest"
+    支线任务描述: "[物理]Click to view side quest progress"
+    日常任务: "[信息]§lDaily Quest"
+    日常任务描述: "[物理]Click to view daily quest progress"
+  详情:
+    标题: "[计分板标题]Quest Details"
+    描述: "[警告]§lQuest Description"
+    目标: "[警告]§lQuest Objectives"
+    状态: "[警告]§lQuest Status"
+    NPC信息: "[警告]§lNPC Info"
+  标签:
+    类型: "[空槽位]Type: [自定义技能]{0}"
+    目标击杀: "[空槽位]Target: [自定义技能]Kill {0}"
+    目标收集: "[空槽位]Target: [自定义技能]Collect {0}"
+    数量: "[空槽位]Amount: [自定义技能]{0}/{1}"
+    检测器: "[空槽位]Detector: [自定义技能]{0}"
+    重置: "[空槽位]Reset: [自定义技能]{0}"
+    冷却: "[空槽位]Cooldown: [自定义技能]{0}h"
+    刷新: "[空槽位]Refresh: [自定义技能]Daily {0}"
+    接取: "[空槽位]Accept: [自定义技能]{0}"
+    交付: "[空槽位]Deliver: [自定义技能]{0}"
+    前置: "[空槽位]Prerequisite: [自定义技能]{0}"
+  描述:
+    行: "[物理]{0}"
+  按钮:
+    返回: "[错误]§lBack"
+    返回分类描述: "[物理]Back to quest categories"
+    返回列表描述: "[物理]Back to quest list"
+    点击查看详情: "[警告]Click for details"
+  任务图标:
+    名称: "[自定义技能]{0}"
+    类型行: "[空槽位]Type: [自定义技能]{0}"
+    前置行: "[空槽位]Prerequisite: [自定义技能]{0}"
+  状态:
+    未解锁: "[空槽位]Locked"
+    可接取: "[成功]Available"
+    进行中: "[警告]In Progress"
+    可交付: "[元素世界]Deliverable"
+    已完成: "[治疗数值]Completed"

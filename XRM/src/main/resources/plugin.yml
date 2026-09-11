@@ -1,0 +1,50 @@
+name: ${name}
+main: mljy.表现层.适配器.玄锐暮插件
+version: ${version}
+api-version: '26.2'
+softdepend: [Citizens, NoteBlockAPI]
+author: ${author}
+description: ${description}
+prefix: 暮澜纪元
+
+permissions:
+  xrm.op:
+    description: 管理员权限
+    default: op
+  xrm.admin.talent:
+    description: 天赋管理权限
+    default: op
+  xrm.admin.quest:
+    description: 任务管理权限
+    default: op
+  xrmm.乐器.管理:
+    description: 乐器管理权限
+    default: op
+  # FP-16 乐器命令权限扩展
+  xrm.乐器.演奏:
+    description: 乐器演奏权限（打开演奏界面、切换乐器等基础操作）
+    default: true
+  xrm.乐器.录制:
+    description: 乐器录制权限（录音开始/停止/保存等操作）
+    default: true
+  xrm.乐器.公共库.上传:
+    description: 公共乐谱库上传权限
+    default: true
+  xrm.乐器.公共库.下载:
+    description: 公共乐谱库下载权限
+    default: true
+  xrm.乐器.公共库.评分:
+    description: 公共乐谱库评分权限
+    default: true
+  xrm.乐器.公共库.审核:
+    description: 公共乐谱库审核权限（管理员操作）
+    default: op
+  xrm.乐器.资源包.应用:
+    description: 乐器资源包应用权限
+    default: true
+  xrm.乐器.资源包.生成:
+    description: 乐器资源包生成权限（管理员操作）
+    default: op
+  xrm.乐器.管理员:
+    description: 乐器系统管理员权限（给予乐器、重载配置等）
+    default: op

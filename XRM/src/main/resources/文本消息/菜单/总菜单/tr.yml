@@ -1,0 +1,23 @@
+# ============================================
+# MulangEpoch Eklentisi - Ana Menü Mesajları
+# ============================================
+
+总菜单:
+  标题: "<gold>İşlev Menüsü</gold>"
+  任务系统:
+    名称: "<yellow>Görev Sistemi</yellow>"
+    描述: "<gray>Açmak için tıkla - görev menüsü</gray>"
+    描述2: "<aqua>Çeşitli görevleri gör ve kabul et</aqua>"
+  属性系统:
+    名称: "<green>Özellik Sistemi</green>"
+    描述: "<gray>Açmak için tıkla - özellikler</gray>"
+  技能日志设置:
+    名称: "<blue>Beceri Günlüğü Ayarları</blue>"
+    描述: "<gray>Açmak için tıkla - beceri günlüğü</gray>"
+  战斗日志设置:
+    名称: "<dark_purple>Savaş Günlüğü Ayarları</dark_purple>"
+    描述: "<gray>Açmak için tıkla - savaş günlüğü</gray>"
+  状态行: "<aqua>Mevcut durum: {0}</aqua>"
+  状态:
+    开启: "<green>Açık</green>"
+    关闭: "<red>Kapalı</red>"

@@ -1,0 +1,8 @@
+日志合并管理器:
+  前缀:
+    技能日志: "[技能日志前缀:Skill Log]"
+    战斗日志: "[战斗日志前缀:Combat Log]"
+  警告:
+    玩家不在线: "Gracz offline, scalony dziennik odrzucony: gracz={0}"
+  错误:
+    发送失败: "Wysyłanie scalonego dziennika nie powiodło się: klucz={0} powód={1}"

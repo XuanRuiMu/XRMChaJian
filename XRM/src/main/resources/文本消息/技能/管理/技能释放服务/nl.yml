@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Globale afkoeltijd [秒数:{0}]s'
+    冷却中: '[冷却中]{0} op afkoeltijd [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Opladen [秒数:{0}]s dan werpen {1}'
+    引导后释放: '[引导]Kanaliseren [秒数:{0}]s dan werpen {1}'
+    执行错误: '[错误]Vaardigheidsuitvoeringsfout: {0}'
+    蓄力被打断: '[打断]Opladen onderbroken'
+    引导被打断: '[打断]Kanalisatie onderbroken'

@@ -1,0 +1,22 @@
+{
+  "src/main/java/mljy/XRMdengluPlugin.java": false,
+  "src/main/java/暮澜纪元/传送门区域.java": false,
+  "src/main/java/暮澜纪元/登录服插件.java": false,
+  "src/main/java/暮澜纪元/命令/传送管理命令.java": true,
+  "src/main/java/暮澜纪元/数据/数据库连接管理器.java": false,
+  "src/main/java/暮澜纪元/数据/玩家数据.java": false,
+  "src/main/java/暮澜纪元/监听器/传送门监听器.java": true,
+  "src/main/java/暮澜纪元/监听器/冒险模式强制监听器.java": true,
+  "src/main/java/暮澜纪元/监听器/聊天阻止监听器.java": true,
+  "src/main/java/暮澜纪元/监听器/重生点监听器.java": false,
+  "src/main/java/暮澜纪元/职业/世界.java": false,
+  "src/main/java/暮澜纪元/职业/职业.java": false,
+  "src/main/java/暮澜纪元/职业/角色类型.java": false,
+  "src/main/java/暮澜纪元/菜单/职业选择GUI.java": true,
+  "src/main/java/暮澜纪元/菜单/职业选择GUI事件处理器.java": false,
+  "src/main/java/暮澜纪元/菜单/菜单持有者.java": false,
+  "src/main/java/暮澜纪元/配置/消息管理器.java": true,
+  "src/main/java/暮澜纪元/配置/登录服配置.java": false,
+  "src/main/java/暮澜纪元/配置/配置管理器.java": false,
+  "src/main/java/暮澜纪元/配置/重生点配置.java": false
+}

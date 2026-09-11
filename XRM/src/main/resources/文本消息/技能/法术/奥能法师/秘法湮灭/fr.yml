@@ -1,0 +1,11 @@
+秘法湮灭:
+  施放: '[延迟]Incantation en [秒数:3.0]s, libérer [第八技能]Arcane Annihilation.'
+  第一波: '[第八技能]Arcane Annihilation vague 1, inflige [伤害数值:{0}] [奥术] dégâts.'
+  第一波暴击: '[第八技能]Arcane Annihilation vague 1, inflige [伤害数值:{0}] ([暴击]!) [奥术] dégâts.'
+  第二波: '[第八技能]Arcane Annihilation vague 2, inflige [伤害数值:{0}] [奥术] dégâts.'
+  第二波暴击: '[第八技能]Arcane Annihilation vague 2, inflige [伤害数值:{0}] ([暴击]!) [奥术] dégâts.'
+  第三波: '[第八技能]Arcane Annihilation vague 3, inflige [伤害数值:{0}] [奥术] dégâts.'
+  第三波暴击: '[第八技能]Arcane Annihilation vague 3, inflige [伤害数值:{0}] ([暴击]!) [奥术] dégâts.'
+  第三波有充能: '[第八技能]Arcane Annihilation vague 3, inflige [伤害数值:{0}] [奥术] dégâts, gagné [秘能]1.'
+  第四波: '[第八技能]Arcane Annihilation explosion finale, inflige [伤害数值:{0}] [奥术] dégâts, gagné [秘能]{1}.'
+  第四波暴击: '[第八技能]Arcane Annihilation explosion finale, inflige [伤害数值:{0}] ([暴击]!) [奥术] dégâts, gagné [秘能]{1}.'

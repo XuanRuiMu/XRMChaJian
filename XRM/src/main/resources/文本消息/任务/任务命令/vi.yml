@@ -1,0 +1,27 @@
+任务命令:
+  错误:
+    未知子命令: "[错误]Lệnh con không xác định: {0}"
+    无权限: "[错误]Bạn không có quyền thực hiện lệnh này"
+    目标不在线: "[错误]Người chơi mục tiêu không trực tuyến"
+    任务不存在: "[错误]Nhiệm vụ không tồn tại: {0}"
+    无进度: "[错误]Người chơi này không có tiến độ cho nhiệm vụ này"
+    未知操作: "[错误]Thao tác không xác định: {0}"
+  用法:
+    主命令: "[警告]Cách dùng: /quest [menu|progress|manage|reload]"
+    管理: "[警告]Cách dùng: /quest manage <accept|complete|reset> <questID> [player]"
+  进度:
+    标题: "[计分板标题:========== Tiến Độ Nhiệm Vụ ==========]"
+    分类标签: "[警告:{0}:]"
+    任务行: "[物理:  {0} ]{1}"
+  状态:
+    未解锁: "[空槽位:Đã khóa]"
+    可接取: "[成功:Có sẵn]"
+    进行中: "[警告:Đang tiến hành]"
+    可交付: "[元素世界:Có thể giao]"
+    已完成: "[治疗数值:Hoàn thành]"
+  管理:
+    接取成功: "[成功]Nhận nhiệm vụ cho [玩家名:{0}]: [信息:{1}]"
+    完成成功: "[成功]Hoàn thành nhiệm vụ cho [玩家名:{0}]: [信息:{1}]"
+    重置成功: "[成功]Đặt lại nhiệm vụ cho [玩家名:{0}]: [信息:{1}]"
+  重载:
+    成功: "[成功]Đã tải lại cấu hình nhiệm vụ"

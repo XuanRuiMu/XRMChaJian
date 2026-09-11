@@ -1,0 +1,6 @@
+公CD显示管理器:
+  标题:
+    红色阶段: "<dark_gray>GCD</dark_gray> <white>-</white> <red>%.1fs</red><white>/</white><dark_gray>%.1fs</dark_gray>"
+    黄色阶段: "<dark_gray>GCD</dark_gray> <white>-</white> <yellow>%.1fs</yellow><white>/</white><dark_gray>%.1fs</dark_gray>"
+    绿色阶段: "<dark_gray>GCD</dark_gray> <white>-</white> <green>%.1fs</green><white>/</white><dark_gray>%.1fs</dark_gray>"
+    空闲阶段: "<dark_gray>GCD</dark_gray> <white>-</white> <white>%.1fs</white><white>/</white><dark_gray>%.1fs</dark_gray>"

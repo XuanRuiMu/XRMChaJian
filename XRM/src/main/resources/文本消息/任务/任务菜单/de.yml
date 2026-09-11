@@ -1,0 +1,44 @@
+任务菜单:
+  标题: "[计分板标题]Quest-Panel"
+  分类:
+    主线任务: "[计分板标题]Hauptquest"
+    主线任务描述: "[物理]Klicke, um den Hauptquest-Fortschritt zu sehen"
+    支线任务: "[成功]§lNebenquest"
+    支线任务描述: "[物理]Klicke, um den Nebenquest-Fortschritt zu sehen"
+    日常任务: "[信息]§lTagesquest"
+    日常任务描述: "[物理]Klicke, um den Tagesquest-Fortschritt zu sehen"
+  详情:
+    标题: "[计分板标题]Quest-Details"
+    描述: "[警告]§lQuest-Beschreibung"
+    目标: "[警告]§lQuest-Ziele"
+    状态: "[警告]§lQuest-Status"
+    NPC信息: "[警告]§lNPC-Info"
+  标签:
+    类型: "[空槽位]Typ: [自定义技能]{0}"
+    目标击杀: "[空槽位]Ziel: [自定义技能]Töten {0}"
+    目标收集: "[空槽位]Ziel: [自定义技能]Sammeln {0}"
+    数量: "[空槽位]Anzahl: [自定义技能]{0}/{1}"
+    检测器: "[空槽位]Detektor: [自定义技能]{0}"
+    重置: "[空槽位]Reset: [自定义技能]{0}"
+    冷却: "[空槽位]Abklingzeit: [自定义技能]{0} Stunden"
+    刷新: "[空槽位]Aktualisierung: [自定义技能]Täglich {0}"
+    接取: "[空槽位]Annehmen: [自定义技能]{0}"
+    交付: "[空槽位]Abgeben: [自定义技能]{0}"
+    前置: "[空槽位]Voraussetzung: [自定义技能]{0}"
+  描述:
+    行: "[物理]{0}"
+  按钮:
+    返回: "[错误]§lZurück"
+    返回分类描述: "[物理]Zurück zu Quest-Kategorien"
+    返回列表描述: "[物理]Zurück zur Quest-Liste"
+    点击查看详情: "[警告]Klicke für Details"
+  任务图标:
+    名称: "[自定义技能]{0}"
+    类型行: "[空槽位]Typ: [自定义技能]{0}"
+    前置行: "[空槽位]Voraussetzung: [自定义技能]{0}"
+  状态:
+    未解锁: "[空槽位]Gesperrt"
+    可接取: "[成功]Verfügbar"
+    进行中: "[警告]In Bearbeitung"
+    可交付: "[元素世界]Abgebbar"
+    已完成: "[治疗数值]Abgeschlossen"

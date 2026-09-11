@@ -1,0 +1,58 @@
+# ============================================
+# MulangEpoch Plugin - 天赋命令 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+天赋命令:
+
+  仅玩家: "[错误]<white>Only players can use this command."
+  未知子命令: "[错误]<white>Unknown subcommand: <white>{0}"
+
+  菜单:
+    打开成功: "[成功]Talent menu opened"
+
+  重置:
+    未找到专精: "[错误]<white>Specialization not found: <white>{0}"
+    成功: "[成功]Talents have been reset!"
+    失败: "[错误]<white>Talent reset failed, please try again later."
+
+  列表:
+    树标题: "[计分板标题]═══ {0} ═══"
+    已投入: "[警告]Points spent: {0} / {1}"
+    天赋项: "[成功]  ✔ {0} [冷却]- {1}"
+    无天赋: "[警告]<white>You haven't learned any talents yet."
+
+  学习:
+    用法: "[错误]<white>Usage: [警告]/talent learn <talentID>"
+    成功: "[成功]Talent learned: {0}"
+    失败: "[错误]<white>Failed to learn talent: <white>{0}"
+    未找到: "[错误]<white>Talent not found: <white>{0}"
+
+  信息:
+    格式: "<white>{0}: [冷却]{1}"
+    用法: "[错误]<white>Usage: [警告]/talent info <talentID>"
+    详情标题: "[计分板标题]═══ Talent Details ═══"
+    名称: "<white>Name: {0}"
+    ID: "[冷却]ID: {0}"
+    类型: "[冷却]Type: {0}"
+    描述: "<white>Description: {0}"
+    位置: "[冷却]Position: ({0}, {1})"
+    所需点数: "[冷却]Required points: {0}"
+    前置天赋: "[冷却]Prerequisites (any): {0}"
+    选择组: "[冷却]Choice group: {0}"
+    替代: "[冷却]  Alternative: {0}"
+    状态: "<{0}>{1}</{0}>"
+    状态已学习: "green"
+    状态未学习: "red"
+    未找到: "[错误]<white>Talent not found: <white>{0}"
+
+  帮助:
+    标题: "[计分板标题]═══ Talent Command Help ═══"
+    菜单: "[警告]/talent <white>- Open talent menu"
+    重置: "[警告]/talent reset [spec] <white>- Reset talents"
+    列表: "[警告]/talent list <white>- List learned talents"
+    学习: "[警告]/talent learn <talentID> <white>- Learn a talent"
+    信息: "[警告]/talent info <talentID> <white>- View talent details"

@@ -1,0 +1,32 @@
+队伍命令:
+  队伍:
+    请指定玩家名: "[错误]Silakan tentukan nama pemain"
+    玩家不在线: "[错误]Pemain tersebut tidak online"
+    不能邀请自己: "[错误]Kamu tidak bisa mengundang diri sendiri"
+    不在队伍中: "[错误]Kamu tidak berada dalam party"
+  信息:
+    标题: "[计分板标题:===== Info Party =====]"
+    角色分布: "[警告:Distribusi Peran: ][玩家名:{0}]"
+    队伍人数: "[警告:Ukuran Party: ][玩家名:{0}/5]"
+    队长标记: "[元素世界:★Pemimpin]"
+    离线标记: "[物理:[Offline]]"
+    成员行坦克: "  [坦克:{0}] [玩家名:{1}]{2}{3}"
+    成员行治疗: "  [治疗:{0}] [玩家名:{1}]{2}{3}"
+    成员行输出: "  [输出:{0}] [玩家名:{1}]{2}{3}"
+  列表:
+    标题: "[计分板标题:===== Party Server Saat Ini =====]"
+    开发中: "[警告:Fitur dalam pengembangan, tidak tersedia]"
+  帮助:
+    标题: "[计分板标题:===== Bantuan Perintah Party =====]"
+    创建: "[警告:/party create ][物理:- Membuat party]"
+    邀请: "[警告:/party invite <player> ][物理:- Mengundang pemain]"
+    接受: "[警告:/party accept ][物理:- Menerima undangan]"
+    拒绝: "[警告:/party decline ][物理]- Menolak undangan]"
+    离开: "[警告:/party leave ][物理:- Meninggalkan party]"
+    踢出: "[警告:/party kick <player> ][物理:- Mengeluarkan anggota]"
+    解散: "[警告:/party disband ][物理:- Membubarkan party]"
+    转让: "[警告:/party leader <player> ][物理:- Alihkan kepemimpinan]"
+    就位: "[警告:/party ready ][物理]- Konfirmasi siap]"
+    就位检查: "[警告:/party readycheck ][物理]- Memulai pemeriksaan kesiapan]"
+    信息: "[警告:/party info ][物理:- Lihat info party]"
+    队伍聊天: "[物理:Chat party: /p <message>]"

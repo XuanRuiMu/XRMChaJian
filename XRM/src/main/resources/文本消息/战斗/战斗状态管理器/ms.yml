@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Anda telah memasuki pertempuran"
+    离开: "[脱战]Anda telah meninggalkan pertempuran"
+    战斗中禁止命令: "[警告]Tidak boleh menggunakan arahan ini semasa dalam pertempuran"
+    战斗中禁止更换装备: "[警告]Tidak boleh menukar peralatan semasa dalam pertempuran"
+  调试:
+    开启: "[信息]Mod nyahpepijat pertempuran diaktifkan"
+    关闭: "[信息]Mod nyahpepijat pertempuran dinyahaktifkan"

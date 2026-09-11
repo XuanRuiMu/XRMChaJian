@@ -1,0 +1,13 @@
+玩家指令:
+
+  日志:
+    用法: "<white>Kullanım: /skilllog <on|off> veya /combatlog <on|off>"
+    技能日志用法: "<white>Kullanım: /skilllog <on|off>"
+    战斗日志用法: "<white>Kullanım: /combatlog <on|off>"
+    无效值: "[错误]<white>Geçersiz değer, lütfen on veya off kullanın."
+    设置成功: "<white>{0} {1} oldu."
+    状态: "<white>{0} mevcut durum: {1}"
+    开启: "[成功]Açık"
+    关闭: "[错误]Kapalı"
+    技能日志名称: "[技能日志前缀:Skill Log]"
+    战斗日志名称: "[战斗日志前缀:Combat Log]"

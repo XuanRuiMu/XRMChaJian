@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Monstro"
+  护盾:
+    默认名: "Escudo"
+  攻击者:
+    未知: "Desconhecido"
+  技能:
+    普攻: "Ataque automático"
+  动作:
+    攻击: "Ataque"
+  伤害提示: "Causou [伤害数值:{1}] de dano a {0}"
+  伤害暴击提示: "Causou [伤害数值:{1}] ([暴击]!) de dano a {0}"
+  治疗提示: "Restaurou [治疗数值:{1}] de vida a {0}"
+  治疗暴击提示: "Restaurou [治疗数值:{1}] ([暴击]!) de vida a {0}"
+  躲闪提示: "{0} esquivou o ataque"
+  战斗日志:
+    吸血回复: " [生命]Roubo de vida restaurou [治疗数值:{0}]"
+    造成伤害: "Causou [伤害数值:{1}] de dano a {0}"
+    受到伤害:
+      默认: "Recebido [伤害数值:{0}] de dano"
+      有减免: "Recebido [伤害数值:{0}] de dano ({2} mitigado [伤害数值:{3}])"
+    脱战回血: "Saiu de combate, restaurou [治疗数值:{0}] de vida"
+    治疗他人: "Restaurou [治疗数值:{1}] de vida a {0}"

@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Canavar"
+  护盾:
+    默认名: "Kalkan"
+  攻击者:
+    未知: "Bilinmiyor"
+  技能:
+    普攻: "Otomatik Saldırı"
+  动作:
+    攻击: "Saldırı"
+  伤害提示: "{0} kişisine [伤害数值:{1}] hasar verildi"
+  伤害暴击提示: "{0} kişisine [伤害数值:{1}] ([暴击]!) hasar verildi"
+  治疗提示: "{0} kişisine [治疗数值:{1}] can yenilendi"
+  治疗暴击提示: "{0} kişisine [治疗数值:{1}] ([暴击]!) can yenilendi"
+  躲闪提示: "{0} saldırıyı savuşturdu"
+  战斗日志:
+    吸血回复: " [生命]Yağmalama [治疗数值:{0}] can yeniledi"
+    造成伤害: "{0} kişisine [伤害数值:{1}] hasar verildi"
+    受到伤害:
+      默认: "[伤害数值:{0}] hasar alındı"
+      有减免: "[伤害数值:{0}] hasar alındı ({2} azaltıldı [伤害数值:{3}])"
+    脱战回血: "Savaştan çıktı, [治疗数值:{0}] can yenilendi"
+    治疗他人: "{0} kişisine [治疗数值:{1}] can yenilendi"

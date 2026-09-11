@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Menedżer wiadomości zainicjalizowany"
+  重载:
+    完成: "[成功]Pliki wiadomości przeładowane"
+  日志:
+    文件创建失败: "[错误]Nie udało się utworzyć pliku dziennika: {0}"
+    写入失败: "[错误]Nie udało się zapisać pliku dziennika: {0}"
+    找不到语言文件: "[警告]Nie znaleziono pliku językowego: {0}"

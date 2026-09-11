@@ -1,0 +1,8 @@
+日志合并管理器:
+  前缀:
+    技能日志: "[技能日志前缀:Skill Log]"
+    战斗日志: "[战斗日志前缀:Combat Log]"
+  警告:
+    玩家不在线: "Người chơi ngoại tuyến, nhật ký đã hợp nhất bị loại bỏ: người chơi={0}"
+  错误:
+    发送失败: "Gửi nhật ký hợp nhất thất bại: khóa={0} lý do={1}"

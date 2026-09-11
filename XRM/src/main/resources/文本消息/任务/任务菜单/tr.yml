@@ -1,0 +1,44 @@
+任务菜单:
+  标题: "[计分板标题]Görev Paneli"
+  分类:
+    主线任务: "[计分板标题]Ana Görev"
+    主线任务描述: "[物理]Ana görev ilerlemesini görmek için tıklayın"
+    支线任务: "[成功]§lYan Görev"
+    支线任务描述: "[物理]Yan görev ilerlemesini görmek için tıklayın"
+    日常任务: "[信息]§lGünlük Görev"
+    日常任务描述: "[物理]Günlük görev ilerlemesini görmek için tıklayın"
+  详情:
+    标题: "[计分板标题]Görev Detayları"
+    描述: "[警告]§lGörev Açıklaması"
+    目标: "[警告]§lGörev Hedefleri"
+    状态: "[警告]§lGörev Durumu"
+    NPC信息: "[警告]§lNPC Bilgisi"
+  标签:
+    类型: "[空槽位]Tür: [自定义技能]{0}"
+    目标击杀: "[空槽位]Hedef: [自定义技能]Öldür {0}"
+    目标收集: "[空槽位]Hedef: [自定义技能]Topla {0}"
+    数量: "[空槽位]Miktar: [自定义技能]{0}/{1}"
+    检测器: "[空槽位]Algılayıcı: [自定义技能]{0}"
+    重置: "[空槽位]Sıfırla: [自定义技能]{0}"
+    冷却: "[空槽位]Bekleme süresi: [自定义技能]{0} saat"
+    刷新: "[空槽位]Yenileme: [自定义技能]Günlük {0}"
+    接取: "[空槽位]Kabul: [自定义技能]{0}"
+    交付: "[空槽位]Teslim: [自定义技能]{0}"
+    前置: "[空槽位]Ön koşul: [自定义技能]{0}"
+  描述:
+    行: "[物理]{0}"
+  按钮:
+    返回: "[错误]§lGeri"
+    返回分类描述: "[物理]Görev kategorilerine geri dön"
+    返回列表描述: "[物理]Görev listesine geri dön"
+    点击查看详情: "[警告]Detaylar için tıklayın"
+  任务图标:
+    名称: "[自定义技能]{0}"
+    类型行: "[空槽位]Tür: [自定义技能]{0}"
+    前置行: "[空槽位]Ön koşul: [自定义技能]{0}"
+  状态:
+    未解锁: "[空槽位]Kilitli"
+    可接取: "[成功]Müsait"
+    进行中: "[警告]Devam Ediyor"
+    可交付: "[元素世界]Teslim Edilebilir"
+    已完成: "[治疗数值]Tamamlandı"

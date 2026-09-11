@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Globale Abklingzeit [秒数:{0}]s'
+    冷却中: '[冷却中]{0} auf Abklingzeit [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Lädt auf [秒数:{0}]s dann wirken {1}'
+    引导后释放: '[引导]Kanalisiert [秒数:{0}]s dann wirken {1}'
+    执行错误: '[错误]Fähigkeitsausführungsfehler: {0}'
+    蓄力被打断: '[打断]Aufladung unterbrochen'
+    引导被打断: '[打断]Kanalisierung unterbrochen'

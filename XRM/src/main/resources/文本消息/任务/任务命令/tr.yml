@@ -1,0 +1,27 @@
+任务命令:
+  错误:
+    未知子命令: "[错误]Bilinmeyen alt komut: {0}"
+    无权限: "[错误]Bu komutu çalıştırma izniniz yok"
+    目标不在线: "[错误]Hedef oyuncu çevrimdışı"
+    任务不存在: "[错误]Görev mevcut değil: {0}"
+    无进度: "[错误]Bu oyuncunun bu görev için ilerlemesi yok"
+    未知操作: "[错误]Bilinmeyen işlem: {0}"
+  用法:
+    主命令: "[警告]Kullanım: /quest [menu|progress|manage|reload]"
+    管理: "[警告]Kullanım: /quest manage <accept|complete|reset> <questID> [player]"
+  进度:
+    标题: "[计分板标题:========== Görev İlerlemesi ==========]"
+    分类标签: "[警告:{0}:]"
+    任务行: "[物理:  {0} ]{1}"
+  状态:
+    未解锁: "[空槽位:Kilitli]"
+    可接取: "[成功:Müsait]"
+    进行中: "[警告:Devam Ediyor]"
+    可交付: "[元素世界:Teslim Edilebilir]"
+    已完成: "[治疗数值:Tamamlandı]"
+  管理:
+    接取成功: "[成功][玩家名:{0}] için görev kabul edildi: [信息:{1}]"
+    完成成功: "[成功][玩家名:{0}] için görev tamamlandı: [信息:{1}]"
+    重置成功: "[成功][玩家名:{0}] için görev sıfırlandı: [信息:{1}]"
+  重载:
+    成功: "[成功]Görev yapılandırması yeniden yüklendi"

@@ -1,0 +1,32 @@
+队伍命令:
+  队伍:
+    请指定玩家名: "[错误]Vui lòng chỉ định tên người chơi"
+    玩家不在线: "[错误]Người chơi đó không trực tuyến"
+    不能邀请自己: "[错误]Bạn không thể mời chính mình"
+    不在队伍中: "[错误]Bạn không ở trong nhóm"
+  信息:
+    标题: "[计分板标题:===== Thông Tin Nhóm =====]"
+    角色分布: "[警告:Phân bố vai trò: ][玩家名:{0}]"
+    队伍人数: "[警告:Quy mô nhóm: ][玩家名:{0}/5]"
+    队长标记: "[元素世界:★Thủ lĩnh]"
+    离线标记: "[物理:[Ngoại tuyến]]"
+    成员行坦克: "  [坦克:{0}] [玩家名:{1}]{2}{3}"
+    成员行治疗: "  [治疗:{0}] [玩家名:{1}]{2}{3}"
+    成员行输出: "  [输出:{0}] [玩家名:{1}]{2}{3}"
+  列表:
+    标题: "[计分板标题:===== Nhóm Máy Chủ Hiện Tại =====]"
+    开发中: "[警告:Tính năng đang phát triển, không khả dụng]"
+  帮助:
+    标题: "[计分板标题:===== Trợ Giúp Lệnh Nhóm =====]"
+    创建: "[警告:/party create ][物理:- Tạo nhóm]"
+    邀请: "[警告:/party invite <player> ][物理:- Mời người chơi]"
+    接受: "[警告:/party accept ][物理]- Chấp nhận lời mời]"
+    拒绝: "[警告:/party decline ][物理]- Từ chối lời mời]"
+    离开: "[警告:/party leave ][物理:- Rời nhóm]"
+    踢出: "[警告:/party kick <player> ][物理:- Đuổi thành viên]"
+    解散: "[警告:/party disband ][物理:- Giải tán nhóm]"
+    转让: "[警告:/party leader <player> ][物理:- Chuyển quyền thủ lĩnh]"
+    就位: "[警告:/party ready ][物理]- Xác nhận sẵn sàng]"
+    就位检查: "[警告:/party readycheck ][物理]- Bắt đầu kiểm tra sẵn sàng]"
+    信息: "[警告:/party info ][物理:- Xem thông tin nhóm]"
+    队伍聊天: "[物理:Trò chuyện nhóm: /p <message>]"

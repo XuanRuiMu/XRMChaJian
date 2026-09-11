@@ -1,0 +1,27 @@
+生命条缩放指令:
+
+  模式:
+    总体个数: "Gesamt"
+    单体个数: "Pro Herz"
+
+  当前设置: "<white>Aktuelle [生命条] Einstellung: {0}<white>, Wert: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Gesundheitsleisten-Skalierungsbefehl ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Gesamtzahl der Herzen einstellen (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- HP pro Herz einstellen (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Auf Standard zurücksetzen ({0} Herzen)"
+  错误: "[错误]<white>Unbekannter Unterbefehl, verwende /healthbarscale für die Verwendung"
+
+  设置成功:
+    总体个数: "<white>[生命条] Anzeige auf [其他数值:{0}]<white> Herzen gesetzt"
+    单体个数: "<white>Jedes Herz repräsentiert nun [其他数值:{0}]<white> [生命条]"
+
+  重置成功: "<white>[生命条] Einstellungen auf Standard zurückgesetzt ([其他数值:{0}]<white> Herzen)"
+
+  通用:
+    无效数字: "[Fehler]Ungültige Zahl: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Wert muss zwischen 1-100 liegen"
+      单体: "[错误]<white>Wert muss zwischen 1-1000 liegen"

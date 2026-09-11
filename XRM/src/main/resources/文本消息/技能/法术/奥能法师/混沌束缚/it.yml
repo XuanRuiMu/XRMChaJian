@@ -1,0 +1,6 @@
+混沌束缚:
+  施放: Lancia [第五技能]Chaos Bind.
+  命中: '[第五技能]Chaos Bind colpisce {0}, infligge [伤害数值:{1}] [混乱] danno, applicato [减益]Slow, ottenuto [秘能]{2}.'
+  暴击: '[第五技能]Chaos Bind colpisce {0}, infligge [伤害数值:{1}] ([暴击]!) [混乱] danno, applicato [减益]Slow, ottenuto [秘能]{2}.'
+  命中含范围: '[第五技能]Chaos Bind colpisce {0}, infligge [伤害数值:{1}] [混乱] danno, applicato [减益]Slow, ottenuto [秘能]{2}, Area colpisce {3} bersagli per [伤害数值:{4}] danno.'
+  暴击含范围: '[第五技能]Chaos Bind colpisce {0}, infligge [伤害数值:{1}] ([暴击]!) [混乱] danno, applicato [减益]Slow, ottenuto [秘能]{2}, Area colpisce {3} bersagli per [伤害数值:{4}] danno.'

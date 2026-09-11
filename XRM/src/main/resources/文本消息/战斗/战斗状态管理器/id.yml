@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Anda telah memasuki pertempuran"
+    离开: "[脱战]Anda telah meninggalkan pertempuran"
+    战斗中禁止命令: "[警告]Tidak dapat menggunakan perintah ini saat dalam pertempuran"
+    战斗中禁止更换装备: "[警告]Tidak dapat mengganti peralatan saat dalam pertempuran"
+  调试:
+    开启: "[信息]Mode debug pertempuran diaktifkan"
+    关闭: "[信息]Mode debug pertempuran dinonaktifkan"

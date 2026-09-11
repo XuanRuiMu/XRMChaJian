@@ -1,0 +1,8 @@
+秘法崩裂:
+  施放: '[延迟]Lancio in [秒数:0.4]s, rilascia [第二技能]Arcane Eruption.'
+  无充能: '[第二技能]Arcane Eruption lancio fallito, [秘能] insufficiente.'
+  无目标: '[第二技能]Arcane Eruption ha consumato [秘能], ma nessun bersaglio nel raggio.'
+  单目标命中: '[第二技能]Arcane Eruption colpisce {0}, infligge [伤害数值:{1}] [奥术] danno, consumato [秘能]{2}.'
+  单目标暴击: '[第二技能]Arcane Eruption colpisce {0}, infligge [伤害数值:{1}] ([暴击]!) [奥术] danno, consumato [秘能]{2}.'
+  命中: '[第二技能]Arcane Eruption colpisce {0} bersagli, media [伤害数值:{1}] [奥术] danno, consumato [秘能]{2}.'
+  暴击: '[第二技能]Arcane Eruption colpisce {0} bersagli, media [伤害数值:{1}] ([暴击]!) [奥术] danno, consumato [秘能]{2}.'

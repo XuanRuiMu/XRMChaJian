@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Recharge globale [秒数:{0}]s'
+    冷却中: '[冷却中]{0} en recharge [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Chargement [秒数:{0}]s puis lancer {1}'
+    引导后释放: '[引导]Canalisation [秒数:{0}]s puis lancer {1}'
+    执行错误: '[错误]Erreur d''exécution de compétence : {0}'
+    蓄力被打断: '[打断]Charge interrompue'
+    引导被打断: '[打断]Canalisation interrompue'

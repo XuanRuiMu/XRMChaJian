@@ -1,0 +1,17 @@
+# ============================================
+# MulangEpoch Plugin - 战斗状态管理器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]You have entered combat"
+    离开: "[脱战]You have left combat"
+    战斗中禁止命令: "[警告]Cannot use this command while in combat"
+    战斗中禁止更换装备: "[警告]Cannot change equipment while in combat"
+  调试:
+    开启: "[信息]Combat debug mode enabled"
+    关闭: "[信息]Combat debug mode disabled"

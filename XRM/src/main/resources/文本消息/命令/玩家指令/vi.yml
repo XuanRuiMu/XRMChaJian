@@ -1,0 +1,13 @@
+玩家指令:
+
+  日志:
+    用法: "<white>Cách dùng: /skilllog <on|off> hoặc /combatlog <on|off>"
+    技能日志用法: "<white>Cách dùng: /skilllog <on|off>"
+    战斗日志用法: "<white>Cách dùng: /combatlog <on|off>"
+    无效值: "[错误]<white>Giá trị không hợp lệ, vui lòng dùng on hoặc off."
+    设置成功: "<white>{0} đã được {1}."
+    状态: "<white>{0} trạng thái hiện tại: {1}"
+    开启: "[成功]Bật"
+    关闭: "[错误]Tắt"
+    技能日志名称: "[技能日志前缀:Skill Log]"
+    战斗日志名称: "[战斗日志前缀:Combat Log]"

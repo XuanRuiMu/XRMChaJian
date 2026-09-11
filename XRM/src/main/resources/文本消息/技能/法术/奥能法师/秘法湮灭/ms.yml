@@ -1,0 +1,11 @@
+秘法湮灭:
+  施放: '[延迟]Cast dalam [秒数:3.0]s, melepaskan [第八技能]Arcane Annihilation.'
+  第一波: '[第八技能]Arcane Annihilation gelombang 1, menyebabkan [伤害数值:{0}] [奥术] kerosakan.'
+  第一波暴击: '[第八技能]Arcane Annihilation gelombang 1, menyebabkan [伤害数值:{0}] ([暴击]!) [奥术] kerosakan.'
+  第二波: '[第八技能]Arcane Annihilation gelombang 2, menyebabkan [伤害数值:{0}] [奥术] kerosakan.'
+  第二波暴击: '[第八技能]Arcane Annihilation gelombang 2, menyebabkan [伤害数值:{0}] ([暴击]!) [奥术] kerosakan.'
+  第三波: '[第八技能]Arcane Annihilation gelombang 3, menyebabkan [伤害数值:{0}] [奥术] kerosakan.'
+  第三波暴击: '[第八技能]Arcane Annihilation gelombang 3, menyebabkan [伤害数值:{0}] ([暴击]!) [奥术] kerosakan.'
+  第三波有充能: '[第八技能]Arcane Annihilation gelombang 3, menyebabkan [伤害数值:{0}] [奥术] kerosakan, mendapat [秘能]1.'
+  第四波: '[第八技能]Arcane Annihilation letupan akhir, menyebabkan [伤害数值:{0}] [奥术] kerosakan, mendapat [秘能]{1}.'
+  第四波暴击: '[第八技能]Arcane Annihilation letupan akhir, menyebabkan [伤害数值:{0}] ([暴击]!) [奥术] kerosakan, mendapat [秘能]{1}.'

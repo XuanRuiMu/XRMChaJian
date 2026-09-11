@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Potwór"
+  护盾:
+    默认名: "Tarcza"
+  攻击者:
+    未知: "Nieznany"
+  技能:
+    普攻: "Autoatak"
+  动作:
+    攻击: "Atak"
+  伤害提示: "Zadano [伤害数值:{1}] obrażeń graczowi {0}"
+  伤害暴击提示: "Zadano [伤害数值:{1}] ([暴击]!) obrażeń graczowi {0}"
+  治疗提示: "Przywrócono [治疗数值:{1}] zdrowia graczowi {0}"
+  治疗暴击提示: "Przywrócono [治疗数值:{1}] ([暴击]!) zdrowia graczowi {0}"
+  躲闪提示: "{0} uniknął ataku"
+  战斗日志:
+    吸血回复: " [生命]Kradzież życia przywróciła [治疗数值:{0}]"
+    造成伤害: "Zadano [伤害数值:{1}] obrażeń graczowi {0}"
+    受到伤害:
+      默认: "Otrzymano [伤害数值:{0}] obrażeń"
+      有减免: "Otrzymano [伤害数值:{0}] obrażeń ({2} złagodzone [伤害数值:{3}])"
+    脱战回血: "Opuszczono walkę, przywrócono [治疗数值:{0}] zdrowia"
+    治疗他人: "Przywrócono [治疗数值:{1}] zdrowia graczowi {0}"

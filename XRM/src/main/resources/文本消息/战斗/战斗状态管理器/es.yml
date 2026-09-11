@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Has entrado en combate"
+    离开: "[脱战]Has salido del combate"
+    战斗中禁止命令: "[警告]No puedes usar este comando en combate"
+    战斗中禁止更换装备: "[警告]No puedes cambiar de equipo en combate"
+  调试:
+    开启: "[信息]Modo de depuración de combate activado"
+    关闭: "[信息]Modo de depuración de combate desactivado"

@@ -1,0 +1,111 @@
+# ============================================
+# MulangEpoch Plugin - Quest Definitions (English)
+# Contains quest name, description, and NPC dialog translation keys
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+quest:
+  # ========== Main Quests ==========
+  主线1:
+    name: "[自定义技能]Choose Class and Specialization"
+    description: "[物理]Go to the white tower in the city center to choose your class, then go to the orange zone embassy area to determine your specialization direction, and finally return to the training ground near the tower to confirm your choice."
+    dialog:
+      accept: "[元素世界:Gallerean Embermark] Welcome to MulangEpoch, adventurer! Here, you need to choose your class and specialization, which will determine your combat style. Please go to the white tower in the city center to choose your class, then go to the orange zone embassy area to determine your specialization direction, and finally return to the training ground near the tower to confirm your choice."
+      progress: "[元素世界:Gallerean Embermark] You have accepted the class selection quest. Please go to the white tower in the city center to choose your class."
+      deliver: "[元素世界:Niyiel Coaxis] Ah, a new adventurer! It seems you have made your choice, and I can see the light of determination in your eyes."
+      complete: "[元素世界:Niyiel Coaxis] You have completed the class selection quest."
+  主线2:
+    name: "[自定义技能]Strike While the Iron is Hot"
+    description: "[物理]Click the button on the training ground pillar to summon a training dummy, and use the skills you have learned to destroy it."
+    dialog:
+      accept: "[元素世界:Niyiel Coaxis] Theory is important, but without the power of practice it is like gunpowder without a fuse. Click the button on the pillar next to me to summon a training dummy, and use everything you have learned to destroy it."
+      progress: "[元素世界:Niyiel Coaxis] You have not yet defeated the training dummy. Go to the summoning stone in the center of the arena to summon your opponent, and use everything you have learned to destroy it."
+      deliver: "[元素世界:Niyiel Coaxis] Well done! You have successfully defeated the training dummy, and your strength has been verified."
+      complete: "[元素世界:Niyiel Coaxis] You have completed the strike while the iron is hot quest."
+  主线3:
+    name: "[自定义技能]Adventurer, Set Out"
+    description: "[物理]Leave the city, and find Layla Bitterleaf, the Resistance leader, on the sand dune to the left across the bridge."
+    dialog:
+      accept: "[元素世界:Niyiel Coaxis] You have completed your class selection, and now you need to prove your strength. Next, you need to leave the city and find Layla Bitterleaf, the Resistance leader, on the sand dune to the left across the bridge."
+      progress: "[元素世界:Niyiel Coaxis] You need to leave the city and find Layla Bitterleaf, the Resistance leader, on the sand dune to the left across the bridge."
+      deliver: "[元素世界:Layla Bitterleaf] You are finally here, we need your help. The Trial Tower has been damaged, and corrupted creatures have escaped and are wandering nearby."
+      complete: "[元素世界:Layla Bitterleaf] You have completed the adventurer, set out quest."
+  主线4:
+    name: "[自定义技能]Clear the Passage"
+    description: "[物理]Clear the corrupted creatures near the Trial Tower, kill 4 corrupted zombies, and head south along the road to find Ogrin the Scholar."
+    dialog:
+      accept: "[元素世界:Layla Bitterleaf] The Trial Tower has been damaged, and corrupted creatures have escaped and are wandering nearby, posing a threat to all life. Please go eliminate those corrupted creatures."
+      progress: "[元素世界:Layla Bitterleaf] You still need to eliminate more corrupted zombies."
+      deliver: "[元素世界:Ogrin the Scholar] Well done, you have eliminated those corrupted creatures. But these are just minions, the real threat is the Source of Corruption."
+      complete: "[元素世界:Ogrin the Scholar] You have completed the clear the passage quest."
+  主线5:
+    name: "[自定义技能]Source of Corruption"
+    description: "[物理]Enter the second floor of the Trial Tower, find and eliminate the Corrupted Zombie Boss, then return to report to Ogrin the Scholar."
+    dialog:
+      accept: "[元素世界:Ogrin the Scholar] The Trial Tower suppresses the corrupting power of this world, and you need to further weaken it. Go kill the Corrupted Zombie Boss!"
+      progress: "[元素世界:Ogrin the Scholar] The Source of Corruption still exists, please go kill the Corrupted Zombie Boss to weaken the corrupting power."
+      deliver: "[元素世界:Ogrin the Scholar] Excellent! You have successfully defeated the Corrupted Zombie Boss and weakened the corrupting power. Your courage and strength are admirable."
+      complete: "[元素世界:Ogrin the Scholar] You have completed the source of corruption quest."
+  主线6:
+    name: "[自定义技能]Reinforce the Frontline"
+    description: "[物理]Head back along the road, pass the pavilion, turn right at the central stone disc, cross the stone bridge into the cave, and find Samuel Lionheart."
+    dialog:
+      accept: "[元素世界:Ogrin the Scholar] You need to head west to reinforce the frontline. Head back along the road, pass the pavilion, turn right at the central stone disc, cross the stone bridge into the cave, and find Samuel Lionheart."
+      progress: "[元素世界:Ogrin the Scholar] You need to head west to reinforce the frontline and find Samuel Lionheart."
+      deliver: "[元素世界:Samuel Lionheart] You are finally here, the frontline needs your help."
+      complete: "[元素世界:Samuel Lionheart] You have completed the reinforce the frontline quest."
+  主线7:
+    name: "[自定义技能]Stock Up on Food"
+    description: "[物理]Get something to eat to fill your stomach. Your hunger value needs to reach 18 or above."
+    dialog:
+      accept: "[元素世界:Samuel Lionheart] The frontline is short-handed, but do not rush to the battlefield yet, go get something to eat first."
+      progress: "[元素世界:Samuel Lionheart] You have not eaten enough yet, please go get something to eat."
+      deliver: "[元素世界:Samuel Lionheart] It looks like you are well-fed and full of energy!"
+      complete: "[元素世界:Samuel Lionheart] You have completed the stock up on food quest."
+  主线8:
+    name: "[自定义技能]Familiarize with Basic Operations"
+    description: "[物理]Type /cd to open the game menu, and view your skills and quest progress."
+    dialog:
+      accept: "[元素世界:Samuel Lionheart] Now please type /cd to open the game menu and familiarize yourself with basic operations."
+      progress: "[元素世界:Samuel Lionheart] You have not yet familiarized yourself with basic operations, please type /cd to open the game menu."
+      deliver: "[元素世界:Samuel Lionheart] Good, you have familiarized yourself with basic operations."
+      complete: "[元素世界:Samuel Lionheart] You have completed the familiarize with basic operations quest."
+  主线9:
+    name: "[自定义技能]Advance the Relay Tower"
+    description: "[物理]Clear the Marauder Sentinels around the Arcane Relay Tower, and kill 5 Marauder Sentinels."
+    dialog:
+      accept: "[元素世界:Samuel Lionheart] Our next target is the Arcane Relay Tower, which the Doom Herald uses to spread corrupting energy, but the tower is surrounded by Marauder Sentinels that need to be cleared."
+      progress: "[元素世界:Samuel Lionheart] You still need to kill more Marauder Sentinels."
+      deliver: "[元素世界:Samuel Lionheart] Excellent! You have successfully cleared all the Marauder Sentinels, clearing the way for our offensive."
+      complete: "[元素世界:Samuel Lionheart] You have completed the advance the relay tower quest, and have become a true hero of MulangEpoch!"
+
+  # ========== Side Quests ==========
+  支线1:
+    name: "[自定义技能]The Lost Diary"
+    description: "[物理]Find the lost diary in Mulan Ting City, and return it to its owner."
+    dialog:
+      accept: "[元素世界:Traveler Ella] I lost an important diary in Mulan Ting City, can you help me find it?"
+      progress: "[元素世界:Traveler Ella] The diary has not been found yet, please keep looking in the city."
+      deliver: "[元素世界:Traveler Ella] Wonderful! You found my diary, thank you so much!"
+      complete: "[元素世界:Traveler Ella] You have completed the lost diary quest."
+
+  # ========== Daily Quests ==========
+  日常1:
+    name: "[自定义技能]Daily Patrol"
+    description: "[物理]Kill 3 corrupted creatures, and maintain the safety around Mulan Ting."
+    dialog:
+      accept: "[元素世界:Patrol Captain Mark] There are more and more corrupted creatures around Mulan Ting, help me clear some of them."
+      progress: "[元素世界:Patrol Captain Mark] You still need to kill more corrupted creatures."
+      deliver: "[元素世界:Patrol Captain Mark] Well done, today's patrol mission is complete."
+      complete: "[元素世界:Patrol Captain Mark] The daily patrol quest has been completed."
+  日常2:
+    name: "[自定义技能]Resource Collection"
+    description: "[物理]Collect 10 iron ingots, and give them to the blacksmith for forging equipment."
+    dialog:
+      accept: "[元素世界:Blacksmith Grick] I need some iron ingots to forge equipment, can you help me collect them?"
+      progress: "[元素世界:Blacksmith Grick] Not enough iron ingots yet, keep collecting."
+      deliver: "[元素世界:Blacksmith Grick] These iron ingots are of good quality, thanks for your hard work!"
+      complete: "[元素世界:Blacksmith Grick] The resource collection quest has been completed."

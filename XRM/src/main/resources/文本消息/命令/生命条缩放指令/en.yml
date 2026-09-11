@@ -1,0 +1,35 @@
+# ============================================
+# MulangEpoch Plugin - 生命条缩放指令 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+生命条缩放指令:
+
+  模式:
+    总体个数: "Total Hearts"
+    单体个数: "Per Heart"
+
+  当前设置: "<white>Current [生命条] setting: {0}<white>, value: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Health Bar Scale Command Usage ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Set total hearts displayed (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- Set HP per heart (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Reset to default ({0} hearts)"
+    错误: "[错误]<white>Unknown subcommand, use /healthbarscale for usage"
+
+  设置成功:
+    总体个数: "<white>Set [生命条] display to [其他数值:{0}]<white> hearts"
+    单体个数: "<white>Set each heart to represent [其他数值:{0}]<white> [生命条]"
+
+  重置成功: "<white>Reset [生命条] settings to default ([其他数值:{0}]<white> hearts)"
+
+  通用:
+    无效数字: "[Error]Invalid number: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Value must be between 1-100"
+      单体: "[错误]<white>Value must be between 1-1000"

@@ -1,0 +1,27 @@
+﻿生命条缩放指令:
+
+  模式:
+    总体个数: "Łącznie"
+    单体个数: "Na serce"
+
+  当前设置: "<white>Obecne ustawienie [生命条]: {0}<white>, wartość: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Komenda Skalowania Paska Zdrowia ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Ustaw łączną liczbę serc (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- Ustaw HP na serce (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Przywróć domyślne ({0} serc)"
+  错误: "[错误]<white>Nieznana podkomenda, użyj /healthbarscale aby zobaczyć użycie"
+
+  设置成功:
+    总体个数: "<white>Ustawiono wyświetlanie [生命条] na [其他数值:{0}]<white> serc"
+    单体个数: "<white>Każde serce reprezentuje [其他数值:{0}]<white> [生命条]"
+
+  重置成功: "<white>Ustawienia [生命条] przywrócone do domyślnych ([其他数值:{0}]<white> serc)"
+
+  通用:
+    无效数字: "[Błąd]Nieprawidłowa liczba: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Wartość musi być między 1-100"
+      单体: "[错误]<white>Wartość musi być między 1-1000"

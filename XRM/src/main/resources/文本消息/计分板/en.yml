@@ -1,0 +1,14 @@
+# ============================================
+# MulanEra Plugin - Scoreboard Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [keyword] = static keyword (auto-colored)
+#   [keyword:value] = parameterized keyword
+# Note: FastBoard scoreboard uses legacy § color codes, colors injected by code
+# ============================================
+
+计分板:
+  标题: "MulanEra MMORPG"
+  空槽位: "Empty"
+  自定义技能: "Custom"
+  秒: "s"

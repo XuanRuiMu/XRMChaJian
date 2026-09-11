@@ -1,0 +1,27 @@
+﻿生命条缩放指令:
+
+  模式:
+    总体个数: "Toplam"
+    单体个数: "Kalp Başına"
+
+  当前设置: "<white>Mevcut [生命条] ayarı: {0}<white>, değer: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Sağlık Çubuğu Ölçek Komutu ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Toplam kalp sayısını ayarla (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- Kalp başına HP ayarla (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Varsayılana sıfırla ({0} kalp)"
+  错误: "[错误]<white>Bilinmeyen alt komut, kullanım için /healthbarscale kullanın"
+
+  设置成功:
+    总体个数: "<white>[生命条] gösterimi [其他数值:{0}]<white> kalp olarak ayarlandı"
+    单体个数: "<white>Her kalp [其他数值:{0}]<white> [生命条] temsil ediyor"
+
+  重置成功: "<white>[生命条] ayarları varsayılana sıırlandı ([其他数值:{0}]<white> kalp)"
+
+  通用:
+    无效数字: "[Hata]Geçersiz sayı: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Değer 1-100 arasında olmalıdır"
+      单体: "[错误]<white>Değer 1-1000 arasında olmalıdır"

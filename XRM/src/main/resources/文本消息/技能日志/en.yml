@@ -1,0 +1,99 @@
+# ============================================
+# MulangEpoch Plugin - Skill Log Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters (replaced by keyword parser)
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+#   [第X技能] = dynamic skill name (resolved by player specialization)
+# Number format:
+#   伤害数值/治疗数值 = 1 decimal place
+#   秘能/资源层数 = integer
+#   秒数 = 1 decimal place
+# ============================================
+
+技能日志:
+  # Cast log (generic template, [第{N}技能] dynamically colored by keyword parser)
+  # 蓄力类: [蓄力][秒数:X.X]s later, release [技能名].
+  # 延迟类: [延迟][秒数:X.X]s later, release [技能名].
+  # 引导类: [引导][秒数:X.X]s, release [技能名].
+  # 瞬发类: Released [技能名].
+
+  # 蓄力释放 ({0}=cast seconds, {1}=slot Chinese numeral)
+  蓄力释放: "[蓄力][秒数:{0}]s later, released [第{1}技能]."
+
+  # 延迟释放 ({0}=delay seconds, {1}=slot Chinese numeral)
+  延迟释放: "[延迟][秒数:{0}]s later, released [第{1}技能]."
+
+  # 引导释放 ({0}=channel seconds, {1}=slot Chinese numeral)
+  引导释放: "[引导][秒数:{0}]s, released [第{1}技能]."
+
+  # 瞬发释放 ({0}=slot Chinese numeral)
+  瞬发释放: "Released [第{0}技能]."
+
+  # 护盾释放 ({0}=slot Chinese numeral, {1}=shield value)
+  # 奥术护盾为效果 1_3_1，继承法术 1_3 所属第三技能槽位黄色（见关键词颜色格式大全.md 18.2 颜色继承表）
+  护盾释放: "Released [第{0}技能], gained a shield that absorbs [伤害数值:{1}] damage (<yellow>Arcane Shield</yellow>)."
+
+  # 公共冷却中 ({0}=remaining seconds)
+  公共冷却中: "<dark_red>Public cooldown active, {0}s remaining.</dark_red>"
+
+  # 独立冷却中 ({0}=slot Chinese numeral, {1}=remaining seconds)
+  独立冷却中: "<dark_red>[第{0}技能] on cooldown, {1}s remaining.</dark_red>"
+
+  # 命中日志 (only resource gain, no duplicate damage info)
+  # {0}=resource amount
+  命中仅资源: "Gained [秘能]{0}."
+  命中仅资源带秘兆: "Gained {0} [秘能], gained <light_purple><bold>秘兆</bold></light_purple> effect."
+
+  # 命中日志 (generic template, [第{2}技能] dynamically colored by keyword parser)
+  # {0}=target name, {1}=damage value, {2}=slot Chinese numeral, {3}=resource amount
+  命中: "[第{2}技能] hit {0}, dealt [伤害数值:{1}] damage, gained [秘能]{3}."
+  暴击命中: "[第{2}技能] hit {0}, dealt [伤害数值:{1}] <gold><bold>([暴击]!)</bold></gold> damage, gained [秘能]{3}."
+
+  # 命中日志 (no resource gain)
+  # {0}=target name, {1}=damage value, {2}=slot Chinese numeral
+  命中无资源: "[第{2}技能] hit {0}, dealt [伤害数值:{1}] damage."
+  暴击命中无资源: "[第{2}技能] hit {0}, dealt [伤害数值:{1}] <gold><bold>([暴击]!)</bold></gold> damage."
+
+  # 命中日志 (with extra effect)
+  # {0}=target name, {1}=damage value, {2}=effect description
+  命中带效果: "[第一技能] hit {0}, dealt [伤害数值:{1}] damage, {2}."
+  暴击命中带效果: "[第一技能] hit {0}, dealt [伤害数值:{1}] <gold><bold>([暴击]!)</bold></gold> damage, {2}."
+
+  # Arcane Meteor summary log (single summary: total damage + mana gained; FP-1 no longer shows target count)
+  # {0}=total damage (1 decimal), {1}=mana gained (may be 0)
+  秘法陨落范围命中: "Arcane Meteor dealt {0} damage. Gained {1} Arcane Power."
+
+  # Arcane Meteor summary log (sibling key used when 秘兆 triggers, FP-01 问题4: 秘兆 appended to same line)
+  # {0}=total damage (1 decimal), {1}=mana gained (may be 0)
+  秘法陨落范围命中带秘兆: "Arcane Meteor dealt {0} damage. Gained {1} Arcane Power, gained <light_purple><bold>秘兆</bold></light_purple> effect."
+
+  # Arcane Meteor summary log (no mana gained, FP-14 fix: do not show "Gained 0 Arcane Power")
+  # {0}=total damage (1 decimal)
+  秘法陨落范围命中无秘能: "Arcane Meteor dealt {0} damage."
+
+  # 混沌束缚 AOE 范围命中（FP-01 问题7：恢复 "AOE damage" 以区分单体束缚与周围格AOE）
+  # {0}=slot Chinese numeral, {1}=target count, {2}=total damage
+  混沌束缚AOE范围命中: "[第{0}技能] AOE damage hit [目标数量:{1}] targets, dealt [伤害数值:{2}] damage."
+
+  # Arcane Annihilation four-stage log (FP-2: differentiated per stage, one key per stage)
+  # Stage 1/2 grant no mana; Stage 3 has 50% chance to grant 1 mana; Stage 4 always grants 1 mana
+  # Consistent with 范围命中 format: {0}=slot Chinese numeral, {1}=target count, {2}=total damage (1 decimal), {3}=mana gained
+  秘法湮灭第一段命中: "[第{0}技能] Phase 1 hit, hit [目标数量:{1}] targets, dealt [伤害数值:{2}] damage."
+  秘法湮灭第二段命中: "[第{0}技能] Phase 2 hit, hit [目标数量:{1}] targets, dealt [伤害数值:{2}] damage."
+  秘法湮灭第三段命中: "[第{0}技能] Phase 3 hit, hit [目标数量:{1}] targets, dealt [伤害数值:{2}] damage."
+  秘法湮灭第三段命中带秘能: "[第{0}技能] Phase 3 hit, hit [目标数量:{1}] targets, dealt [伤害数值:{2}] damage, gained {3} [秘能]."
+  秘法湮灭第四段命中: "[第{0}技能] Phase 4 hit, hit [目标数量:{1}] targets, dealt [伤害数值:{2}] damage, gained {3} [秘能]."
+
+  # Cast failure log ({0}=slot Chinese numeral)
+  # Sent by skill release service when executor returns failure, key format 技能日志.失败.<reason>
+  失败:
+    资源不足: "<dark_red>[第{0}技能] failed: insufficient [秘能].</dark_red>"
+    冷却中: "<dark_red>[第{0}技能] failed: on cooldown.</dark_red>"
+    目标无效: "<dark_red>[第{0}技能] failed: invalid target.</dark_red>"
+    位置无效: "<dark_red>[第{0}技能] failed: invalid location.</dark_red>"
+    重复蓄力: "<dark_red>[第{0}技能] failed: duplicate casting.</dark_red>"
+    定义缺失: "<dark_red>[第{0}技能] failed: skill definition missing.</dark_red>"
+    上下文为空: "<dark_red>[第{0}技能] failed: context is null.</dark_red>"
+    执行异常: "<dark_red>[第{0}技能] failed: execution exception.</dark_red>"
+    其他: "<dark_red>[第{0}技能] failed.</dark_red>"

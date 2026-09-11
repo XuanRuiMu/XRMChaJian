@@ -1,0 +1,5 @@
+初始化.完成: "<green>Menedżer wiadomości zainicjalizowany</green>"
+重载.完成: "<green>Pliki wiadomości przeładowane</green>"
+日志.文件创建失败: "<red>Nie można utworzyć pliku logów: {0}</red>"
+日志.写入失败: "<red>Błąd zapisu pliku logów: {0}</red>"
+日志.找不到语言文件: "<yellow>Nie znaleziono pliku językowego: {0}</yellow>"

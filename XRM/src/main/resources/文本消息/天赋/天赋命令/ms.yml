@@ -1,0 +1,45 @@
+天赋命令:
+
+  仅玩家: "[错误]<white>Hanya pemain boleh menggunakan arahan ini."
+  未知子命令: "[错误]<white>Sub-arahan tidak diketahui: <white>{0}"
+
+  重置:
+    未找到专精: "[错误]<white>Pengkhususan tidak ditemui: <white>{0}"
+    成功: "[成功]Bakat telah direset!"
+    失败: "[错误]<white>Reset bakat gagal, sila cuba lagi nanti."
+
+  列表:
+    树标题: "[计分板标题]═══ {0} ═══"
+    已投入: "[警告]Mata dibelanjakan: {0} / {1}"
+    天赋项: "[成功]  ✔ {0} [冷却]- {1}"
+    无天赋: "[警告]<white>Anda belum mempelajari sebarang bakat."
+
+  学习:
+    用法: "[错误]<white>Penggunaan: [警告]/talent learn <bakatID>"
+    成功: "[成功]Bakat dipelajari: {0}"
+    未找到: "[错误]<white>Bakat tidak ditemui: <white>{0}"
+
+  信息:
+    用法: "[错误]<white>Penggunaan: [警告]/talent info <bakatID>"
+    详情标题: "[计分板标题]═══ Butiran Bakat ═══"
+    名称: "<white>Nama: {0}"
+    ID: "[冷却]ID: {0}"
+    类型: "[冷却]Jenis: {0}"
+    描述: "<white>Penerangan: {0}"
+    位置: "[冷却]Kedudukan: ({0}, {1})"
+    所需点数: "[冷却]Mata diperlukan: {0}"
+    前置天赋: "[冷却]Prasyarat (mana-mana): {0}"
+    选择组: "[冷却]Kumpulan pilihan: {0}"
+    替代: "[冷却]  Alternatif: {0}"
+    状态: "<{0}>{1}</{0}>"
+    状态已学习: "green"
+    状态未学习: "red"
+    未找到: "[错误]<white>Bakat tidak ditemui: <white>{0}"
+
+  帮助:
+    标题: "[计分板标题]═══ Bantuan Arahan Bakat ═══"
+    菜单: "[警告]/talent <white>- Buka menu bakat"
+    重置: "[警告]/talent reset [spec] <white>- Reset bakat"
+    列表: "[警告]/talent list <white>- Senarai bakat yang dipelajari"
+    学习: "[警告]/talent learn <bakatID> <white>- Pelajari bakat"
+    信息: "[警告]/talent info <bakatID> <white>- Lihat butiran bakat"

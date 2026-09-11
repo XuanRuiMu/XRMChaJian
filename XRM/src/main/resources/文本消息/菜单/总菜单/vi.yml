@@ -1,0 +1,23 @@
+# ============================================
+# Plugin MulangEpoch - Thông điệp Menu Chính
+# ============================================
+
+总菜单:
+  标题: "<gold>Menu Chức Năng</gold>"
+  任务系统:
+    名称: "<yellow>Hệ Thống Nhiệm Vụ</yellow>"
+    描述: "<gray>Nhấp để mở menu nhiệm vụ</gray>"
+    描述2: "<aqua>Xem và nhận các nhiệm vụ khác nhau</aqua>"
+  属性系统:
+    名称: "<green>Hệ Thống Thuộc Tính</green>"
+    描述: "<gray>Nhấp để mở thuộc tính</gray>"
+  技能日志设置:
+    名称: "<blue>Cài Đặt Nhật Ký Kỹ Năng</blue>"
+    描述: "<gray>Nhấp để chuyển đổi nhật ký kỹ năng</gray>"
+  战斗日志设置:
+    名称: "<dark_purple>Cài Đặt Nhật Ký Chiến Đấu</dark_purple>"
+    描述: "<gray>Nhấp để chuyển đổi nhật ký chiến đấu</gray>"
+  状态行: "<aqua>Trạng thái hiện tại: {0}</aqua>"
+  状态:
+    开启: "<green>Bật</green>"
+    关闭: "<red>Tắt</red>"

@@ -1,0 +1,11 @@
+# ============================================
+# MulangEpoch Plugin - 乐器监听器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+乐器监听器:
+  演奏:
+    进入模式: "[成功]Mode permainan dimasuki, nada: [信息:{0}]"

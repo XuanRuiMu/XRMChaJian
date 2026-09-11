@@ -1,0 +1,83 @@
+# ============================================
+# XRM Plugin - Instrument Service Messages
+# Placeholder spec:
+#   {0}, {1}... = runtime parameters
+#   [keyword] = static keyword (auto-colored)
+#   [keyword:value] = parameterized keyword
+# ============================================
+
+乐器服务:
+  录制开始: "[Info]Recording started: [信息]{0}"
+  录制停止: "[Info]Recording stopped, [警告]{0}[物理] notes"
+  乐谱保存成功: "[Success]Score saved: [信息]{0}"
+  乐谱已存在: "[警告]Score already exists: [信息]{0}[物理]. Click save again to overwrite, or use command for a new name"
+  乐谱超限: "[Error]Score count reached limit [警告]{0}[物理], please delete old scores first"
+  无录制内容: "[Error]No recording to save"
+  乐谱名无效: "[Error]Invalid score name, must not be empty"
+  乐谱不存在: "[Error]Score not found: {0}"
+  乐谱删除成功: "[Success]Score deleted: {0}"
+  乐谱列表为空: "[Info]You have no scores"
+  乐谱开始播放: "[Info]Now playing: [信息]{0}"
+  乐谱播放结束: "[Info]Playback finished: [信息]{0}"
+  合奏开始: "[Success]Ensemble started! Score: [信息]{0}"
+  合奏结束: "[Info]Ensemble ended"
+  合奏拒绝: "[警告]A member rejected the ensemble"
+  合奏确认进度: "[Info]Ready [成功]{0}[物理]/[玩家名]{1}"
+  合奏倒计时: "[警告]Ensemble starting! Score: [信息]{0}"
+  合奏已停止: "[Info]Ensemble stopped"
+  默认乐谱名: "Unnamed"
+  合奏状态:
+    准备进度: "Ready {0}/{1}"
+  切换乐器: "[Info]Switched to: [信息]{0}"
+  给予成功: "[Success]Instrument given to [玩家名]{0}[物理] ([信息]{1}[物理])"
+  重载成功: "[Success]Music config reloaded"
+  # FP-E unified input + per-octave binding + 5-tier velocity + mod velocity-by-duration
+  音域切换: "[Info]Octave switched to: [信息]{0}"
+  力度切换: "[Info]Velocity tier switched to: [信息]{0}"
+  真实力度已开启: "[Info]Mod real velocity enabled (key duration maps to velocity)"
+  真实力度已关闭: "[Info]Mod real velocity disabled"
+  音高越界: "[Error]Pitch {0} out of range, cannot play"
+  # FP-G non-destructive recording quantization + swing + visual feedback
+  量化已应用: "[Success]Quantize applied: [信息]{0}"
+  量化已撤销: "[Info]Quantize reverted, original notes restored"
+  无可量化乐谱: "[Error]No score to quantize, please record or play first"
+  swing已设置: "[Info]Swing set: [信息]{0}"
+  录制中标题: "Recording"
+  # FP-I chord preset + chord memory + public score library
+  和弦已播放: "[Info]Chord played: [信息]{0}"
+  和弦记忆已启动: "[Info]Chord memory started: [信息]{0}[物理] (press again or switch to stop)"
+  和弦记忆已停止: "[Info]Chord memory stopped"
+  公共乐谱上传成功: "[Success]Score uploaded to public library, ID: [信息]{0}[物理] (awaiting review)"
+  公共乐谱上传重名: "[Error]Score ID collision, please retry upload"
+  公共乐谱上传参数无效: "[Error]Invalid upload parameters, ensure score name is non-empty"
+  公共乐谱下载成功: "[Success]Downloaded score from public library: [信息]{0}"
+  公共乐谱不存在: "[Error]Public score not found: {0}"
+  公共乐谱未通过审核: "[警告]Public score not approved, cannot download or rate: {0}"
+  公共乐谱评分成功: "[Success]Rated: [信息]{0}"
+  公共乐谱已评分: "[警告]You have already rated this score: [信息]{0}"
+  公共乐谱评分越界: "[Error]Rating out of range, must be between 1 and 5"
+  公共乐谱审核成功: "[Success]Public score [信息]{0}[物理] review status updated to: [信息]{1}"
+  公共乐谱状态无效: "[Error]Invalid score state or already reviewed: {0}"
+  公共乐谱列表为空: "[Info]Public library is empty or no approved scores"
+  公共乐谱列表项: "[信息]{0}[物理] | Uploader: [玩家名]{1}[物理] | Rating: [警告]{2}[物理] | Downloads: {3}"
+  # FP-H NBS/MIDI import/export + NoteBlockAPI integration
+  NBS导入成功: "[Success]NBS score imported: [信息]{0}"
+  NBS导入失败: "[Error]NBS import failed: {0}"
+  NBS导出成功: "[Success]Score exported as NBS: [信息]{0}"
+  NBS导出失败: "[Error]NBS export failed: {0}"
+  MIDI导入成功: "[Success]MIDI score imported: [信息]{0}"
+  MIDI导入失败: "[Error]MIDI import failed: {0}"
+  MIDI导出成功: "[Success]Score exported as MIDI: [信息]{0}"
+  MIDI导出失败: "[Error]MIDI export failed: {0}"
+  文件不可读: "[Error]File does not exist or is not readable: {0}"
+  # FP-J split keyboard + piano roll + pitch bend/modulation + expression + resource pack
+  分层已开启: "[Info]Split keyboard mode enabled (left/right instrument by pitch split point)"
+  分层已关闭: "[Info]Split keyboard mode disabled"
+  分界点已设置: "[Info]Split point set to: [信息]{0}"
+  分层乐器已设置: "[Info]Split instrument updated"
+  pianoRoll已打开: "[Info]Piano Roll editor opened: [信息]{0}"
+  pianoRoll已关闭: "[Info]Piano Roll editor closed"
+  pianoRoll保存成功: "[Success]Piano Roll edit saved as score: [信息]{0}"
+  pianoRoll已撤销: "[Info]Piano Roll edit reverted, original score restored"
+  pianoRoll编辑失败: "[Error]Piano Roll edit failed: {0}"
+  资源包应用提示: "[Info]Resource pack request sent. Please download and restart client to apply"

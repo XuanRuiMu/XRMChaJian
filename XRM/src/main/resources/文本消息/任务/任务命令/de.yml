@@ -1,0 +1,27 @@
+任务命令:
+  错误:
+    未知子命令: "[错误]Unbekannter Unterbefehl: {0}"
+    无权限: "[错误]Du hast keine Berechtigung, diesen Befehl auszuführen"
+    目标不在线: "[错误]Ziel-Spieler ist nicht online"
+    任务不存在: "[错误]Quest existiert nicht: {0}"
+    无进度: "[错误]Dieser Spieler hat keinen Fortschritt für diese Quest"
+    未知操作: "[错误]Unbekannter Vorgang: {0}"
+  用法:
+    主命令: "[警告]Verwendung: /quest [menu|progress|manage|reload]"
+    管理: "[警告]Verwendung: /quest manage <accept|complete|reset> <questID> [player]"
+  进度:
+    标题: "[计分板标题:========== Quest-Fortschritt ==========]"
+    分类标签: "[警告:{0}:]"
+    任务行: "[物理:  {0} ]{1}"
+  状态:
+    未解锁: "[空槽位:Gesperrt]"
+    可接取: "[成功:Verfügbar]"
+    进行中: "[警告:In Bearbeitung]"
+    可交付: "[元素世界:Abgebbar]"
+    已完成: "[治疗数值:Abgeschlossen]"
+  管理:
+    接取成功: "[成功]Quest angenommen für [玩家名:{0}]: [信息:{1}]"
+    完成成功: "[成功]Quest abgeschlossen für [玩家名:{0}]: [信息:{1}]"
+    重置成功: "[成功]Quest zurückgesetzt für [玩家名:{0}]: [信息:{1}]"
+  重载:
+    成功: "[成功]Quest-Konfiguration neu geladen"

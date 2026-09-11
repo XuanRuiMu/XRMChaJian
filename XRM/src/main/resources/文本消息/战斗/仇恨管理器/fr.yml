@@ -1,0 +1,7 @@
+仇恨管理器:
+  仇恨:
+    已清除: "[成功]Menace à proximité effacée"
+    调试开启: "[信息]Mode débogage de menace activé"
+    调试关闭: "[信息]Mode débogage de menace désactivé"
+    调试前缀: "[仇恨]"
+    调试消息: "{0} → {1} [仇恨:{2}]"

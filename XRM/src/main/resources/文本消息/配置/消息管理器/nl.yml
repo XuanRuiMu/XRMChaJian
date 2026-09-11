@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Berichtenbeheer geïnitialiseerd"
+  重载:
+    完成: "[成功]Berichtbestanden opnieuw geladen"
+  日志:
+    文件创建失败: "[错误]Kon logbestand niet aanmaken: {0}"
+    写入失败: "[错误]Kon logbestand niet schrijven: {0}"
+    找不到语言文件: "[警告]Taalbestand niet gevonden: {0}"

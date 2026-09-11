@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Questbuch]"
+    描述: "[暗影]Ein uraltes Buch, das violettes Licht ausstrahlt"
+    右键提示: "[物理]Rechtsklick zum Öffnen des Quest-Panels"
+    命令提示: "[物理]Oder verwende [自定义技能]/quest [物理]Befehl"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Fähigkeit 1·Schwert]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 1"
+    第二技能:
+      名称: "[第二技能:Fähigkeit 2·Axt]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 2"
+    第三技能:
+      名称: "[第三技能:Fähigkeit 3·Spitzhacke]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 3"
+    第四技能:
+      名称: "[第四技能:Fähigkeit 4·Schaufel]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 4"
+    第五技能:
+      名称: "[第五技能:Fähigkeit 5·Hacke]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 5"
+    第六技能:
+      名称: "[第六技能:Fähigkeit 6·Speer]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 6"
+    第七技能:
+      名称: "[第七技能:Fähigkeit 7·Hammer]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 7"
+    第八技能:
+      名称: "[第八技能:Fähigkeit 8·{0}]"
+      提示: "[物理]Linksklick zum Wirken von Fähigkeit 8"
+      物品名:
+        书: "Buch"
+        蒲公英: "Löwenzahn"
+    不可破坏: "[空槽位]Unzerstörbar"

@@ -1,0 +1,27 @@
+# ============================================
+# MulangEpoch Plugin - Arcane Mage Skill Slot Names
+# Used by keyword parser to resolve [第X技能]
+# Translation key format: skill.{specialization}.slot.{chinese_numeral}.name
+# ============================================
+
+skill:
+  奥能法师:
+    slot:
+      一:
+        name: "Arcane Blast"
+      二:
+        name: "Arcane Eruption"
+      三:
+        name: "Arcane Shield"
+      四:
+        name: "Arcane Meteor"
+      五:
+        name: "Chaos Bind"
+      六:
+        name: "Arcane Flow"
+      七:
+        name: "Arcane Meditation"
+      八:
+        name: "Arcane Annihilation"
+      九:
+        name: "Mastery: Magic Omen"

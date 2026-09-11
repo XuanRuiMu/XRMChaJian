@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Je bent in gevecht gegaan"
+    离开: "[脱战]Je hebt het gevecht verlaten"
+    战斗中禁止命令: "[警告]Kan dit commando niet gebruiken tijdens gevecht"
+    战斗中禁止更换装备: "[警告]Kan uitrusting niet wijzigen tijdens gevecht"
+  调试:
+    开启: "[信息]Gevecht debug-modus ingeschakeld"
+    关闭: "[信息]Gevecht debug-modus uitgeschakeld"

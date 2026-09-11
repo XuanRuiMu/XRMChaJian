@@ -1,0 +1,8 @@
+秘法崩裂:
+  施放: '[延迟]Kullanım süresi [秒数:0.4]s, serbest bırak [第二技能]Arcane Eruption.'
+  无充能: '[第二技能]Arcane Eruption kullanma başarısız, [秘能] yetersiz.'
+  无目标: '[第二技能]Arcane Eruption tüketti [秘能], menzilde hedef yok.'
+  单目标命中: '[第二技能]Arcane Eruption vurdu {0}, verdi [伤害数值:{1}] [奥术] hasar, tüketti [秘能]{2}.'
+  单目标暴击: '[第二技能]Arcane Eruption vurdu {0}, verdi [伤害数值:{1}] ([暴击]!) [奥术] hasar, tüketti [秘能]{2}.'
+  命中: '[第二技能]Arcane Eruption vurdu {0} hedef, ortalama [伤害数值:{1}] [奥术] hasar, tüketti [秘能]{2}.'
+  暴击: '[第二技能]Arcane Eruption vurdu {0} hedef, ortalama [伤害数值:{1}] ([暴击]!) [奥术] hasar, tüketti [秘能]{2}.'

@@ -1,0 +1,23 @@
+# ============================================
+# MulangEpoch Plugin - Hoofdmenu Berichten
+# ============================================
+
+总菜单:
+  标题: "<gold>Functiemenu</gold>"
+  任务系统:
+    名称: "<yellow>Missiesysteem</yellow>"
+    描述: "<gray>Klik om missiemenu te openen</gray>"
+    描述2: "<aqua>Bekijk en accepteer verschillende missies</aqua>"
+  属性系统:
+    名称: "<green>Attribuutsysteem</green>"
+    描述: "<gray>Klik om attributen te openen</gray>"
+  技能日志设置:
+    名称: "<blue>Instellingen Vaardigheidslogboek</blue>"
+    描述: "<gray>Klik om vaardigheidslogboek om te schakelen</gray>"
+  战斗日志设置:
+    名称: "<dark_purple>Instellingen Gevechtslogboek</dark_purple>"
+    描述: "<gray>Klik om gevechtslogboek om te schakelen</gray>"
+  状态行: "<aqua>Huidige status: {0}</aqua>"
+  状态:
+    开启: "<green>Aan</green>"
+    关闭: "<red>Uit</red>"

@@ -1,0 +1,12 @@
+# ============================================
+# MulangEpoch Plugin - 菜单框架 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+菜单框架:
+  菜单:
+    不存在: "[错误]Menu [警告]{0} [错误]does not exist"
+    无权限: "[错误]You don't have permission to open this menu"

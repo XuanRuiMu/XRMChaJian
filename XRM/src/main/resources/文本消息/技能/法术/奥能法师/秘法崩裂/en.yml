@@ -1,0 +1,16 @@
+# ============================================
+# MulangEpoch Plugin - 秘法崩裂 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+秘法崩裂:
+  施放: "[延迟]Casting in [秒数:0.4]s, release [第二技能]Arcane Eruption."
+  无充能: "[第二技能]Arcane Eruption failed to cast, insufficient [秘能]."
+  无目标: "[第二技能]Arcane Eruption consumed [秘能], but no targets in range."
+  单目标命中: "[第二技能]Arcane Eruption hit {0}, dealt [伤害数值:{1}] [奥术] damage, consumed [秘能]{2}."
+  单目标暴击: "[第二技能]Arcane Eruption hit {0}, dealt [伤害数值:{1}] ([暴击]!) [奥术] damage, consumed [秘能]{2}."
+  命中: "[第二技能]Arcane Eruption hit {0} targets, average [伤害数值:{1}] [奥术] damage, consumed [秘能]{2}."
+  暴击: "[第二技能]Arcane Eruption hit {0} targets, average [伤害数值:{1}] ([暴击]!) [奥术] damage, consumed [秘能]{2}."

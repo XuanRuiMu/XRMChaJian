@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Mostro"
+  护盾:
+    默认名: "Scudo"
+  攻击者:
+    未知: "Sconosciuto"
+  技能:
+    普攻: "Attacco automatico"
+  动作:
+    攻击: "Attacco"
+  伤害提示: "Inflitto [伤害数值:{1}] danni a {0}"
+  伤害暴击提示: "Inflitto [伤害数值:{1}] ([暴击]!) danni a {0}"
+  治疗提示: "Ripristinato [治疗数值:{1}] salute a {0}"
+  治疗暴击提示: "Ripristinato [治疗数值:{1}] ([暴击]!) salute a {0}"
+  躲闪提示: "{0} ha schivato l''attacco"
+  战斗日志:
+    吸血回复: " [生命]Furto di vita ripristinato [治疗数值:{0}]"
+    造成伤害: "Inflitto [伤害数值:{1}] danni a {0}"
+    受到伤害:
+      默认: "Ricevuto [伤害数值:{0}] danni"
+      有减免: "Ricevuto [伤害数值:{0}] danni ({2} mitigato [伤害数值:{3}])"
+    脱战回血: "Uscito dal combattimento, salute ripristinata [治疗数值:{0}]"
+    治疗他人: "Ripristinato [治疗数值:{1}] salute a {0}"

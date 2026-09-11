@@ -1,0 +1,16 @@
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Spezialisierung-Talentbaum nicht gefunden: <white>{0}"
+    未找到天赋: "[错误]<white>Talent nicht gefunden: <white>{0}"
+    已经学习: "[错误]<white>Du hast dieses Talent bereits gelernt."
+    点数用完: "[错误]<white>Talentpunkte aufgebraucht."
+    点数不足: "[错误]<white>Mehr Talentpunkte in diesem Baum erforderlich zum Freischalten (brauche [点数:{0}], habe [点数:{1}])"
+    前置未满足: "[错误]<white>Voraussetzungs-Talente nicht erfüllt."
+    选择组冲突: "[错误]<white>Konflikt mit gelerntem Talent「{0}」, nur eines pro Auswahlgruppe."
+    保存失败: "[错误]<white>Datenbankspeicherung fehlgeschlagen."
+
+  取消:
+    未学习: "[错误]<white>Talent nicht gelernt."
+    依赖冲突: "[错误]<white>Talent「{0}」hängt davon ab, bitte zuerst verlernen."
+    删除失败: "[错误]<white>Datenbanklöschung fehlgeschlagen."

@@ -1,0 +1,6 @@
+混沌束缚:
+  施放: Lanzar [第五技能]Chaos Bind.
+  命中: '[第五技能]Chaos Bind impacta {0}, inflige [伤害数值:{1}] [混乱] daño, aplicado [减益]Slow, obtenido [秘能]{2}.'
+  暴击: '[第五技能]Chaos Bind impacta {0}, inflige [伤害数值:{1}] ([暴击]!) [混乱] daño, aplicado [减益]Slow, obtenido [秘能]{2}.'
+  命中含范围: '[第五技能]Chaos Bind impacta {0}, inflige [伤害数值:{1}] [混乱] daño, aplicado [减益]Slow, obtenido [秘能]{2}, AoE impacta {3} objetivos por [伤害数值:{4}] daño.'
+  暴击含范围: '[第五技能]Chaos Bind impacta {0}, inflige [伤害数值:{1}] ([暴击]!) [混乱] daño, aplicado [减益]Slow, obtenido [秘能]{2}, AoE impacta {3} objetivos por [伤害数值:{4}] daño.'

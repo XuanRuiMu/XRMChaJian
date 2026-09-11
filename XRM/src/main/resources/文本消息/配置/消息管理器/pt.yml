@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Gerenciador de mensagens inicializado"
+  重载:
+    完成: "[成功]Arquivos de mensagens recarregados"
+  日志:
+    文件创建失败: "[错误]Falha ao criar arquivo de registro: {0}"
+    写入失败: "[错误]Falha ao escrever arquivo de registro: {0}"
+    找不到语言文件: "[警告]Arquivo de idioma não encontrado: {0}"

@@ -1,0 +1,17 @@
+# ============================================
+# MulangEpoch Plugin - 技能释放服务 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+技能释放服务:
+  通用:
+    公共冷却中: "[冷却]Global cooldown [秒数:{0}]s"
+    冷却中: "[冷却中]{0} on cooldown [秒数:{1}]s"
+    蓄力后释放: "[蓄力]Charging [秒数:{0}]s then cast {1}"
+    引导后释放: "[引导]Channeling [秒数:{0}]s then cast {1}"
+    执行错误: "[错误]Skill execution error: {0}"
+    蓄力被打断: "[打断]Charge interrupted"
+    引导被打断: "[打断]Channel interrupted"

@@ -1,0 +1,51 @@
+# ============================================
+# MulangEpoch Plugin - Combat Log Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters (replaced by keyword parser)
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+#   [第X技能] = dynamic skill name (resolved by player specialization)
+# Number format:
+#   伤害数值/治疗数值 = 1 decimal place
+#   秘能/资源层数 = integer
+#   秒数 = 1 decimal place
+# ============================================
+
+战斗日志:
+  # Lifesteal log append spec: lifesteal amount appended to damage source log end, not sent separately
+  # Format: recovered [治疗数值:X] [生命值] via [吸血]
+  吸血: "recovered [治疗数值:{0}] [生命值] via [吸血]."
+
+  # Normal attack log (player deals damage)
+  # {0}=item name, {1}=target name, {2}=damage value
+  普通攻击: "You dealt [伤害数值:{2}] damage to {1} with {0}."
+  普通攻击暴击: "You dealt [伤害数值:{2}] <gold><bold>([暴击]!)</bold></gold> damage to {1} with {0}."
+
+  # Damage taken log (player takes damage)
+  # {0}=damage source name, {1}=damage value
+  受到伤害: "You took [伤害数值:{1}] damage from [{0}]."
+  受到伤害暴击: "You took [伤害数值:{1}] <gold><bold>([暴击]!)</bold></gold> damage from [{0}]."
+  # Damage taken with arcane shield block (merged single log: actual damage + shield blocked amount)
+  # {0}=damage source name, {1}=actual damage value, {2}=shield blocked amount
+  受到伤害带护盾抵挡: "You took [伤害数值:{1}] damage from [{0}]. <yellow>Arcane Shield</yellow> blocked [伤害数值:{2}] damage."
+
+  # Out-of-combat heal log
+  # {0}=heal value
+  脱战回血: "Out-of-combat regeneration restored [治疗数值:{0}] [生命值]."
+
+  # Skill damage log (combat log appended when skill deals damage)
+  # {0}=slot Chinese numeral, {1}=target name, {2}=damage value
+  技能伤害: "[第{0}技能] dealt [伤害数值:{2}] damage to {1}."
+  技能伤害暴击: "[第{0}技能] dealt [伤害数值:{2}] <gold><bold>([暴击]!)</bold></gold> damage to {1}."
+
+  # Combat state change logs
+  进入战斗: "You have entered combat."
+  脱离战斗: "You have left combat."
+
+  # Damage correction logs
+  # {0}=correction source, {1}=correction amount
+  吸收: "[{0}] blocked [伤害数值:{1}] damage."
+
+  # Dodge log
+  # {0}=attacker name
+  躲闪: "You [躲闪]ed the normal attack from [攻击者:{0}]."

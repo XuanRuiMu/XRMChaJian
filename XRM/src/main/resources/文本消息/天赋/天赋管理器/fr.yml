@@ -1,0 +1,16 @@
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Arbre de talents de spécialisation introuvable : <white>{0}"
+    未找到天赋: "[错误]<white>Talent introuvable : <white>{0}"
+    已经学习: "[错误]<white>Vous avez déjà appris ce talent."
+    点数用完: "[错误]<white>Points de talent épuisés."
+    点数不足: "[错误]<white>Plus de points de talent requis dans cet arbre pour débloquer (besoin de [点数:{0}], possède [点数:{1}])"
+    前置未满足: "[错误]<white>Talents prérequis non satisfaits."
+    选择组冲突: "[错误]<white>Conflit avec le talent appris「{0}」, un seul par groupe de choix."
+    保存失败: "[错误]<white>Échec de la sauvegarde en base de données."
+
+  取消:
+    未学习: "[错误]<white>Talent non appris."
+    依赖冲突: "[错误]<white>Le talent「{0}」en dépend, veuillez le désapprendre d'abord."
+    删除失败: "[错误]<white>Échec de la suppression en base de données."

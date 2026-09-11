@@ -1,0 +1,5 @@
+消息管理器.初始化.完成: "Language system initialized, mirror translation classes: {0}, functional categories: {1}, supported languages: {2}"
+消息管理器.重载.完成: "Message files reloaded, mirror translation classes: {0}, functional categories: {1}"
+消息管理器.日志.文件创建失败: "Failed to create log file: {0}"
+消息管理器.日志.写入失败: "Failed to write log file: {0}"
+消息管理器.日志.找不到语言文件: "Language file not found: {0}"

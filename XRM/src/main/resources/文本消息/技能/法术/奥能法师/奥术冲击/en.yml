@@ -1,0 +1,13 @@
+# ============================================
+# MulangEpoch Plugin - 奥术冲击 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+奥术冲击:
+  延长冥想: "[第一技能]Arcane Blast extended [增益]Arcane Meditation effect."
+  命中: "[第一技能]Arcane Blast hit {0}, dealt [伤害数值:{1}] [奥术] damage, gained [秘能]{2}."
+  暴击: "[第一技能]Arcane Blast hit {0}, dealt [伤害数值:{1}] ([暴击]!) [奥术] damage, gained [秘能]{2}."
+  回响命中: "[第一技能]Arcane Blast echo hit {0}, dealt [伤害数值:{1}] [奥术] damage."

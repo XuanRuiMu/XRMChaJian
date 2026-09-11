@@ -1,0 +1,27 @@
+﻿生命条缩放指令:
+
+  模式:
+    总体个数: "Tổng số"
+    单体个数: "Mỗi trái tim"
+
+  当前设置: "<white>Cài đặt [生命条] hiện tại: {0}<white>, giá trị: [其他数值:{1}]"
+
+  用法:
+    标题: "[计分板标题]=== Lệnh Điều chỉnh Thanh Máu ==="
+    总体个数: "[冷却]/healthbarscale total <value> <white>- Đặt tổng số trái tim hiển thị (1-100)"
+    单体个数: "[冷却]/healthbarscale perheart <value> <white>- Đặt HP mỗi trái tim (1-1000)"
+    重置: "[冷却]/healthbarscale reset <white>- Đặt lại về mặc định ({0} trái tim)"
+  错误: "[错误]<white>Lệnh con không xác định, dùng /healthbarscale để xem cách dùng"
+
+  设置成功:
+    总体个数: "<white>Đặt hiển thị [生命条] thành [其他数值:{0}]<white> trái tim"
+    单体个数: "<white>Đặt mỗi trái tim đại diện [其他数值:{0}]<white> [生命条]"
+
+  重置成功: "<white>Đặt lại cài đặt [生命条] về mặc định ([其他数值:{0}]<white> trái tim)"
+
+  通用:
+    无效数字: "[Lỗi]Số không hợp lệ: {0}"
+  错误:
+    数值范围:
+      总体: "[错误]<white>Giá trị phải từ 1-100"
+      单体: "[错误]<white>Giá trị phải từ 1-1000"

@@ -1,0 +1,27 @@
+任务命令:
+  错误:
+    未知子命令: "[错误]Subcomando desconhecido: {0}"
+    无权限: "[错误]Você não tem permissão para executar este comando"
+    目标不在线: "[错误]O jogador alvo não está online"
+    任务不存在: "[错误]A missão não existe: {0}"
+    无进度: "[错误]Este jogador não tem progresso para esta missão"
+    未知操作: "[错误]Operação desconhecida: {0}"
+  用法:
+    主命令: "[警告]Uso: /quest [menu|progress|manage|reload]"
+    管理: "[警告]Uso: /quest manage <accept|complete|reset> <questID> [player]"
+  进度:
+    标题: "[计分板标题:========== Progresso da Missão ==========]"
+    分类标签: "[警告:{0}:]"
+    任务行: "[物理:  {0} ]{1}"
+  状态:
+    未解锁: "[空槽位:Bloqueado]"
+    可接取: "[成功:Disponível]"
+    进行中: "[警告:Em Andamento]"
+    可交付: "[元素世界:Entregável]"
+    已完成: "[治疗数值:Completo]"
+  管理:
+    接取成功: "[成功]Missão aceita para [玩家名:{0}]: [信息:{1}]"
+    完成成功: "[成功]Missão concluída para [玩家名:{0}]: [信息:{1}]"
+    重置成功: "[成功]Missão redefinida para [玩家名:{0}]: [信息:{1}]"
+  重载:
+    成功: "[成功]Configuração de missões recarregada"

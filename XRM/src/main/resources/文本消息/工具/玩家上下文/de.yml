@@ -1,0 +1,4 @@
+﻿玩家上下文:
+  通用:
+    仅玩家: "[Warnung]Dieser Befehl ist nur für Spieler verfügbar"
+    玩家未找到: "[Warnung]Spieler nicht gefunden: {0}"

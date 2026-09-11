@@ -1,0 +1,63 @@
+属性指令:
+
+  用法:
+    标题: "[警告]Penggunaan:"
+    查看自己: "  [冷却]/stats <white>- Lihat atributmu"
+    查看自己简写: "  [冷却]/sx <white>- Lihat atributmu (alias)"
+    查看他人: "  [冷却]/stats <player> <white>- Lihat atribut pemain lain"
+    查看他人简写: "  [冷却]/sx <player> <white>- Lihat atribut pemain lain (alias)"
+
+  界面:
+    分隔线: "[暴击]====================================================="
+    标题行: "[暴击]{0}[冰霜]{1}[黑色]\"[玩家名]{2}[黑色]\"[神圣]{3}"
+    主属性标题: "[魔法]{0}"
+    生存属性标题: "[增益]{0}"
+    战斗属性标题: "[输出]{0}"
+    公共冷却行: "[公共冷却]{0}[物理]{1}"
+
+  属性界面:
+    无职业: "Tanpa Kelas"
+    等级后缀: ""
+    的属性: "'s Attributes"
+    主属性标题: "[Atribut Utama]"
+    生存属性标题: "[Atribut Kelangsungan]"
+    战斗属性标题: "[Atribut Pertempuran]"
+    基础公共冷却时间前缀: "(GCD Dasar: "
+    基础公共冷却时间后缀: ")"
+
+  属性名:
+    力量: "Kekuatan"
+    敏捷: "Kelincahan"
+    智力: "Intelek"
+    生命值: "Kesehatan"
+    生命恢复: "Regenerasi Kesehatan"
+    躲闪几率: "[躲闪]Peluang"
+    公共冷却时间: "[公共冷却时间]"
+    急速: "Kecepatan"
+    法术暴击几率: "[法术暴击几率]"
+    法术暴击伤害: "[法术暴击伤害]"
+    精通: "Penguasaan"
+    全能: "Fleksibilitas"
+    吸血: "[吸血]"
+    移速: "Kecepatan"
+  属性行:
+    普通: "{0}<white>: <white>{1} <aqua>{2}"
+    带单位: "{0}<white>: <white>{1}{2} <aqua>{3}"
+    百分比: "{0}<white>: <white>{1}<white>% <aqua>{2}"
+    生命值: "{0}<white>: <white>{1}<white>/<white>{2} <aqua>{3}"
+    公共冷却: "{0}<white>: <white>{1}{2} <aqua>{3}"
+    躲闪: "<light_purple>{0}: {1}% {2}</light_purple>"
+  单位:
+    秒: "d"
+    每秒: "/d"
+    百分比: "%"
+
+  构成:
+    基础: "Dasar"
+    装备: "Perlengkapan"
+    天赋: "Bakat"
+    临时: "Sementara"
+    分隔符: ", "
+    左括号: "("
+    右括号: ")"
+    数值分隔符: ": "

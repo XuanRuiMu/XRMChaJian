@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Monster"
+  护盾:
+    默认名: "Schild"
+  攻击者:
+    未知: "Onbekend"
+  技能:
+    普攻: "Automatische aanval"
+  动作:
+    攻击: "Aanval"
+  伤害提示: "[伤害数值:{1}] schade toegebracht aan {0}"
+  伤害暴击提示: "[伤害数值:{1}] ([暴击]!) schade toegebracht aan {0}"
+  治疗提示: "[治疗数值:{1}] gezondheid hersteld bij {0}"
+  治疗暴击提示: "[治疗数值:{1}] ([暴击]!) gezondheid hersteld bij {0}"
+  躲闪提示: "{0} ontweek de aanval"
+  战斗日志:
+    吸血回复: " [生命]Levensdiefstal [治疗数值:{0}] hersteld"
+    造成伤害: "[伤害数值:{1}] schade toegebracht aan {0}"
+    受到伤害:
+      默认: "[伤害数值:{0}] schade opgelopen"
+      有减免: "[伤害数值:{0}] schade opgelopen ({2} verminderd [伤害数值:{3}])"
+    脱战回血: "Gevecht verlaten, [治疗数值:{0}] gezondheid hersteld"
+    治疗他人: "[治疗数值:{1}] gezondheid hersteld bij {0}"

@@ -1,0 +1,5 @@
+初始化.完成: "<green>Pengelola pesan diinisialisasi</green>"
+重载.完成: "<green>File pesan dimuat ulang</green>"
+日志.文件创建失败: "<red>Gagal membuat file log: {0}</red>"
+日志.写入失败: "<red>Gagal menulis file log: {0}</red>"
+日志.找不到语言文件: "<yellow>File bahasa tidak ditemukan: {0}</yellow>"

@@ -1,0 +1,7 @@
+仇恨管理器:
+  仇恨:
+    已清除: "[成功]Niedalekie zagrożenie zostało usunięte"
+    调试开启: "[信息]Tryb debugowania zagrożenia włączony"
+    调试关闭: "[信息]Tryb debugowania zagrożenia wyłączony"
+    调试前缀: "[仇恨]"
+    调试消息: "{0} → {1} [仇恨:{2}]"

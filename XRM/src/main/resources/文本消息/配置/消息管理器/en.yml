@@ -1,0 +1,17 @@
+# ============================================
+# MulangEpoch Plugin - 消息管理器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+消息管理器:
+  初始化:
+    完成: "[成功]Message manager initialized"
+  重载:
+    完成: "[成功]Message files reloaded"
+  日志:
+    文件创建失败: "[错误]Failed to create log file: {0}"
+    写入失败: "[错误]Failed to write log file: {0}"
+    找不到语言文件: "[警告]Language file not found: {0}"

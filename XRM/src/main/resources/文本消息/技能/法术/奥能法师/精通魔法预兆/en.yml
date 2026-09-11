@@ -1,0 +1,13 @@
+# ============================================
+# MulangEpoch Plugin - 精通魔法预兆 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+精通魔法预兆:
+  name: "Mastery: Magic Omen"
+  description: "Arcane Mage mastery passive. Gaining [秘能] has a chance to trigger [增益] Omen, increasing the next Arcane-consuming skill's damage; loses 1 [秘能] every 5 seconds out of combat."
+  秘兆触发: "[第九技能]Mastery: Magic Omen triggered [增益] Omen, next Arcane-consuming skill deals increased damage."
+  脱战秘能损失: "[第九技能]Mastery: Magic Omen lost 1 [秘能] out of combat."

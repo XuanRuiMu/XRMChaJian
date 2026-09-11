@@ -1,0 +1,18 @@
+效果管理器:
+  效果获得:
+    增益: "[增益]{0} kreeg [信息]{1}"
+    减益: "[减益]{0} kreeg [警告]{1}"
+  效果移除:
+    过期: "{0}s [信息]{1} is verlopen"
+    覆盖: "{0}s [信息]{1} is overschreven"
+    手动: "{0}s [信息]{1} is verwijderd"
+    护盾破碎: "{0}s [护盾]{1} [错误]verbrijzeld"
+    切换移除: "{0}s [信息]{1} verwijderd door schakelaar"
+    触发消耗: "{0}s [信息]{1} verbruikt door trigger"
+  效果叠加:
+    叠加: "[信息]{0} gestapeld tot [点数]{1} lagen"
+  效果刷新:
+    延长: "[信息]{0} verlengd tot [秒数:{1}]s"
+  护盾:
+    吸收: "[护盾]{0} absorbeerde [点数:{1}] schade"
+    破碎: "[护盾]{0} [错误]verbrijzeld"

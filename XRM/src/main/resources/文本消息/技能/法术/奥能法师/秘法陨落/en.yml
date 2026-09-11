@@ -1,0 +1,12 @@
+# ============================================
+# MulangEpoch Plugin - 秘法陨落 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+秘法陨落:
+  施放: "[蓄力]Charging [秒数:1.5]s, release [第四技能]Arcane Meteor."
+  命中: "[第四技能]Arcane Meteor hit {0}, dealt [伤害数值:{1}] [奥术] damage."
+  命中获得充能: "[第四技能]Arcane Meteor hit {0}, dealt [伤害数值:{1}] [奥术] damage, gained [秘能]1."

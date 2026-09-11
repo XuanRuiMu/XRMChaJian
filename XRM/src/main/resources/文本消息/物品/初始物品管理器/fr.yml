@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Livre de quêtes]"
+    描述: "[暗影]Un livre ancien irradiant d'une lumière violette"
+    右键提示: "[物理]Clic droit pour ouvrir le panneau de quêtes"
+    命令提示: "[物理]Ou utilisez la commande [自定义技能]/quest"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Compétence 1·Épée]"
+      提示: "[物理]Clic gauche pour lancer Compétence 1"
+    第二技能:
+      名称: "[第二技能:Compétence 2·Hache]"
+      提示: "[物理]Clic gauche pour lancer Compétence 2"
+    第三技能:
+      名称: "[第三技能:Compétence 3·Pioche]"
+      提示: "[物理]Clic gauche pour lancer Compétence 3"
+    第四技能:
+      名称: "[第四技能:Compétence 4·Pelle]"
+      提示: "[物理]Clic gauche pour lancer Compétence 4"
+    第五技能:
+      名称: "[第五技能:Compétence 5·Houe]"
+      提示: "[物理]Clic gauche pour lancer Compétence 5"
+    第六技能:
+      名称: "[第六技能:Compétence 6·Lance]"
+      提示: "[物理]Clic gauche pour lancer Compétence 6"
+    第七技能:
+      名称: "[第七技能:Compétence 7·Marteau]"
+      提示: "[物理]Clic gauche pour lancer Compétence 7"
+    第八技能:
+      名称: "[第八技能:Compétence 8·{0}]"
+      提示: "[物理]Clic gauche pour lancer Compétence 8"
+      物品名:
+        书: "Livre"
+        蒲公英: "Pissenlit"
+    不可破坏: "[空槽位]Incassable"

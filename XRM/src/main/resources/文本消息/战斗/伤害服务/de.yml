@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Monster"
+  护盾:
+    默认名: "Schild"
+  攻击者:
+    未知: "Unbekannt"
+  技能:
+    普攻: "Autoangriff"
+  动作:
+    攻击: "Angriff"
+  伤害提示: "[伤害数值:{1}] Schaden an {0} zugefügt"
+  伤害暴击提示: "[伤害数值:{1}] ([暴击]!) Schaden an {0} zugefügt"
+  治疗提示: "[治疗数值:{1}] Gesundheit bei {0} wiederhergestellt"
+  治疗暴击提示: "[治疗数值:{1}] ([暴击]!) Gesundheit bei {0} wiederhergestellt"
+  躲闪提示: "{0} ist dem Angriff ausgewichen"
+  战斗日志:
+    吸血回复: " [生命]Lebensraub [治疗数值:{0}] wiederhergestellt"
+    造成伤害: "[伤害数值:{1}] Schaden an {0} zugefügt"
+    受到伤害:
+      默认: "[伤害数值:{0}] Schaden erlitten"
+      有减免: "[伤害数值:{0}] Schaden erlitten ({2} abgemildert [伤害数值:{3}])"
+    脱战回血: "Kampf verlassen, [治疗数值:{0}] Gesundheit wiederhergestellt"
+    治疗他人: "[治疗数值:{1}] Gesundheit bei {0} wiederhergestellt"

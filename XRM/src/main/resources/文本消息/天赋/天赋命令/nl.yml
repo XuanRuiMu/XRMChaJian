@@ -1,0 +1,45 @@
+天赋命令:
+
+  仅玩家: "[错误]<white>Alleen spelers kunnen dit commando gebruiken."
+  未知子命令: "[错误]<white>Onbekend subcommando: <white>{0}"
+
+  重置:
+    未找到专精: "[错误]<white>Specialisatie niet gevonden: <white>{0}"
+    成功: "[成功]Talenten zijn gereset!"
+    失败: "[错误]<white>Talent-reset mislukt, probeer het later opnieuw."
+
+  列表:
+    树标题: "[计分板标题]═══ {0} ═══"
+    已投入: "[警告]Punten besteed: {0} / {1}"
+    天赋项: "[成功]  ✔ {0} [冷却]- {1}"
+    无天赋: "[警告]<white>Je hebt nog geen talenten geleerd."
+
+  学习:
+    用法: "[错误]<white>Gebruik: [警告]/talent learn <talentID>"
+    成功: "[成功]Talent geleerd: {0}"
+    未找到: "[错误]<white>Talent niet gevonden: <white>{0}"
+
+  信息:
+    用法: "[错误]<white>Gebruik: [警告]/talent info <talentID>"
+    详情标题: "[计分板标题]═══ Talentdetails ═══"
+    名称: "<white>Naam: {0}"
+    ID: "[冷却]ID: {0}"
+    类型: "[冷却]Type: {0}"
+    描述: "<white>Beschrijving: {0}"
+    位置: "[冷却]Positie: ({0}, {1})"
+    所需点数: "[冷却]Vereiste punten: {0}"
+    前置天赋: "[冷却]Vereisten (één van): {0}"
+    选择组: "[冷却]Keuzegroep: {0}"
+    替代: "[冷却]  Alternatief: {0}"
+    状态: "<{0}>{1}</{0}>"
+    状态已学习: "green"
+    状态未学习: "red"
+    未找到: "[错误]<white>Talent niet gevonden: <white>{0}"
+
+  帮助:
+    标题: "[计分板标题]═══ Talent Commando Hulp ═══"
+    菜单: "[警告]/talent <white>- Talentmenu openen"
+    重置: "[警告]/talent reset [spec] <white>- Talenten resetten"
+    列表: "[警告]/talent list <white>- Geleerde talenten weergeven"
+    学习: "[警告]/talent learn <talentID> <white>- Een talent leren"
+    信息: "[警告]/talent info <talentID> <white>- Talentdetails bekijken"

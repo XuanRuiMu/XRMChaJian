@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Nachrichtenmanager initialisiert"
+  重载:
+    完成: "[成功]Nachrichtendateien neu geladen"
+  日志:
+    文件创建失败: "[错误]Protokolldatei konnte nicht erstellt werden: {0}"
+    写入失败: "[错误]Protokolldatei konnte nicht geschrieben werden: {0}"
+    找不到语言文件: "[警告]Sprachdatei nicht gefunden: {0}"

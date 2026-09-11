@@ -1,0 +1,24 @@
+# ============================================
+# MulangEpoch Plugin - 天赋管理器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Specialization talent tree not found: <white>{0}"
+    未找到天赋: "[错误]<white>Talent not found: <white>{0}"
+    已经学习: "[错误]<white>You have already learned this talent."
+    点数用完: "[错误]<white>Talent points exhausted."
+    点数不足: "[错误]<white>More talent points required in this tree to unlock (need [点数:{0}], have [点数:{1}])"
+    前置未满足: "[错误]<white>Prerequisite talents not met."
+    选择组冲突: "[错误]<white>Conflicts with learned talent「{0}」, only one per choice group."
+    保存失败: "[错误]<white>Database save failed."
+
+  取消:
+    未学习: "[错误]<white>Talent not learned."
+    依赖冲突: "[错误]<white>Talent「{0}」depends on this, please unlearn it first."
+    删除失败: "[错误]<white>Database delete failed."

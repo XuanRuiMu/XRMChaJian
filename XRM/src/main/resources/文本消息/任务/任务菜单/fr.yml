@@ -1,0 +1,44 @@
+任务菜单:
+  标题: "[计分板标题]Panneau de Quêtes"
+  分类:
+    主线任务: "[计分板标题]Quête Principale"
+    主线任务描述: "[物理]Cliquez pour voir la progression de la quête principale"
+    支线任务: "[成功]§lQuête Secondaire"
+    支线任务描述: "[物理]Cliquez pour voir la progression des quêtes secondaires"
+    日常任务: "[信息]§lQuête Journalière"
+    日常任务描述: "[物理]Cliquez pour voir la progression des quêtes journalières"
+  详情:
+    标题: "[计分板标题]Détails de la Quête"
+    描述: "[警告]§lDescription de la Quête"
+    目标: "[警告]§lObjectifs de la Quête"
+    状态: "[警告]§lStatut de la Quête"
+    NPC信息: "[警告]§lInfo NPC"
+  标签:
+    类型: "[空槽位]Type : [自定义技能]{0}"
+    目标击杀: "[空槽位]Cible : [自定义技能]Tuer {0}"
+    目标收集: "[空槽位]Cible : [自定义技能]Collecter {0}"
+    数量: "[空槽位]Quantité : [自定义技能]{0}/{1}"
+    检测器: "[空槽位]Détecteur : [自定义技能]{0}"
+    重置: "[空槽位]Réinitialiser : [自定义技能]{0}"
+    冷却: "[空槽位]Recharge : [自定义技能]{0} heures"
+    刷新: "[空槽位]Rafraîchissement : [自定义技能]Quotidien {0}"
+    接取: "[空槽位]Accepter : [自定义技能]{0}"
+    交付: "[空槽位]Livrer : [自定义技能]{0}"
+    前置: "[空槽位]Prérequis : [自定义技能]{0}"
+  描述:
+    行: "[物理]{0}"
+  按钮:
+    返回: "[错误]§lRetour"
+    返回分类描述: "[物理]Retour aux catégories de quêtes"
+    返回列表描述: "[物理]Retour à la liste des quêtes"
+    点击查看详情: "[警告]Cliquez pour les détails"
+  任务图标:
+    名称: "[自定义技能]{0}"
+    类型行: "[空槽位]Type : [自定义技能]{0}"
+    前置行: "[空槽位]Prérequis : [自定义技能]{0}"
+  状态:
+    未解锁: "[空槽位]Verrouillé"
+    可接取: "[成功]Disponible"
+    进行中: "[警告]En Cours"
+    可交付: "[元素世界]Livrable"
+    已完成: "[治疗数值]Terminé"

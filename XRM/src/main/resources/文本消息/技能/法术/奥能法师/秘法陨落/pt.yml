@@ -1,0 +1,4 @@
+秘法陨落:
+  施放: '[蓄力]Carregando [秒数:1.5]s, liberar [第四技能]Arcane Meteor.'
+  命中: '[第四技能]Arcane Meteor atinge {0}, inflige [伤害数值:{1}] [奥术] dano.'
+  命中中获得充能: '[第四技能]Arcane Meteor atinge {0}, inflige [伤害数值:{1}] [奥术] dano, ganhou [秘能]1.'

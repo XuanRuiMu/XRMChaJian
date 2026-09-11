@@ -1,0 +1,16 @@
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Pohon bakat spesialisasi tidak ditemukan: <white>{0}"
+    未找到天赋: "[错误]<white>Bakat tidak ditemukan: <white>{0}"
+    已经学习: "[错误]<white>Anda sudah mempelajari bakat ini."
+    点数用完: "[错误]<white>Poin bakat habis."
+    点数不足: "[错误]<white>Perlu lebih banyak poin bakat di pohon ini untuk membuka (butuh [点数:{0}], punya [点数:{1}])"
+    前置未满足: "[错误]<white>Prasyarat bakat tidak terpenuhi."
+    选择组冲突: "[错误]<white>Bertentangan dengan bakat yang dipelajari「{0}」, hanya satu per grup pilihan."
+    保存失败: "[错误]<white>Gagal menyimpan ke database."
+
+  取消:
+    未学习: "[错误]<white>Bakat belum dipelajari."
+    依赖冲突: "[错误]<white>Bakat「{0}」bergantung pada ini, silakan batalkan terlebih dahulu."
+    删除失败: "[错误]<white>Gagal menghapus dari database."

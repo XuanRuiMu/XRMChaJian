@@ -1,0 +1,16 @@
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Specialisatie-talentenboom niet gevonden: <white>{0}"
+    未找到天赋: "[错误]<white>Talent niet gevonden: <white>{0}"
+    已经学习: "[错误]<white>Je hebt dit talent al geleerd."
+    点数用完: "[错误]<white>Talentpunten opgebruikt."
+    点数不足: "[错误]<white>Meer talentpunten in deze boom vereist om te ontgrendelen (nodig [点数:{0}], heb [点数:{1}])"
+    前置未满足: "[错误]<white>Vereiste talenten niet vervuld."
+    选择组冲突: "[错误]<white>Conflict met geleerd talent「{0}」, slechts één per keuzegroep."
+    保存失败: "[错误]<white>Database-opslag mislukt."
+
+  取消:
+    未学习: "[错误]<white>Talent niet geleerd."
+    依赖冲突: "[错误]<white>Talent「{0}」is hiervan afhankelijk, verleer het eerst."
+    删除失败: "[错误]<white>Database-verwijdering mislukt."

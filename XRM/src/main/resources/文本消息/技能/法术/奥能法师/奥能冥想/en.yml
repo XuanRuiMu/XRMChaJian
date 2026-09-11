@@ -1,0 +1,11 @@
+# ============================================
+# MulangEpoch Plugin - 奥能冥想 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+奥能冥想:
+  施放: "Released [第七技能], consumed {0} [秘能], healed [治疗数值:{1}] <dark_green>HP</dark_green>."
+  效果结束: "[第七技能] charge complete, gained [点数:{0}] <blue>temporary Intellect</blue>."

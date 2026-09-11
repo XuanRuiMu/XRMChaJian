@@ -1,0 +1,8 @@
+日志合并管理器:
+  前缀:
+    技能日志: "[技能日志前缀:Skill Log]"
+    战斗日志: "[战斗日志前缀:Combat Log]"
+  警告:
+    玩家不在线: "Speler offline, samengevoegd logboek verwijderd: speler={0}"
+  错误:
+    发送失败: "Samengevoegd logboek verzenden mislukt: sleutel={0} reden={1}"

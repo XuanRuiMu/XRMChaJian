@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Libro de misiones]"
+    描述: "[暗影]Un libro antiguo que emite luz púrpura"
+    右键提示: "[物理]Clic derecho para abrir el panel de misiones"
+    命令提示: "[物理]O usa el comando [自定义技能]/quest"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Habilidad 1·Espada]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 1"
+    第二技能:
+      名称: "[第二技能:Habilidad 2·Hacha]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 2"
+    第三技能:
+      名称: "[第三技能:Habilidad 3·Pico]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 3"
+    第四技能:
+      名称: "[第四技能:Habilidad 4·Pala]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 4"
+    第五技能:
+      名称: "[第五技能:Habilidad 5·Azada]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 5"
+    第六技能:
+      名称: "[第六技能:Habilidad 6·Lanza]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 6"
+    第七技能:
+      名称: "[第七技能:Habilidad 7·Martillo]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 7"
+    第八技能:
+      名称: "[第八技能:Habilidad 8·{0}]"
+      提示: "[物理]Clic izquierdo para lanzar Habilidad 8"
+      物品名:
+        书: "Libro"
+        蒲公英: "Diente de león"
+    不可破坏: "[空槽位]Irrompible"

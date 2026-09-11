@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Pengurus mesej dimulakan"
+  重载:
+    完成: "[成功]Fail mesej dimuat semula"
+  日志:
+    文件创建失败: "[错误]Gagal mencipta fail log: {0}"
+    写入失败: "[错误]Gagal menulis fail log: {0}"
+    找不到语言文件: "[警告]Fail bahasa tidak dijumpai: {0}"

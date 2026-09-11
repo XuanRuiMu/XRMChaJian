@@ -1,0 +1,8 @@
+秘法崩裂:
+  施放: '[延迟]Werpt in [秒数:0.4]s, vrijgeven [第二技能]Arcane Eruption.'
+  无充能: '[第二技能]Arcane Eruption werping mislukt, [秘能] onvoldoende.'
+  无目标: '[第二技能]Arcane Eruption verbruikte [秘能], geen doelen binnen bereik.'
+  单目标命中: '[第二技能]Arcane Eruption raakt {0}, veroorzaakt [伤害数值:{1}] [奥术] schade, verbruikt [秘能]{2}.'
+  单目标暴击: '[第二技能]Arcane Eruption raakt {0}, veroorzaakt [伤害数值:{1}] ([暴击]!) [奥术] schade, verbruikt [秘能]{2}.'
+  命中: '[第二技能]Arcane Eruption raakt {0} doelen, gemiddeld [伤害数值:{1}] [奥术] schade, verbruikt [秘能]{2}.'
+  暴击: '[第二技能]Arcane Eruption raakt {0} doelen, gemiddeld [伤害数值:{1}] ([暴击]!) [奥术] schade, verbruikt [秘能]{2}.'

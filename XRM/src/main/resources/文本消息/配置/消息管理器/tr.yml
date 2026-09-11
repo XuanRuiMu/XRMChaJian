@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Mesaj yöneticisi başlatıldı"
+  重载:
+    完成: "[成功]Mesaj dosyaları yeniden yüklendi"
+  日志:
+    文件创建失败: "[错误]Günlük dosyası oluşturulamadı: {0}"
+    写入失败: "[错误]Günlük dosyasına yazılamadı: {0}"
+    找不到语言文件: "[警告]Dil dosyası bulunamadı: {0}"

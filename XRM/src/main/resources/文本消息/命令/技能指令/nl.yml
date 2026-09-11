@@ -1,0 +1,23 @@
+技能指令:
+  按键标签: "Toets: "
+  冷却时间: "Afkoeltijd: {0}s"
+  蓄力时间: "Giettijd: {0}s"
+  引导时间: "Kanaaltijd: {0}s"
+  菜单标题: "<gold>{0} - {1}</gold>"
+  槽位:
+    技能1: "Vaardigheid 1"
+    技能2: "Vaardigheid 2"
+    技能3: "Vaardigheid 3"
+    技能4: "Vaardigheid 4"
+    技能5: "Vaardigheid 5"
+    技能6: "Vaardigheid 6"
+    技能7: "Vaardigheid 7"
+    技能8: "Vaardigheid 8"
+  菜单:
+    未配置: "[错误]Vaardighedenmenu niet geconfigureerd"
+  选择:
+    未选择: "[Info]Je hebt nog geen klasse gekozen"
+  技能:
+    标题: "Vaardigheidselectie"
+  通用:
+    关闭: "Sluiten"

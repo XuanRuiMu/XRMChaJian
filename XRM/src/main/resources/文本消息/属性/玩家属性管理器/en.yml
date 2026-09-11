@@ -1,0 +1,11 @@
+# ============================================
+# MulangEpoch Plugin - 玩家属性管理器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+玩家属性管理器:
+  战斗日志:
+    脱战回血: "[脱战回血]+{0}"

@@ -1,0 +1,6 @@
+混沌束缚:
+  施放: Thi triển [第五技能]Chaos Bind.
+  命中: '[第五技能]Chaos Bind trúng {0}, gây ra [伤害数值:{1}] [混乱] sát thương, áp dụng [减益]Slow, nhận được [秘能]{2}.'
+  暴击: '[第五技能]Chaos Bind trúng {0}, gây ra [伤害数值:{1}] ([暴击]!) [混乱] sát thương, áp dụng [减益]Slow, nhận được [秘能]{2}.'
+  命中含范围: '[第五技能]Chaos Bind trúng {0}, gây ra [伤害数值:{1}] [混乱] sát thương, áp dụng [减益]Slow, nhận được [秘能]{2}, phạm vi trúng {3} mục tiêu gây [伤害数值:{4}] sát thương.'
+  暴击含范围: '[第五技能]Chaos Bind trúng {0}, gây ra [伤害数值:{1}] ([暴击]!) [混乱] sát thương, áp dụng [减益]Slow, nhận được [秘能]{2}, phạm vi trúng {3} mục tiêu gây [伤害数值:{4}] sát thương.'

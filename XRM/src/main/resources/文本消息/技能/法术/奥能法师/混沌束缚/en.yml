@@ -1,0 +1,14 @@
+# ============================================
+# MulangEpoch Plugin - 混沌束缚 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+混沌束缚:
+  施放: "Cast [第五技能]Chaos Bind."
+  命中: "[第五技能]Chaos Bind hit {0}, dealt [伤害数值:{1}] [混乱] damage, applied [减益]Slow, gained [秘能]{2}."
+  暴击: "[第五技能]Chaos Bind hit {0}, dealt [伤害数值:{1}] ([暴击]!) [混乱] damage, applied [减益]Slow, gained [秘能]{2}."
+  命中含范围: "[第五技能]Chaos Bind hit {0}, dealt [伤害数值:{1}] [混乱] damage, applied [减益]Slow, gained [秘能]{2}, AoE hit {3} targets for [伤害数值:{4}] damage."
+  暴击含范围: "[第五技能]Chaos Bind hit {0}, dealt [伤害数值:{1}] ([暴击]!) [混乱] damage, applied [减益]Slow, gained [秘能]{2}, AoE hit {3} targets for [伤害数值:{4}] damage."

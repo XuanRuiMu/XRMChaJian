@@ -1,0 +1,19 @@
+# ============================================
+# MulangEpoch Plugin - 秘法湮灭 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+秘法湮灭:
+  施放: "[延迟]Casting in [秒数:3.0]s, release [第八技能]Arcane Annihilation."
+  第一波: "[第八技能]Arcane Annihilation wave 1, dealt [伤害数值:{0}] [奥术] damage."
+  第一波暴击: "[第八技能]Arcane Annihilation wave 1, dealt [伤害数值:{0}] ([暴击]!) [奥术] damage."
+  第二波: "[第八技能]Arcane Annihilation wave 2, dealt [伤害数值:{0}] [奥术] damage."
+  第二波暴击: "[第八技能]Arcane Annihilation wave 2, dealt [伤害数值:{0}] ([暴击]!) [奥术] damage."
+  第三波: "[第八技能]Arcane Annihilation wave 3, dealt [伤害数值:{0}] [奥术] damage."
+  第三波暴击: "[第八技能]Arcane Annihilation wave 3, dealt [伤害数值:{0}] ([暴击]!) [奥术] damage."
+  第三波有充能: "[第八技能]Arcane Annihilation wave 3, dealt [伤害数值:{0}] [奥术] damage, gained [秘能]1."
+  第四波: "[第八技能]Arcane Annihilation final burst, dealt [伤害数值:{0}] [奥术] damage, gained [秘能]{1}."
+  第四波暴击: "[第八技能]Arcane Annihilation final burst, dealt [伤害数值:{0}] ([暴击]!) [奥术] damage, gained [秘能]{1}."

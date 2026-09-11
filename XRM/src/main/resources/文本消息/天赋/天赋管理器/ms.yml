@@ -1,0 +1,16 @@
+天赋管理器:
+
+  学习:
+    未找到专精: "[错误]<white>Pokok bakat pengkhususan tidak ditemui: <white>{0}"
+    未找到天赋: "[错误]<white>Bakat tidak ditemui: <white>{0}"
+    已经学习: "[错误]<white>Anda sudah mempelajari bakat ini."
+    点数用完: "[错误]<white>Mata bakat habis."
+    点数不足: "[错误]<white>Perlu lebih banyak mata bakat dalam pokok ini untuk membuka kunci (perlu [点数:{0}], ada [点数:{1}])"
+    前置未满足: "[错误]<white>Prasyarat bakat tidak dipenuhi."
+    选择组冲突: "[错误]<white>Bercanggah dengan bakat yang dipelajari「{0}」, hanya satu per kumpulan pilihan."
+    保存失败: "[错误]<white>Gagal menyimpan ke pangkalan data."
+
+  取消:
+    未学习: "[错误]<white>Bakat belum dipelajari."
+    依赖冲突: "[错误]<white>Bakat「{0}」bergantung pada ini, sila batalkan terlebih dahulu."
+    删除失败: "[错误]<white>Gagal memadam dari pangkalan data."

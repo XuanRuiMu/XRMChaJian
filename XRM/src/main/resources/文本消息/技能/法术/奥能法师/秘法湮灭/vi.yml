@@ -1,0 +1,11 @@
+秘法湮灭:
+  施放: '[延迟]Thi triển trong [秒数:3.0]s, giải phóng [第八技能]Arcane Annihilation.'
+  第一波: '[第八技能]Arcane Annihilation đợt 1, gây ra [伤害数值:{0}] [奥术] sát thương.'
+  第一波暴击: '[第八技能]Arcane Annihilation đợt 1, gây ra [伤害数值:{0}] ([暴击]!) [奥术] sát thương.'
+  第二波: '[第八技能]Arcane Annihilation đợt 2, gây ra [伤害数值:{0}] [奥术] sát thương.'
+  第二波暴击: '[第八技能]Arcane Annihilation đợt 2, gây ra [伤害数值:{0}] ([暴击]!) [奥术] sát thương.'
+  第三波: '[第八技能]Arcane Annihilation đợt 3, gây ra [伤害数值:{0}] [奥术] sát thương.'
+  第三波暴击: '[第八技能]Arcane Annihilation đợt 3, gây ra [伤害数值:{0}] ([暴击]!) [奥术] sát thương.'
+  第三波有充能: '[第八技能]Arcane Annihilation đợt 3, gây ra [伤害数值:{0}] [奥术] sát thương, nhận được [秘能]1.'
+  第四波: '[第八技能]Arcane Annihilation vụ nổ cuối, gây ra [伤害数值:{0}] [奥术] sát thương, nhận được [秘能]{1}.'
+  第四波暴击: '[第八技能]Arcane Annihilation vụ nổ cuối, gây ra [伤害数值:{0}] ([暴击]!) [奥术] sát thương, nhận được [秘能]{1}.'

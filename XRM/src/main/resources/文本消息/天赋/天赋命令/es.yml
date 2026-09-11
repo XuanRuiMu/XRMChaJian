@@ -1,0 +1,45 @@
+天赋命令:
+
+  仅玩家: "[错误]<white>Solo los jugadores pueden usar este comando."
+  未知子命令: "[错误]<white>Subcomando desconocido: <white>{0}"
+
+  重置:
+    未找到专精: "[错误]<white>Especialización no encontrada: <white>{0}"
+    成功: "[成功]¡Talentos restablecidos!"
+    失败: "[错误]<white>Restablecimiento de talentos fallido, inténtalo de nuevo más tarde."
+
+  列表:
+    树标题: "[计分板标题]═══ {0} ═══"
+    已投入: "[警告]Puntos gastados: {0} / {1}"
+    天赋项: "[成功]  ✔ {0} [冷却]- {1}"
+    无天赋: "[警告]<white>Aún no has aprendido ningún talento."
+
+  学习:
+    用法: "[错误]<white>Uso: [警告]/talent learn <talentID>"
+    成功: "[成功]Talento aprendido: {0}"
+    未找到: "[错误]<white>Talento no encontrado: <white>{0}"
+
+  信息:
+    用法: "[错误]<white>Uso: [警告]/talent info <talentID>"
+    详情标题: "[计分板标题]═══ Detalles del Talento ═══"
+    名称: "<white>Nombre: {0}"
+    ID: "[冷却]ID: {0}"
+    类型: "[冷却]Tipo: {0}"
+    描述: "<white>Descripción: {0}"
+    位置: "[冷却]Posición: ({0}, {1})"
+    所需点数: "[冷却]Puntos requeridos: {0}"
+    前置天赋: "[冷却]Prerrequisitos (cualquiera): {0}"
+    选择组: "[冷却]Grupo de elección: {0}"
+    替代: "[冷却]  Alternativa: {0}"
+    状态: "<{0}>{1}</{0}>"
+    状态已学习: "green"
+    状态未学习: "red"
+    未找到: "[错误]<white>Talento no encontrado: <white>{0}"
+
+  帮助:
+    标题: "[计分板标题]═══ Ayuda del Comando de Talentos ═══"
+    菜单: "[警告]/talent <white>- Abrir menú de talentos"
+    重置: "[警告]/talent reset [spec] <white>- Restablecer talentos"
+    列表: "[警告]/talent list <white>- Listar talentos aprendidos"
+    学习: "[警告]/talent learn <talentID> <white>- Aprender un talento"
+    信息: "[警告]/talent info <talentID> <white>- Ver detalles del talento"

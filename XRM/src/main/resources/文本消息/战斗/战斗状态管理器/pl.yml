@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Wszedłeś do walki"
+    离开: "[脱战]Opuściłeś walkę"
+    战斗中禁止命令: "[警告]Nie możesz użyć tej komendy podczas walki"
+    战斗中禁止更换装备: "[警告]Nie można zmieniać wyposażenia podczas walki"
+  调试:
+    开启: "[信息]Tryb debugowania walki włączony"
+    关闭: "[信息]Tryb debugowania walki wyłączony"

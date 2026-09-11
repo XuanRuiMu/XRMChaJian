@@ -1,0 +1,32 @@
+# ============================================
+# MulangEpoch Plugin - Common Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+技能日志前缀: "<light_purple>[Skill Log]</light_purple>"
+战斗日志前缀: "<red>[Combat Log]</red>"
+错误前缀: "<red>[Error]</red>"
+
+通用:
+  未知: "Unknown"
+  错误:
+    无权限: "[错误]You do not have permission to perform this action"
+    玩家不在线: "[错误]Player not online: {0}"
+    仅玩家可用: "[错误]This command is only available to players"
+    未知错误: "[错误]An unknown error occurred: {0}"
+    会话不存在: "[错误]Session not found"
+    参数不足: "[错误]Insufficient arguments"
+    无效参数: "[错误]Invalid argument: {0}"
+    命令冷却: "[错误]Command on cooldown, please try again later"
+  提示:
+    重载成功: "[成功]Configuration reloaded"
+    操作成功: "[成功]Operation successful"
+    操作失败: "[错误]Operation failed"
+    数据保存成功: "[成功]Data saved"
+    数据加载成功: "[成功]Data loaded"
+  用法:
+    通用前缀: "[警告]Usage: {0}"
+    参数提示: "[警告]Args: {0}"

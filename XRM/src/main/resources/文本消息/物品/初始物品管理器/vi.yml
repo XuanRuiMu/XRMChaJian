@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Sách Nhiệm vụ]"
+    描述: "[暗影]Một cuốn sách cổ tỏa ánh sáng tím"
+    右键提示: "[物理]Nhấp chuột phải để mở bảng nhiệm vụ"
+    命令提示: "[物理]Hoặc sử dụng lệnh [自定义技能]/quest"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Kỹ năng 1·Kiếm]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 1"
+    第二技能:
+      名称: "[第二技能:Kỹ năng 2·Rìu]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 2"
+    第三技能:
+      名称: "[第三技能:Kỹ năng 3·Cuốc]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 3"
+    第四技能:
+      名称: "[第四技能:Kỹ năng 4·Xẻng]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 4"
+    第五技能:
+      名称: "[第五技能:Kỹ năng 5·Cuốc xới]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 5"
+    第六技能:
+      名称: "[第六技能:Kỹ năng 6·Giáo]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 6"
+    第七技能:
+      名称: "[第七技能:Kỹ năng 7·Búa]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 7"
+    第八技能:
+      名称: "[第八技能:Kỹ năng 8·{0}]"
+      提示: "[物理]Nhấp chuột trái để thi triển Kỹ năng 8"
+      物品名:
+        书: "Sách"
+        蒲公英: "Bồ công anh"
+    不可破坏: "[空槽位]Không thể phá hủy"

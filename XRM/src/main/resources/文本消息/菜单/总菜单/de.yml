@@ -1,0 +1,23 @@
+# ============================================
+# MulangEpoch Plugin - Hauptmenü Nachrichten
+# ============================================
+
+总菜单:
+  标题: "<gold>Funktionsmenü</gold>"
+  任务系统:
+    名称: "<yellow>Questsystem</yellow>"
+    描述: "<gray>Klicken, um Quest-Menü zu öffnen</gray>"
+    描述2: "<aqua>Verschiedene Quests ansehen und annehmen</aqua>"
+  属性系统:
+    名称: "<green>Attributsystem</green>"
+    描述: "<gray>Klicken, um Attribute zu öffnen</gray>"
+  技能日志设置:
+    名称: "<blue>Fähigkeitsprotokoll-Einstellungen</blue>"
+    描述: "<gray>Klicken, um Fähigkeitsprotokoll umzuschalten</gray>"
+  战斗日志设置:
+    名称: "<dark_purple>Kampfprotokoll-Einstellungen</dark_purple>"
+    描述: "<gray>Klicken, um Kampfprotokoll umzuschalten</gray>"
+  状态行: "<aqua>Aktueller Status: {0}</aqua>"
+  状态:
+    开启: "<green>An</green>"
+    关闭: "<red>Aus</red>"

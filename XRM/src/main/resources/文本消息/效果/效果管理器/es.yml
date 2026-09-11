@@ -1,0 +1,18 @@
+效果管理器:
+  效果获得:
+    增益: "[增益]{0} obtuvo [信息]{1}"
+    减益: "[减益]{0} obtuvo [警告]{1}"
+  效果移除:
+    过期: "El [信息]{1} de {0} ha expirado"
+    覆盖: "El [信息]{1} de {0} fue sobrescrito"
+    手动: "El [信息]{1} de {0} fue eliminado"
+    护盾破碎: "El [护盾]{1} de {0} [错误]se ha roto"
+    切换移除: "El [信息]{1} de {0} fue eliminado por alternancia"
+    触发消耗: "El [信息]{1} de {0} fue consumido por activación"
+  效果叠加:
+    叠加: "[信息]{0} se apiló a [点数]{1} capas"
+  效果刷新:
+    延长: "[信息]{0} extendido a [秒数:{1}]s"
+  护盾:
+    吸收: "[护盾]{0} absorbió [点数:{1}] de daño"
+    破碎: "[护盾]{0} [错误]se ha roto"

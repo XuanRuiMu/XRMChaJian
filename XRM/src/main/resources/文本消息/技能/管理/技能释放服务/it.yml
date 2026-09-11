@@ -1,0 +1,9 @@
+技能释放服务:
+  通用:
+    公共冷却中: '[冷却]Recupero globale [秒数:{0}]s'
+    冷却中: '[冷却中]{0} in recupero [秒数:{1}]s'
+    蓄力后释放: '[蓄力]Caricamento [秒数:{0}]s poi lancia {1}'
+    引导后释放: '[引导]Canalizzazione [秒数:{0}]s poi lancia {1}'
+    执行错误: '[错误]Errore di esecuzione abilità: {0}'
+    蓄力被打断: '[打断]Carica interrotta'
+    引导被打断: '[打断]Canalizzazione interrotta'

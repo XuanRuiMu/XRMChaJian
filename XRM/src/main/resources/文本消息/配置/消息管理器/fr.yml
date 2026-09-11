@@ -1,0 +1,9 @@
+消息管理器:
+  初始化:
+    完成: "[成功]Gestionnaire de messages initialisé"
+  重载:
+    完成: "[成功]Fichiers de messages rechargés"
+  日志:
+    文件创建失败: "[错误]Impossible de créer le fichier journal : {0}"
+    写入失败: "[错误]Impossible d'écrire le fichier journal : {0}"
+    找不到语言文件: "[警告]Fichier de langue introuvable : {0}"

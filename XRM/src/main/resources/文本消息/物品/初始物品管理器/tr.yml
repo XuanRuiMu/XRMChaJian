@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Görev Kitabı]"
+    描述: "[暗影]Mor ışık yayan kadim bir kitap"
+    右键提示: "[物理]Görev panelini açmak için sağ tıklayın"
+    命令提示: "[物理]Veya [自定义技能]/quest [物理]komutunu kullanın"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Yetenek 1·Kılıç]"
+      提示: "[物理]Yetenek 1'i kullanmak için sol tıklayın"
+    第二技能:
+      名称: "[第二技能:Yetenek 2·Balta]"
+      提示: "[物理]Yetenek 2'yi kullanmak için sol tıklayın"
+    第三技能:
+      名称: "[第三技能:Yetenek 3·Kazma]"
+      提示: "[物理]Yetenek 3'ü kullanmak için sol tıklayın"
+    第四技能:
+      名称: "[第四技能:Yetenek 4·Kürek]"
+      提示: "[物理]Yetenek 4'ü kullanmak için sol tıklayın"
+    第五技能:
+      名称: "[第五技能:Yetenek 5·Çapa]"
+      提示: "[物理]Yetenek 5'i kullanmak için sol tıklayın"
+    第六技能:
+      名称: "[第六技能:Yetenek 6·Mızrak]"
+      提示: "[物理]Yetenek 6'yı kullanmak için sol tıklayın"
+    第七技能:
+      名称: "[第七技能:Yetenek 7·Çekiç]"
+      提示: "[物理]Yetenek 7'yi kullanmak için sol tıklayın"
+    第八技能:
+      名称: "[第八技能:Yetenek 8·{0}]"
+      提示: "[物理]Yetenek 8'i kullanmak için sol tıklayın"
+      物品名:
+        书: "Kitap"
+        蒲公英: "Karahindiba"
+    不可破坏: "[空槽位]Kırılamaz"

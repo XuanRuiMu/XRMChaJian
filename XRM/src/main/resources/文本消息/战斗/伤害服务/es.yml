@@ -1,0 +1,24 @@
+伤害服务:
+  实体类型:
+    怪物: "Monstruo"
+  护盾:
+    默认名: "Escudo"
+  攻击者:
+    未知: "Desconocido"
+  技能:
+    普攻: "Ataque automático"
+  动作:
+    攻击: "Ataque"
+  伤害提示: "Infligió [伤害数值:{1}] de daño a {0}"
+  伤害暴击提示: "Infligió [伤害数值:{1}] ([暴击]!) de daño a {0}"
+  治疗提示: "Restaurado [治疗数值:{1}] de salud a {0}"
+  治疗暴击提示: "Restaurado [治疗数值:{1}] ([暴击]!) de salud a {0}"
+  躲闪提示: "{0} esquivó el ataque"
+  战斗日志:
+    吸血回复: " [生命]Robo de vida restauró [治疗数值:{0}]"
+    造成伤害: "Infligió [伤害数值:{1}] de daño a {0}"
+    受到伤害:
+      默认: "Recibido [伤害数值:{0}] de daño"
+      有减免: "Recibido [伤害数值:{0}] de daño ({2} mitigado [伤害数值:{3}])"
+    脱战回血: "Salió de combate, salud restaurada [治疗数值:{0}]"
+    治疗他人: "Restaurado [治疗数值:{1}] de salud a {0}"

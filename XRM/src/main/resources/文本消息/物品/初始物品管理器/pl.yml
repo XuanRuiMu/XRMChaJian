@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Księga zadań]"
+    描述: "[暗影]Starożytna księga emanująca fioletowym światłem"
+    右键提示: "[物理]Prawy klik, aby otworzyć panel zadań"
+    命令提示: "[物理]Lub użyj komendy [自定义技能]/quest"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Zdolność 1·Miecz]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 1"
+    第二技能:
+      名称: "[第二技能:Zdolność 2·Topór]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 2"
+    第三技能:
+      名称: "[第三技能:Zdolność 3·Kilof]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 3"
+    第四技能:
+      名称: "[第四技能:Zdolność 4·Łopata]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 4"
+    第五技能:
+      名称: "[第五技能:Zdolność 5·Motyka]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 5"
+    第六技能:
+      名称: "[第六技能:Zdolność 6·Włócznia]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 6"
+    第七技能:
+      名称: "[第七技能:Zdolność 7·Młot]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 7"
+    第八技能:
+      名称: "[第八技能:Zdolność 8·{0}]"
+      提示: "[物理]Lewy klik, aby rzucić Zdolność 8"
+      物品名:
+        书: "Książka"
+        蒲公英: "Mniszek"
+    不可破坏: "[空槽位]Niezniszczalny"

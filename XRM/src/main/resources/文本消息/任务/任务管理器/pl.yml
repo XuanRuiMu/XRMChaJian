@@ -1,0 +1,12 @@
+任务管理器:
+  对话:
+    格式: "[元素世界]{0}"
+  任务:
+    接取成功: "[成功]Zadanie przyjęte: [信息:{0}]"
+    目标完成: "[成功]Cel zadania osiągnięty: [信息:{0}]"
+    进度更新: "[警告]Postęp zadania: [信息:{0}] [点数:{1}/{2}]"
+    进度回退: "[错误]Postęp zadania cofnięty: [信息:{0}]"
+    条件达成: "[成功]Warunek zadania spełniony: [信息:{0}]"
+    完成: "[成功]Zadanie ukończone: [元素世界:{0}]"
+    奖励经验: "[治疗数值]Zdobyto poziomy doświadczenia: [点数:{0}]"
+    新任务解锁: "[成功]Nowe zadanie odblokowane!"

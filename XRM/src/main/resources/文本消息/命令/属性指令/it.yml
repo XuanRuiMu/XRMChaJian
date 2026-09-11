@@ -1,0 +1,63 @@
+属性指令:
+
+  用法:
+    标题: "[警告]Utilizzo:"
+    查看自己: "  [冷却]/stats <white>- Visualizza i tuoi attributi"
+    查看自己简写: "  [冷却]/sx <white>- Visualizza i tuoi attributi (alias)"
+    查看他人: "  [冷却]/stats <player> <white>- Visualizza gli attributi di un altro giocatore"
+    查看他人简写: "  [冷却]/sx <player> <white>- Visualizza gli attributi di un altro giocatore (alias)"
+
+  界面:
+    分隔线: "[暴击]====================================================="
+    标题行: "[暴击]{0}[冰霜]{1}[黑色]\"[玩家名]{2}[黑色]\"[神圣]{3}"
+    主属性标题: "[魔法]{0}"
+    生存属性标题: "[增益]{0}"
+    战斗属性标题: "[输出]{0}"
+    公共冷却行: "[公共冷却]{0}[物理]{1}"
+
+  属性界面:
+    无职业: "Nessuna Classe"
+    等级后缀: ""
+    的属性: "'s Attributi"
+    主属性标题: "[Attributi Primari]"
+    生存属性标题: "[Attributi di Sopravvivenza]"
+    战斗属性标题: "[Attributi di Combattimento]"
+    基础公共冷却时间前缀: "(GCD Base: "
+    基础公共冷却时间后缀: ")"
+
+  属性名:
+    力量: "Forza"
+    敏捷: "Agilità"
+    智力: "Intelletto"
+    生命值: "Salute"
+    生命恢复: "Rigenerazione Salute"
+    躲闪几率: "[躲闪]Probabilità"
+    公共冷却时间: "[公共冷却时间]"
+    急速: "Fretta"
+    法术暴击几率: "[法术暴击几率]"
+    法术暴击伤害: "[法术暴击伤害]"
+    精通: "Maestria"
+    全能: "Versatilità"
+    吸血: "[吸血]"
+    移速: "Velocità"
+  属性行:
+    普通: "{0}<white>: <white>{1} <aqua>{2}"
+    带单位: "{0}<white>: <white>{1}{2} <aqua>{3}"
+    百分比: "{0}<white>: <white>{1}<white>% <aqua>{2}"
+    生命值: "{0}<white>: <white>{1}<white>/<white>{2} <aqua>{3}"
+    公共冷却: "{0}<white>: <white>{1}{2} <aqua>{3}"
+    躲闪: "<light_purple>{0}: {1}% {2}</light_purple>"
+  单位:
+    秒: "s"
+    每秒: "/s"
+    百分比: "%"
+
+  构成:
+    基础: "Base"
+    装备: "Equipaggiamento"
+    天赋: "Talento"
+    临时: "Temp"
+    分隔符: ", "
+    左括号: "("
+    右括号: ")"
+    数值分隔符: ": "

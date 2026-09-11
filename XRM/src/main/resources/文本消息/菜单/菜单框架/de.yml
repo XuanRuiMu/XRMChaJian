@@ -1,0 +1,4 @@
+菜单框架:
+  菜单:
+    不存在: '[错误]Menü [警告]{0} [错误]existiert nicht'
+    无权限: '[错误]Du hast keine Berechtigung dieses Menü zu öffnen'

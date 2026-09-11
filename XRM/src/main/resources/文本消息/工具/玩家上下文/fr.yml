@@ -1,0 +1,4 @@
+﻿玩家上下文:
+  通用:
+    仅玩家: "[Avertissement]Cette commande est uniquement disponible pour les joueurs"
+    玩家未找到: "[Avertissement]Joueur introuvable : {0}"

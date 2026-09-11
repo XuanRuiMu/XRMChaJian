@@ -1,0 +1,13 @@
+# ============================================
+# MulangEpoch Plugin - 乐谱回放器 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+乐谱回放器:
+  错误:
+    合奏中无法播放: "[错误]Cannot play score while in ensemble"
+  乐谱:
+    开始播放: "[成功]Now playing score: [信息:{0}]"

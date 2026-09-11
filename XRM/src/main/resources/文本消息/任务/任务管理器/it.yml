@@ -1,0 +1,12 @@
+任务管理器:
+  对话:
+    格式: "[元素世界]{0}"
+  任务:
+    接取成功: "[成功]Missione accettata: [信息:{0}]"
+    目标完成: "[成功]Obiettivo missione completato: [信息:{0}]"
+    进度更新: "[警告]Progresso missione: [信息:{0}] [点数:{1}/{2}]"
+    进度回退: "[错误]Progresso missione regredito: [信息:{0}]"
+    条件达成: "[成功]Condizione missione soddisfatta: [信息:{0}]"
+    完成: "[成功]Missione completata: [元素世界:{0}]"
+    奖励经验: "[治疗数值]Livelli esperienza ottenuti: [点数:{0}]"
+    新任务解锁: "[成功]Nuova missione sbloccata!"

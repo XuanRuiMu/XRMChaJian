@@ -1,0 +1,35 @@
+初始物品管理器:
+  任务书:
+    名称: "[资源名:MulangEpoch·Libro delle missioni]"
+    描述: "[暗影]Un antico libro che emette luce viola"
+    右键提示: "[物理]Clic destro per aprire il pannello missioni"
+    命令提示: "[物理]Oppure usa il comando [自定义技能]/quest"
+  技能物品:
+    第一技能:
+      名称: "[第一技能:Abilità 1·Spada]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 1"
+    第二技能:
+      名称: "[第二技能:Abilità 2·Ascia]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 2"
+    第三技能:
+      名称: "[第三技能:Abilità 3·Piccone]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 3"
+    第四技能:
+      名称: "[第四技能:Abilità 4·Pala]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 4"
+    第五技能:
+      名称: "[第五技能:Abilità 5·Zappa]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 5"
+    第六技能:
+      名称: "[第六技能:Abilità 6·Lancia]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 6"
+    第七技能:
+      名称: "[第七技能:Abilità 7·Martello]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 7"
+    第八技能:
+      名称: "[第八技能:Abilità 8·{0}]"
+      提示: "[物理]Clic sinistro per lanciare Abilità 8"
+      物品名:
+        书: "Libro"
+        蒲公英: "Dente di leone"
+    不可破坏: "[空槽位]Indistruttibile"

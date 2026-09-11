@@ -1,0 +1,11 @@
+# ============================================
+# MulangEpoch Plugin - 秘法回流 Messages
+# Placeholder convention:
+#   {0}, {1}... = runtime parameters
+#   [KeywordName] = static keyword (auto-colored)
+#   [KeywordName:Value] = parameterized keyword (replace params then color)
+# ============================================
+
+秘法回流:
+  治疗: "Released [第六技能], healed [治疗数值:{0}] <dark_green>HP</dark_green>, gained {1} [秘能]."
+  移动额外治疗: "[第六技能] Arcane Flow movement bonus healed [治疗数值:{0}] <dark_green>HP</dark_green>, gained {1} [秘能]."

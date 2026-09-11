@@ -1,0 +1,9 @@
+战斗状态管理器:
+  状态:
+    进入: "[进入战斗]Savaşa girdiniz"
+    离开: "[脱战]Savaştan çıktınız"
+    战斗中禁止命令: "[警告]Savaş sırasında bu komut kullanılamaz"
+    战斗中禁止更换装备: "[警告]Savaş sırasında ekipman değiştirilemez"
+  调试:
+    开启: "[信息]Savaş hata ayıklama modu etkinleştirildi"
+    关闭: "[信息]Savaş hata ayıklama modu devre dışı bırakıldı"

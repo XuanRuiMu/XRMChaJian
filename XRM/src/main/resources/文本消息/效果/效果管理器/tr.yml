@@ -1,0 +1,18 @@
+效果管理器:
+  效果获得:
+    增益: "[增益]{0} kazandı [信息]{1}"
+    减益: "[减益]{0} kazandı [警告]{1}"
+  效果移除:
+    过期: "{0}'nın [信息]{1} süresi doldu"
+    覆盖: "{0}'nın [信息]{1} üzerine yazıldı"
+    手动: "{0}'nın [信息]{1} kaldırıldı"
+    护盾破碎: "{0}'nın [护盾]{1} [错误]paramparça oldu"
+    切换移除: "{0}'nın [信息]{1} geçiş ile kaldırıldı"
+    触发消耗: "{0}'nın [信息]{1} tetikleyici ile tüketildi"
+  效果叠加:
+    叠加: "[信息]{0} [点数]{1} katmana yığıldı"
+  效果刷新:
+    延长: "[信息]{0} [秒数:{1}]s'ye uzatıldı"
+  护盾:
+    吸收: "[护盾]{0} [点数:{1}] hasar emdi"
+    破碎: "[护盾]{0} [错误]paramparça oldu"
