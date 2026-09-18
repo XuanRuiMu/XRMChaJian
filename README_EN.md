@@ -4,6 +4,7 @@
 
 [![Stars](https://img.shields.io/github/stars/XuanRuiMu/XRMChaJian?style=flat&logo=github)](https://github.com/XuanRuiMu/XRMChaJian/stargazers)
 [![Forks](https://img.shields.io/github/forks/XuanRuiMu/XRMChaJian?style=flat&logo=github)](https://github.com/XuanRuiMu/XRMChaJian/forks)
+[![License: MIT](https://img.shields.io/github/license/XuanRuiMu/XRMChaJian)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/XuanRuiMu/XRMChaJian)](https://github.com/XuanRuiMu/XRMChaJian/commits/main)
 [![Issues](https://img.shields.io/github/issues/XuanRuiMu/XRMChaJian)](https://github.com/XuanRuiMu/XRMChaJian/issues)
 [![Repo Size](https://img.shields.io/github/repo-size/XuanRuiMu/XRMChaJian)](https://github.com/XuanRuiMu/XRMChaJian)
@@ -19,11 +20,17 @@
 
 **XRMChaJian (玄锐暮插件)** is the full plugin codebase of "**暮澜纪元**", a Chinese-built MMORPG Minecraft server. It is not a "toy plugin" — it's a **domain-driven** MMO gameplay engine:
 
-```text
-xrmm-root (root project)
-├── XRM        → MMORPG core gameplay engine (largest module)
-├── XRMdenglu  → Login-server plugin (class selection / respawn / teleport / chat control)
-└── xrm-common → Shared infrastructure (translation / config / text formatting, published to local Maven)
+```mermaid
+graph LR
+    subgraph XRMChaJian["xrmm-root · XRMChaJian"]
+        XRM["XRM"]
+        XRMdenglu["XRMdenglu"]
+        common["xrm-common"]
+    end
+
+    XRM["XRM · MMORPG core engine"] -->|Guice DI| common
+    XRMdenglu["XRMdenglu · login-server plugin<br/>class selection / respawn / teleport / chat control"] -->|depends on| common
+    common["xrm-common · shared infrastructure<br/>translation / config / text formatting"]
 ```
 
 **Core design principle: the domain layer has zero Bukkit API dependencies.** All business logic lives in pure Java domain models + service interfaces; the infrastructure layer assembles them via Guice and adapts to Minecraft. The whole engine can be **unit-tested directly** — no "deploy and pray".
@@ -142,4 +149,4 @@ XRMChaJian/
 
 ## License
 
-Open-source showcase repository. **Made with ❤️ — building real MMO plugins with real engineering.**
+[MIT](LICENSE) — open-source showcase repository. **Made with ❤️ — building real MMO plugins with real engineering.**
