@@ -11,6 +11,8 @@
 [![Java](https://img.shields.io/badge/Java-25-orange)](https://www.oracle.com/java/)
 [![Stack](https://img.shields.io/badge/stack-Gradle%20KotlinDSL%20%2B%20Guice%20%2B%20MySQL-blue)](https://github.com/XuanRuiMu/XRMChaJian)
 
+> 🌐 简体中文 ｜ [English](README_EN.md)
+
 ---
 
 ## 这是什么？
