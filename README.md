@@ -4,6 +4,7 @@
 
 [![Stars](https://img.shields.io/github/stars/XuanRuiMu/XRMChaJian?style=flat&logo=github)](https://github.com/XuanRuiMu/XRMChaJian/stargazers)
 [![Forks](https://img.shields.io/github/forks/XuanRuiMu/XRMChaJian?style=flat&logo=github)](https://github.com/XuanRuiMu/XRMChaJian/forks)
+[![License: MIT](https://img.shields.io/github/license/XuanRuiMu/XRMChaJian)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/XuanRuiMu/XRMChaJian)](https://github.com/XuanRuiMu/XRMChaJian/commits/main)
 [![Issues](https://img.shields.io/github/issues/XuanRuiMu/XRMChaJian)](https://github.com/XuanRuiMu/XRMChaJian/issues)
 [![Repo Size](https://img.shields.io/github/repo-size/XuanRuiMu/XRMChaJian)](https://github.com/XuanRuiMu/XRMChaJian)
@@ -19,11 +20,17 @@
 
 **XRMChaJian（玄锐暮插件）** 是国产 MMORPG 服务器「**暮澜纪元**」的整套插件代码库。它不是一个"小玩具插件"，而是一套**领域驱动设计**的 MMO 玩法引擎：
 
-```text
-xrmm-root（根工程）
-├── XRM        → MMORPG 核心玩法引擎（最大的模块）
-├── XRMdenglu  → 登录服插件（职业选择 / 重生 / 传送 / 聊天管制）
-└── xrm-common → 共享基础设施（翻译 / 配置 / 文本格式化，独立发布到本地 Maven）
+```mermaid
+graph LR
+    subgraph XRMChaJian["xrmm-root · 玄锐暮插件"]
+        XRM["XRM"]
+        XRMdenglu["XRMdenglu"]
+        common["xrm-common"]
+    end
+
+    XRM["XRM · MMORPG 核心玩法引擎"] -->|Guice 装配| common
+    XRMdenglu["XRMdenglu · 登录服插件<br/>职业选择 / 重生 / 传送 / 聊天管制"] -->|依赖| common
+    common["xrm-common · 共享基础设施<br/>翻译 / 配置 / 文本格式化"]
 ```
 
 核心设计理念：**领域层不依赖 Bukkit API**，全部业务以纯 Java 领域模型 + 服务接口表达，基础设施层再通过 Guice 装配并适配到 Minecraft——这让整个引擎可以被**单元测试直接测试**，而不是只能"上线试错"。
@@ -142,4 +149,4 @@ XRMChaJian/
 
 ## 许可证
 
-本仓库仅作项目开源展示。**Made with ❤️ —— 用工程化手法，做真正的 MMO 插件。**
+[MIT](LICENSE) —— 本仓库仅作项目开源展示。**Made with ❤️ —— 用工程化手法，做真正的 MMO 插件。**
